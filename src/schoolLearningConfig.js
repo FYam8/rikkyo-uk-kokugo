@@ -3,6 +3,10 @@ export const LEARNING_PATH_CONFIG=Object.freeze({
   examKeys:['FY25-A','FY25-B'],
   examUnitNoun:'試験',
   features:{kobunPractice:false},
+  reviewPresentation:{
+    disclaimer:'正答・答案例・採点基準は立教英国学院の公式解答ではありません。問題本文を根拠にアプリ側で作成し、二回の独立検証を通過したものだけを採点に使用します。得点表示は公開配点ではなく、学習用に正規化した非公式スコアです。',
+    modelAnswerLabel:'答案例（アプリ作成・非公式）'
+  },
   examLabels:{'FY25-A':'FY25 A日程','FY25-B':'FY25 B日程'},
   diagnosticExamKey:'FY25-A',
   bridgeCandidates:[],
