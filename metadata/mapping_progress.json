@@ -18,6 +18,9 @@
     "answerScoringAuthority": "BLOCKED_UNRESOLVED",
     "schoolLearningConfig": "HOLD",
     "sharedEngineBuild": "HOLD",
-    "publicDeploy": "HOLD"
-  }
+    "publicDeploy": "HOLD",
+    "questionDemandMapping": "IN_PROGRESS_FY26_READING_COMPLETE"
+  },
+  "detailedDemandMapped": 41,
+  "detailedDemandPending": 101
 }
