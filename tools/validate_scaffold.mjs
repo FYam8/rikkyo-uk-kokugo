@@ -44,7 +44,7 @@ for(const exam of registry.exams){
   }
 }
 assert.equal(new Set(ids).size,ids.length,'stable question ids must be unique');
-assert.equal(ids.length,130,'visible parent-question registry count changed unexpectedly');
+assert.equal(ids.length,142,'visible parent-question registry count changed unexpectedly');
 
 const taxonomy=JSON.parse(fs.readFileSync('metadata/observed_skill_taxonomy.json','utf8'));
 assert.equal(taxonomy.status,'provisional-observed-demand-taxonomy');
