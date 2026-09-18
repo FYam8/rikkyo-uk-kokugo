@@ -3,8 +3,8 @@
   "updatedAt": "2026-09-18",
   "visibleParentQuestions": 142,
   "sourcePageMapped": 142,
-  "responseTypeResolved": 37,
-  "responseTypePending": 105,
+  "responseTypeResolved": 77,
+  "responseTypePending": 65,
   "answerAuthorityResolved": 0,
   "answerAuthorityPending": 142,
   "copyrightOmittedSections": [
@@ -14,7 +14,7 @@
   "gates": {
     "stableIds": "PASS",
     "sourcePageMapping": "PASS",
-    "responseTypeMapping": "IN_PROGRESS",
+    "responseTypeMapping": "IN_PROGRESS_FY26_COMPLETE",
     "answerScoringAuthority": "BLOCKED_UNRESOLVED",
     "schoolLearningConfig": "HOLD",
     "sharedEngineBuild": "HOLD",
