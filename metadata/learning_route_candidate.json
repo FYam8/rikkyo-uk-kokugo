@@ -36,5 +36,24 @@
     "recentCheck": "Recent complete A schedule.",
     "final": "Recent complete B schedule retained for final confirmation."
   },
-  "scoreTargets": null
+  "scoreTargets": [
+    60,
+    70,
+    75
+  ],
+  "scoreTargetAuthority": {
+    "minimum60": {
+      "status": "official-guidance",
+      "source": "https://www.rikkyo.co.uk/faq/",
+      "note": "School FAQ says about 60% correct on past papers is a guide for passing."
+    },
+    "stable70": {
+      "status": "app-strategy",
+      "note": "10-point buffer above the official 60% guide; not a school cutoff."
+    },
+    "stretch75": {
+      "status": "app-strategy",
+      "note": "Stretch target for learning stability; not a school cutoff."
+    }
+  }
 }
