@@ -36,6 +36,15 @@
       "writtenRule": "Written/diagram items use the verified rubric to award a 0..1 parent fraction; no official partial-credit claim is made.",
       "displayFormula": "round(100 * earnedParentCredit / 33, 1)",
       "officialScoreClaim": false
+    },
+    "FY25-B": {
+      "verifiedParentQuestions": 30,
+      "method": "normalized-parent-correctness",
+      "parentQuestionMax": 1,
+      "partRule": "For a parent question with multiple objectively scorable parts, parent credit is correctParts/partCount.",
+      "writtenRule": "Written/table items use the verified rubric to award a 0..1 parent fraction; no official partial-credit claim is made.",
+      "displayFormula": "round(100 * earnedParentCredit / 30, 1)",
+      "officialScoreClaim": false
     }
   },
   "promotionRule": "An exam enters scored runtime only after every visible question in that exam is APP_DERIVED_VERIFIED and its rubric/part structure is validated."
