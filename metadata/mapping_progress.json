@@ -5,8 +5,8 @@
   "sourcePageMapped": 142,
   "responseTypeResolved": 142,
   "responseTypePending": 0,
-  "answerAuthorityResolved": 43,
-  "answerAuthorityPending": 99,
+  "answerAuthorityResolved": 52,
+  "answerAuthorityPending": 90,
   "copyrightOmittedSections": [
     "FY24-B-I",
     "FY24-B-II"
@@ -15,7 +15,7 @@
     "stableIds": "PASS",
     "sourcePageMapping": "PASS",
     "responseTypeMapping": "PASS",
-    "answerScoringAuthority": "IN_PROGRESS_FY25_A_AND_FY25_B_KANJI_VERIFIED",
+    "answerScoringAuthority": "IN_PROGRESS_FY25_A_AND_FY25_B_I_II_VERIFIED",
     "schoolLearningConfig": "PASS_DIAGNOSTIC_ONLY_FY25_A",
     "sharedEngineBuild": "READY_FOR_SCHOOL_MODULES",
     "publicDeploy": "HOLD",
