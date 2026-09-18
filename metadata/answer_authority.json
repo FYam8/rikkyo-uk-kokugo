@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "app-derived-answer-authority",
+  "officialAnswerSourcePresent": false,
+  "policy": {
+    "officialLabelAllowed": false,
+    "pastPaperAnswerStates": ["UNRESOLVED","APP_DERIVED_DRAFT","INDEPENDENT_CHECK_1","INDEPENDENT_CHECK_2","REVIEW_REQUIRED","APP_DERIVED_VERIFIED"],
+    "publishableStates": ["APP_DERIVED_VERIFIED"],
+    "writtenRequiresRubric": true,
+    "choiceRequiresSourceEvidence": true,
+    "twoIndependentChecksRequired": true,
+    "sourceTextMayNotBeCopiedToPublicRepoWithoutRightsClearance": true
+  },
+  "records": []
+}
