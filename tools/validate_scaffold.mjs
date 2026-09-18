@@ -15,7 +15,7 @@ assert.notEqual(adapter.storage.learningDb,'waseshibu-kokugo');
 assert.equal(lock.upstreamRepository,'FYam8/waseshibu-source');
 assert.match(lock.upstreamCommit,/^[0-9a-f]{40}$/);
 
-const forbidden=['src/drills.js','src/kanji50.js','src/kobun100Data.js','src/reviewCurated.js','src/reviewProfiles.js','raw'];
+const forbidden=['src/drills.js','src/kanji50.js','src/kobun100Data.js','src/reviewCurated.js','src/reviewProfiles.js','src/schoolLearningConfig.js','raw'];
 for(const path of forbidden){
   if(fs.existsSync(path)) throw new Error(`Scaffold must not contain unverified/copied school content yet: ${path}`);
 }
@@ -25,5 +25,6 @@ assert.equal(inventory.exams.length,6);
 assert.deepEqual(inventory.exams.map(x=>x.examId),['FY24-A','FY24-B','FY25-A','FY25-B','FY26-A','FY26-B']);
 assert.equal(inventory.answerAuthority.officialAnswerFilesPresent,false);
 assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-problem-booklet');
+assert.ok(!fs.existsSync('src/schoolLearningConfig.js'),'do not activate a Rikkyo route/score strategy before the school analysis is resolved');
 
 console.log('Rikkyo Kokugo scaffold contract: PASS');
