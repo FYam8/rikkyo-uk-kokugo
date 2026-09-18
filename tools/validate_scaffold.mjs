@@ -26,6 +26,7 @@ assert.deepEqual(inventory.exams.map(x=>x.examId),['FY24-A','FY24-B','FY25-A','F
 assert.equal(inventory.answerAuthority.officialAnswerFilesPresent,false);
 assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-problem-booklet');
 assert.ok(!fs.existsSync('src/schoolLearningConfig.js'),'do not activate a Rikkyo route/score strategy before the school analysis is resolved');
+assert.ok(fs.existsSync('src/schoolLearningConfig.candidate.js'),'candidate route config should exist without becoming runtime config');
 
 const registry=JSON.parse(fs.readFileSync('metadata/structural_registry.json','utf8'));
 assert.equal(registry.exams.length,6);
@@ -56,6 +57,10 @@ assert.equal(progress.visibleParentQuestions,visibleQuestions.length);
 assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length);
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
 assert.equal(progress.answerAuthorityResolved,0);
+const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
+assert.equal(answerAuthority.officialAnswerSourcePresent,false);
+assert.deepEqual(answerAuthority.policy.publishableStates,['APP_DERIVED_VERIFIED']);
+assert.equal(answerAuthority.records.length,0);
 assert.equal(progress.detailedDemandMapped,142);
 const coverage=JSON.parse(fs.readFileSync('metadata/practice_coverage_plan.json','utf8'));
 assert.equal(coverage.targetUnits,24);
