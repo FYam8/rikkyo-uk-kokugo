@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-18",
+  "visibleParentQuestions": 142,
+  "sourcePageMapped": 142,
+  "responseTypeResolved": 37,
+  "responseTypePending": 105,
+  "answerAuthorityResolved": 0,
+  "answerAuthorityPending": 142,
+  "copyrightOmittedSections": [
+    "FY24-B-I",
+    "FY24-B-II"
+  ],
+  "gates": {
+    "stableIds": "PASS",
+    "sourcePageMapping": "PASS",
+    "responseTypeMapping": "IN_PROGRESS",
+    "answerScoringAuthority": "BLOCKED_UNRESOLVED",
+    "schoolLearningConfig": "HOLD",
+    "sharedEngineBuild": "HOLD",
+    "publicDeploy": "HOLD"
+  }
+}
