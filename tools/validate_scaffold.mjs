@@ -56,6 +56,14 @@ assert.equal(progress.visibleParentQuestions,visibleQuestions.length);
 assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length);
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
 assert.equal(progress.answerAuthorityResolved,0);
+assert.equal(progress.detailedDemandMapped,142);
+const coverage=JSON.parse(fs.readFileSync('metadata/practice_coverage_plan.json','utf8'));
+assert.equal(coverage.targetUnits,24);
+assert.equal(coverage.domains.reduce((n,d)=>n+d.targetUnits,0),24);
+const route=JSON.parse(fs.readFileSync('metadata/learning_route_candidate.json','utf8'));
+assert.equal(route.status,'candidate-not-runtime-config');
+assert.equal(route.scoreTargets,null,'Rikkyo score targets must remain unresolved at this stage');
+assert.equal(route.candidateRoles.final,'FY26-B');
 assert.equal(progress.responseTypeResolved,142);
 assert.equal(progress.detailedDemandMapped,142);
 for(const exam of registry.exams){
