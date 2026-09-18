@@ -4,12 +4,1191 @@
   "officialAnswerSourcePresent": false,
   "policy": {
     "officialLabelAllowed": false,
-    "pastPaperAnswerStates": ["UNRESOLVED","APP_DERIVED_DRAFT","INDEPENDENT_CHECK_1","INDEPENDENT_CHECK_2","REVIEW_REQUIRED","APP_DERIVED_VERIFIED"],
-    "publishableStates": ["APP_DERIVED_VERIFIED"],
+    "pastPaperAnswerStates": [
+      "UNRESOLVED",
+      "APP_DERIVED_DRAFT",
+      "INDEPENDENT_CHECK_1",
+      "INDEPENDENT_CHECK_2",
+      "REVIEW_REQUIRED",
+      "APP_DERIVED_VERIFIED"
+    ],
+    "publishableStates": [
+      "APP_DERIVED_VERIFIED"
+    ],
     "writtenRequiresRubric": true,
     "choiceRequiresSourceEvidence": true,
     "twoIndependentChecksRequired": true,
     "sourceTextMayNotBeCopiedToPublicRepoWithoutRightsClearance": true
   },
-  "records": []
+  "records": [
+    {
+      "questionId": "FY25-A-I-Q01",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "器官",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "胃は食べ物を消化する器官だ。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E5%99%A8%E5%AE%98-50048"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q01:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 キカン と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q01:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E5%99%A8%E5%AE%98-50048"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q02",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "拝見",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "師匠の作品を拝見する。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%8B%9D%E8%A6%8B-598696"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q02:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 ハイケン と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q02:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E6%8B%9D%E8%A6%8B-598696"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q03",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "孤島",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "鉄道が運休し、町は陸の孤島となった。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E5%AD%A4%E5%B3%B6-502924"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q03:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 コトウ と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q03:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E5%AD%A4%E5%B3%B6-502924"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q04",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "耳目",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "世間の人の耳目を集めるニュース。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E8%80%B3%E7%9B%AE-523513"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q04:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 ジモク と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q04:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E8%80%B3%E7%9B%AE-523513"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q05",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "綿密",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "綿密な計画を練る。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E7%B6%BF%E5%AF%86-644733"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q05:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 メンミツ と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q05:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E7%B6%BF%E5%AF%86-644733"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q06",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "授",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "女の子を授かる。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%8E%88%E3%81%8B%E3%82%8B-510706"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q06:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 サズ と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q06:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E6%8E%88%E3%81%8B%E3%82%8B-510706"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q07",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "蓄",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "大金を蓄える。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E8%93%84%E3%81%88%E3%82%8B-559969"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q07:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 タクワ と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q07:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E8%93%84%E3%81%88%E3%82%8B-559969"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q08",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "抑",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "甘みを抑えた上品なお菓子。",
+        "lexicalCheckUrl": "https://www.okhotsk.pref.hokkaido.lg.jp/fs/1/2/6/2/7/1/5/4/_/18_%28%E6%9C%89%29%E9%A6%99%E9%81%8A%E7%94%9F%E6%B4%BB%E3%80%901_%E3%82%A8%E3%82%AD%E3%83%8A%E3%82%BB%E3%82%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%80%91.pdf"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q08:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 オサ と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q08:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://www.okhotsk.pref.hokkaido.lg.jp/fs/1/2/6/2/7/1/5/4/_/18_%28%E6%9C%89%29%E9%A6%99%E9%81%8A%E7%94%9F%E6%B4%BB%E3%80%901_%E3%82%A8%E3%82%AD%E3%83%8A%E3%82%BB%E3%82%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%80%91.pdf"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q09",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "せっちゅう",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "和洋折衷。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%8A%98%E8%A1%B7-548335"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q09:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 折衷 と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q09:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E6%8A%98%E8%A1%B7-548335"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-I-Q10",
+      "examId": "FY25-A",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "ちゅうよう",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "中庸とは、偏ることなく穏やかなことだ。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E4%B8%AD%E5%BA%B8-97476"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-I-Q10:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "傍線部 中庸 と文脈・変換方向を照合。"
+        },
+        {
+          "checkId": "FY25-A-I-Q10:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "辞書・用例で表記/読みを独立確認: https://kotobank.jp/word/%E4%B8%AD%E5%BA%B8-97476"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q01",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 7,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "1",
+          "answer": "織屋",
+          "constraint": "漢字二字"
+        },
+        {
+          "label": "2",
+          "answer": "問屋",
+          "constraint": "漢字二字"
+        },
+        {
+          "label": "3",
+          "answer": "気が合うなか",
+          "constraint": "六字"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          7
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q01:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "人物紹介に宗助=織屋、太吉郎=問屋、二人は『気が合うなか』とある。"
+        },
+        {
+          "checkId": "FY25-A-II-Q01:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "2/2/6字の制約と本文表現を再計数。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q02",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 8,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "開始年",
+          "answer": "1946"
+        },
+        {
+          "label": "終了年",
+          "answer": "1961"
+        }
+      ],
+      "externalVerification": "https://www.pref.kyoto.jp/plant/11900026.html",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          8
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q02:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文は占領軍接収中で、植物園の再開を待っている時期。"
+        },
+        {
+          "checkId": "FY25-A-II-Q02:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "京都府公式沿革で1946年接収開始、1961年再公開を照合。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q03",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 8,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ウ",
+      "answerText": "娘の帯の図案を考えることに没頭していたかったから。",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          5,
+          8
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q03:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "尼寺でクレー画集を繰り返し見て千重子の帯の図案を作ったと本人が述べる。"
+        },
+        {
+          "checkId": "FY25-A-II-Q03:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "恋愛・静養・家庭不和の選択肢には本文根拠がない。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q04",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "下絵への反応に目を光らせている。",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q04:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『目をかがやかせている』は披露への期待・高揚を表す。"
+        },
+        {
+          "checkId": "FY25-A-II-Q04:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "『目を光らせる』は監視・警戒寄りで、他三肢の高揚表現と異なる。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q05",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "具象",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q05:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "設問は『抽象』の対義語を漢字で求める。"
+        },
+        {
+          "checkId": "FY25-A-II-Q05:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "抽象/具象の対語関係を再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q06",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "娘から親への尊敬",
+      "sourceEvidence": {
+        "sourcePages": [
+          5,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q06:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『孝心』は子が親を敬い大切にする心で、文脈も千重子から親への思い。"
+        },
+        {
+          "checkId": "FY25-A-II-Q06:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "クレーへの敬愛・憧憬ではなく親子関係を指すことを再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q07",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ア",
+      "answerText": "妥協せず、真摯に作品の作成に取り組むこと。",
+      "sourceEvidence": {
+        "sourcePages": [
+          5,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q07:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "秀男が別の仕事に没頭しており、宗助が『職人はそやないと』と肯定する流れ。"
+        },
+        {
+          "checkId": "FY25-A-II-Q07:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "身の丈・愛想ではなく、仕事への打ち込みと妥協しない職人気質。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q08",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 10,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "エ",
+      "answerText": "気乗りしない仕事の案件であっても手を抜くことができないから。",
+      "sourceEvidence": {
+        "sourcePages": [
+          5,
+          6,
+          10
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q08:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『おもしろないもんでも、うちの織りやと見られますかい、よけいつらいこってす』の流れ。"
+        },
+        {
+          "checkId": "FY25-A-II-Q08:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "疲労・力量不足・採算より、作品に責任を負い手抜きできない点が本文に合う。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q09",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 10,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ア",
+      "answerText": "複雑な心情を十分言葉にできない秀男を太吉郎が否定的評価と受け取り、いらだって殴るが、秀男が謝って織りたい意志を示し、宗助が仲を取り持つ流れ。",
+      "sourceEvidence": {
+        "sourcePages": [
+          6,
+          7,
+          10
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q09:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "沈黙/『あきまへんな』→殴打→秀男の謝罪と織りたい申し出→宗助の取りなしの順。"
+        },
+        {
+          "checkId": "FY25-A-II-Q09:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "Bは殴打を教育目的、Cは当初から全面肯定、Dは単に『つまらない』と断定する点が本文とずれる。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q10",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 10,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "あったかい心の調和がない",
+      "constraints": {
+        "characters": 12,
+        "punctuationExcluded": true
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          7,
+          10
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q10:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "秀男が下図について述べた否定的評価の一部。"
+        },
+        {
+          "checkId": "FY25-A-II-Q10:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "句読点を除いて12字であることを再計数。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q11",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 11,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ウ",
+      "answerText": "秀男が図案に対する正直な胸のうちを明かしてくれたことへの感謝。",
+      "sourceEvidence": {
+        "sourcePages": [
+          7,
+          11
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q11:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "秀男の『あったかい心の調和がない』『荒れて病的』という率直な批評の直後に『おおきに』と述べる。"
+        },
+        {
+          "checkId": "FY25-A-II-Q11:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "織る承諾・技術・殴打後の謝罪そのものではなく、批評への感謝が会話順に合う。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-II-Q12",
+      "examId": "FY25-A",
+      "sectionId": "II",
+      "sourcePage": 11,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "秀男の率直な批評で、下図にはあたたかい心の調和がないと気づき、娘への愛情が伝わる図案に描き直す決心をしたから。",
+      "rubric": {
+        "requiredElements": [
+          "秀男の率直な批評を受けたこと",
+          "旧下図にあたたかい心の調和が欠けると気づいたこと",
+          "図案を考え直し、描き直す決意をしたこと"
+        ],
+        "acceptableVariants": [
+          "『荒れて病的』という指摘を含めてもよい",
+          "娘への愛情が伝わる図案に改める意図を含めてもよい"
+        ],
+        "zeroCredit": [
+          "単に怒って捨てたとする",
+          "秀男に織ってもらえなくなったからとする"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          7,
+          11
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-II-Q12:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "⑨直後、太吉郎は批評へ礼を述べ『もういっぺん、よう考えて、描き直してみまっさ』と言う。"
+        },
+        {
+          "checkId": "FY25-A-II-Q12:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "その決意と⑩の旧下図を捨てる行動を因果で再照合。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q01",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "①マイノリティ",
+          "answer": "弱者"
+        },
+        {
+          "label": "②マジョリティ",
+          "answer": "強者"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q01:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文冒頭の『弱者』『強者』が後のマイノリティ/マジョリティの対比に対応。"
+        },
+        {
+          "checkId": "FY25-A-III-Q01:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "漢字二字制約と意味対応を再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q02",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "エ",
+      "answerText": "I＝ところで、II＝しかし",
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q02:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "Iは話題転換、IIは幼い世界観との明確な逆接。"
+        },
+        {
+          "checkId": "FY25-A-III-Q02:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "他組合せではIIの逆接を表せない。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q03",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "優遇されていることに無自覚であること。",
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q03:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "マジョリティは優遇を『ふつう』『当たりまえ』として意識しないと説明。"
+        },
+        {
+          "checkId": "FY25-A-III-Q03:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "批判・無意味・現実的という意味ではない。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q04",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ウ",
+      "answerText": "正常",
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q04:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『ふつう』『当たりまえ』と並ぶ語として『正常』が文脈に合う。"
+        },
+        {
+          "checkId": "FY25-A-III-Q04:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "単純・複雑・異常は意味系列に合わない。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q05",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "diagram-rubric",
+      "modelSpec": "同心円状。A（わたし）を中心に置き、B（ふつう）をその周囲の内側領域に多数、C（ふつうじゃない）を外側・周縁に小さく配置する。",
+      "rubric": {
+        "requiredElements": [
+          "Aが中心",
+          "BがAの周囲・内側に多数",
+          "Cが外側・周縁",
+          "同心円状の中心/周辺構造"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q05:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文がAを中心とする同心円状空間、内側にB、外側にCと明記。"
+        },
+        {
+          "checkId": "FY25-A-III-Q05:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "A/B/Cの位置関係を本文順に再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q06",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 15,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "多様な人々の存在を認め、誰もが一人分の権利をもち、自分も一市民だとする世界観。",
+      "constraints": {
+        "maxCharacters": 40,
+        "modelCharacterCount": 39
+      },
+      "rubric": {
+        "requiredElements": [
+          "多様な人々が存在すること",
+          "誰もが一人分の権利をもつこと",
+          "自分も社会の中心ではなく一市民であること"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          15
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q06:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『おとなの世界観』直前の定義文から三要素を抽出。"
+        },
+        {
+          "checkId": "FY25-A-III-Q06:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "モデル答案39字で40字以内、三要素を含む。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q07",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 15,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts-rubric",
+      "parts": [
+        {
+          "label": "①",
+          "model": "トラブル",
+          "grading": "コミュニケーション上の事故・問題・衝突を表す自然な外来語。『トラブル』を標準例とする。"
+        },
+        {
+          "label": "②",
+          "answer": "乗り手"
+        },
+        {
+          "label": "③",
+          "answer": "安全運転"
+        },
+        {
+          "label": "④",
+          "answer": "ことば"
+        },
+        {
+          "label": "⑤",
+          "answer": "乗りこなす"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          13,
+          15
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q07:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "公道比喩の本文に『乗り手』『安全運転』『ことばを乗りこなしながら』がある。"
+        },
+        {
+          "checkId": "FY25-A-III-Q07:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "⑤は『乗りこなし』を終止形へ戻す。①は自由記述外来語なので意味基準で採点。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q08",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 15,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ア",
+      "answerText": "属性の軸が増えることは一見窮屈でも、他者や自分の個性に敏感になり、関係をより豊かにすることにつながる。",
+      "sourceEvidence": {
+        "sourcePages": [
+          13,
+          15
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q08:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文は新たな軸/ことばにより自分を位置づけ、より自由・豊かになると説明。"
+        },
+        {
+          "checkId": "FY25-A-III-Q08:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "Bは衝突回避だけ、Cは公共心、Dは危険受容の責務に限定しており本文の趣旨から外れる。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q09",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 15,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "可視化",
+      "constraints": {
+        "characters": 3
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          13,
+          15
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q09:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『ないことにされていた存在が可視化された』が『マイノリティ属性の発見』に対応。"
+        },
+        {
+          "checkId": "FY25-A-III-Q09:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "漢字三字の制約に一致。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q10",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 16,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "a モチーフ",
+          "answer": "イ",
+          "answerText": "主題"
+        },
+        {
+          "label": "b アップデート",
+          "answer": "ア",
+          "answerText": "更新"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          13,
+          16
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q10:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "文脈上モチーフ=主題、アップデート=更新。"
+        },
+        {
+          "checkId": "FY25-A-III-Q10:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "選択肢の語義を独立再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-A-III-Q11",
+      "examId": "FY25-A",
+      "sectionId": "III",
+      "sourcePage": 16,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "人は、人種・民族、ジェンダー・セクシュアリティ、年齢や職業など複数の属性の軸が交差する座標に位置し、場所や状況によって優位・劣位の位置も変わるため、一つではなく複数のアイデンティティーをもつから。",
+      "constraints": {
+        "targetCharacters": 100,
+        "modelCharacterCount": 98
+      },
+      "rubric": {
+        "requiredElements": [
+          "具体的な属性軸を一つ以上示す",
+          "複数の軸が交差する座標に各人が位置すること",
+          "状況により優位/劣位や現在地が変わりうること",
+          "自己を単一属性だけでは表せないため複数形になること"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          12,
+          13,
+          16
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-A-III-Q11:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "インターセクショナリティ、複数軸、現在地の変化を本文から統合。"
+        },
+        {
+          "checkId": "FY25-A-III-Q11:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "モデル答案98字で『100字程度』に収まり、具体軸と理由を含む。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    }
+  ]
 }
