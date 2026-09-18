@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "status": "provisional-observed-demand-taxonomy",
+  "authority": "six supplied problem booklets; answer authority unresolved",
+  "demands": [
+    {
+      "key": "KANJI",
+      "label": "漢字・表記",
+      "observed": true
+    },
+    {
+      "key": "VOCAB_CONTEXT",
+      "label": "語句・文脈",
+      "observed": true
+    },
+    {
+      "key": "BLANK_COMPLETION",
+      "label": "空欄補充",
+      "observed": true
+    },
+    {
+      "key": "CONTENT_SELECTION",
+      "label": "本文内容・選択肢照合",
+      "observed": true
+    },
+    {
+      "key": "LITERARY_CHARACTER",
+      "label": "文学・心情・人物関係",
+      "observed": true
+    },
+    {
+      "key": "LOGIC_RELATION",
+      "label": "論理・文法・修飾関係",
+      "observed": true
+    },
+    {
+      "key": "TEXT_EXTRACTION",
+      "label": "本文抜き出し",
+      "observed": true
+    },
+    {
+      "key": "WRITTEN_EXPLANATION",
+      "label": "記述説明",
+      "observed": true
+    },
+    {
+      "key": "DATA_INTERPRETATION",
+      "label": "資料・グラフ読解",
+      "observed": true,
+      "sourceNote": "FY24-B IV visible"
+    }
+  ],
+  "promotionRule": "Do not use as scored weakness labels until question-level mapping and answer/scoring authority review are complete."
+}
