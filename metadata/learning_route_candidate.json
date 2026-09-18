@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-not-runtime-config",
+  "examKeys": [
+    "FY24-A",
+    "FY24-B",
+    "FY25-A",
+    "FY25-B",
+    "FY26-A",
+    "FY26-B"
+  ],
+  "examLabels": {
+    "FY24-A": "FY24 A日程",
+    "FY24-B": "FY24 B日程",
+    "FY25-A": "FY25 A日程",
+    "FY25-B": "FY25 B日程",
+    "FY26-A": "FY26 A日程",
+    "FY26-B": "FY26 B日程"
+  },
+  "constraints": [
+    "FY24-B I/II are copyright-omitted in the supplied booklet and cannot serve as a complete diagnostic.",
+    "Do not inherit Waseda scoreTargets until Rikkyo answer/scoring authority and score strategy are established.",
+    "Keep a recent complete exam unseen for final confirmation."
+  ],
+  "candidateRoles": {
+    "diagnostic": "FY25-A",
+    "bridge": "FY24-A",
+    "crossCheck": "FY25-B",
+    "recentCheck": "FY26-A",
+    "final": "FY26-B"
+  },
+  "rationale": {
+    "diagnostic": "Complete visible three-part structure with kanji, literary and expository sections; selected for coverage, not because it is claimed to be easier/harder.",
+    "bridge": "Different section order and older visible structure provide transfer across presentation changes.",
+    "crossCheck": "Same broad three-part macro-structure on B schedule.",
+    "recentCheck": "Recent complete A schedule.",
+    "final": "Recent complete B schedule retained for final confirmation."
+  },
+  "scoreTargets": null
+}
