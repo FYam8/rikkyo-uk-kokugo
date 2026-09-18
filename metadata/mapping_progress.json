@@ -19,8 +19,8 @@
     "schoolLearningConfig": "HOLD",
     "sharedEngineBuild": "HOLD",
     "publicDeploy": "HOLD",
-    "questionDemandMapping": "IN_PROGRESS_FY26_READING_COMPLETE"
+    "questionDemandMapping": "PASS"
   },
-  "detailedDemandMapped": 41,
-  "detailedDemandPending": 101
+  "detailedDemandMapped": 142,
+  "detailedDemandPending": 0
 }
