@@ -16,7 +16,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY24-A-I-Q02",
@@ -24,7 +25,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY24-A-I-Q03",
@@ -32,7 +34,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY24-A-I-Q04",
@@ -40,7 +43,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY24-A-I-Q05",
@@ -48,7 +52,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY24-A-I-Q06",
@@ -56,7 +61,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY24-A-I-Q07",
@@ -64,7 +70,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY24-A-I-Q08",
@@ -72,7 +79,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY24-A-I-Q09",
@@ -80,7 +88,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY24-A-I-Q10",
@@ -88,7 +97,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             }
           ],
           "questionCount": 10
@@ -105,7 +115,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY24-A-II-Q02",
@@ -113,7 +124,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY24-A-II-Q03",
@@ -121,7 +133,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY24-A-II-Q04",
@@ -129,7 +142,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY24-A-II-Q05",
@@ -137,7 +151,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY24-A-II-Q06",
@@ -145,7 +160,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY24-A-II-Q07",
@@ -153,7 +169,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY24-A-II-Q08",
@@ -161,7 +178,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY24-A-II-Q09",
@@ -169,7 +187,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY24-A-II-Q10",
@@ -177,7 +196,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY24-A-II-Q11",
@@ -185,7 +205,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             }
           ],
           "questionCount": 11
@@ -203,7 +224,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 6
+              "partCount": 6,
+              "sourcePage": 12
             },
             {
               "questionId": "FY24-A-III-Q02",
@@ -212,7 +234,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 4
+              "partCount": 4,
+              "sourcePage": 12
             }
           ],
           "questionCount": 2
@@ -249,7 +272,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 6
+              "partCount": 6,
+              "sourcePage": 5
             },
             {
               "questionId": "FY24-B-III-Q02",
@@ -258,7 +282,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 4
+              "partCount": 4,
+              "sourcePage": 5
             }
           ],
           "questionCount": 2
@@ -299,7 +324,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q02",
@@ -307,7 +333,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q03",
@@ -315,7 +342,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q04",
@@ -323,7 +351,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q05",
@@ -331,7 +360,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q06",
@@ -339,7 +369,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q07",
@@ -347,7 +378,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q08",
@@ -355,7 +387,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q09",
@@ -363,7 +396,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-A-I-Q10",
@@ -371,7 +405,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             }
           ],
           "questionCount": 10
@@ -388,7 +423,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-A-II-Q02",
@@ -396,7 +432,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-A-II-Q03",
@@ -404,7 +441,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-A-II-Q04",
@@ -412,7 +450,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-A-II-Q05",
@@ -420,7 +459,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-A-II-Q06",
@@ -428,7 +468,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-A-II-Q07",
@@ -436,7 +477,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-A-II-Q08",
@@ -444,7 +486,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY25-A-II-Q09",
@@ -452,7 +495,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY25-A-II-Q10",
@@ -460,7 +504,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY25-A-II-Q11",
@@ -468,7 +513,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY25-A-II-Q12",
@@ -476,7 +522,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             }
           ],
           "questionCount": 12
@@ -493,7 +540,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-A-III-Q02",
@@ -501,7 +549,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-A-III-Q03",
@@ -509,7 +558,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-A-III-Q04",
@@ -517,7 +567,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-A-III-Q05",
@@ -525,7 +576,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-A-III-Q06",
@@ -533,7 +585,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 15
             },
             {
               "questionId": "FY25-A-III-Q07",
@@ -541,7 +594,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 15
             },
             {
               "questionId": "FY25-A-III-Q08",
@@ -549,7 +603,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 15
             },
             {
               "questionId": "FY25-A-III-Q09",
@@ -557,7 +612,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 15
             },
             {
               "questionId": "FY25-A-III-Q10",
@@ -565,7 +621,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 16
             },
             {
               "questionId": "FY25-A-III-Q11",
@@ -573,7 +630,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 16
             }
           ],
           "questionCount": 11
@@ -595,7 +653,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q02",
@@ -603,7 +662,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q03",
@@ -611,7 +671,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q04",
@@ -619,7 +680,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q05",
@@ -627,7 +689,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q06",
@@ -635,7 +698,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q07",
@@ -643,7 +707,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q08",
@@ -651,7 +716,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q09",
@@ -659,7 +725,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY25-B-I-Q10",
@@ -667,7 +734,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             }
           ],
           "questionCount": 10
@@ -684,7 +752,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-B-II-Q02",
@@ -692,7 +761,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-B-II-Q03",
@@ -700,7 +770,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             },
             {
               "questionId": "FY25-B-II-Q04",
@@ -708,7 +779,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-B-II-Q05",
@@ -716,7 +788,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-B-II-Q06",
@@ -724,7 +797,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-B-II-Q07",
@@ -732,7 +806,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-B-II-Q08",
@@ -740,7 +815,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY25-B-II-Q09",
@@ -748,7 +824,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             }
           ],
           "questionCount": 9
@@ -765,7 +842,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY25-B-III-Q02",
@@ -773,7 +851,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY25-B-III-Q03",
@@ -781,7 +860,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY25-B-III-Q04",
@@ -789,7 +869,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY25-B-III-Q05",
@@ -797,7 +878,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 13
             },
             {
               "questionId": "FY25-B-III-Q06",
@@ -805,7 +887,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 13
             },
             {
               "questionId": "FY25-B-III-Q07",
@@ -813,7 +896,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 13
             },
             {
               "questionId": "FY25-B-III-Q08",
@@ -821,7 +905,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 13
             },
             {
               "questionId": "FY25-B-III-Q09",
@@ -829,7 +914,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 13
             },
             {
               "questionId": "FY25-B-III-Q10",
@@ -837,7 +923,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             },
             {
               "questionId": "FY25-B-III-Q11",
@@ -845,7 +932,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 14
             }
           ],
           "questionCount": 11
@@ -868,7 +956,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 3
+              "partCount": 3,
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-A-I-Q02",
@@ -877,7 +966,8 @@
                 "kanji"
               ],
               "authorityStatus": "answer-unresolved",
-              "partCount": 7
+              "partCount": 7,
+              "sourcePage": 3
             }
           ],
           "questionCount": 2
@@ -894,7 +984,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-A-II-Q02",
@@ -902,7 +993,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-A-II-Q03",
@@ -910,7 +1002,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-A-II-Q04",
@@ -918,7 +1011,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-A-II-Q05",
@@ -926,7 +1020,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q06",
@@ -934,7 +1029,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q07",
@@ -942,7 +1038,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q08",
@@ -950,7 +1047,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q09",
@@ -958,7 +1056,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q10",
@@ -966,7 +1065,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q11",
@@ -974,7 +1074,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q12",
@@ -982,7 +1083,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-A-II-Q13",
@@ -990,7 +1092,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 8
             }
           ],
           "questionCount": 13
@@ -1007,7 +1110,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-A-III-Q02",
@@ -1015,7 +1119,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-A-III-Q03",
@@ -1023,7 +1128,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-A-III-Q04",
@@ -1031,7 +1137,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-A-III-Q05",
@@ -1039,7 +1146,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-A-III-Q06",
@@ -1047,7 +1155,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY26-A-III-Q07",
@@ -1055,7 +1164,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             },
             {
               "questionId": "FY26-A-III-Q08",
@@ -1063,7 +1173,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 12
             }
           ],
           "questionCount": 8
@@ -1085,7 +1196,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q02",
@@ -1093,7 +1205,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q03",
@@ -1101,7 +1214,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q04",
@@ -1109,7 +1223,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q05",
@@ -1117,7 +1232,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q06",
@@ -1125,7 +1241,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q07",
@@ -1133,7 +1250,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q08",
@@ -1141,7 +1259,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q09",
@@ -1149,7 +1268,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             },
             {
               "questionId": "FY26-B-I-Q10",
@@ -1157,7 +1277,8 @@
               "skillDemand": [
                 "kanji"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 3
             }
           ],
           "questionCount": 10
@@ -1174,7 +1295,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q02",
@@ -1182,7 +1304,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q03",
@@ -1190,7 +1313,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q04",
@@ -1198,7 +1322,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q05",
@@ -1206,7 +1331,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q06",
@@ -1214,7 +1340,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 6
             },
             {
               "questionId": "FY26-B-II-Q07",
@@ -1222,7 +1349,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-B-II-Q08",
@@ -1230,7 +1358,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-B-II-Q09",
@@ -1238,7 +1367,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             },
             {
               "questionId": "FY26-B-II-Q10",
@@ -1246,7 +1376,8 @@
               "skillDemand": [
                 "literary-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7
             }
           ],
           "questionCount": 10
@@ -1263,7 +1394,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY26-B-III-Q02",
@@ -1271,7 +1403,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY26-B-III-Q03",
@@ -1279,7 +1412,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 9
             },
             {
               "questionId": "FY26-B-III-Q04",
@@ -1287,7 +1421,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q05",
@@ -1295,7 +1430,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q06",
@@ -1303,7 +1439,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q07",
@@ -1311,7 +1448,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q08",
@@ -1319,7 +1457,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q09",
@@ -1327,7 +1466,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             },
             {
               "questionId": "FY26-B-III-Q10",
@@ -1335,7 +1475,8 @@
               "skillDemand": [
                 "expository-reading"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 11
             }
           ],
           "questionCount": 10
