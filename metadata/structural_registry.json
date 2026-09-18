@@ -911,7 +911,7 @@
                 "CONJUNCTION",
                 "LOGIC_RELATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12
             },
             {
@@ -921,7 +921,7 @@
                 "VOCAB_CONTEXT",
                 "MIMETIC_WORD"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12
             },
             {
@@ -932,7 +932,7 @@
                 "CONTENT_SELECTION",
                 "TEXT_EXTRACTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12
             },
             {
@@ -942,7 +942,7 @@
                 "GRAMMAR_PATTERN",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12,
               "partCount": 2
             },
@@ -953,7 +953,7 @@
                 "TABLE_COMPLETION",
                 "TEXT_EXTRACTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 13,
               "partCount": 3
             },
@@ -964,7 +964,7 @@
                 "CONCEPT_EXPLANATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 13
             },
             {
@@ -974,7 +974,7 @@
                 "TEXT_EXTRACTION",
                 "EXAMPLE_IDENTIFICATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 13
             },
             {
@@ -984,7 +984,7 @@
                 "PHRASE_INTERPRETATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 13
             },
             {
@@ -994,7 +994,7 @@
                 "BLANK_COMPLETION",
                 "CONCEPT_RELATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 13,
               "partCount": 3
             },
@@ -1004,7 +1004,7 @@
               "skillDemand": [
                 "PARAGRAPH_STRUCTURE"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 14,
               "partCount": 2
             },
@@ -1016,7 +1016,7 @@
                 "THEME_SUMMARY",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 14
             }
           ],
