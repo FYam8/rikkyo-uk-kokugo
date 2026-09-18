@@ -1189,6 +1189,326 @@
         }
       ],
       "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q01",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "指笛",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "指笛で合図を送る。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%8C%87%E7%AC%9B-652198"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q01:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q01:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E6%8C%87%E7%AC%9B-652198"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q02",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "能力",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "四則計算の能力をはかる。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E8%83%BD%E5%8A%9B-112054"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q02:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q02:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E8%83%BD%E5%8A%9B-112054"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q03",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "救急車",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "救急車を呼ぶ。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%95%91%E6%80%A5%E8%BB%8A-477369"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q03:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q03:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E6%95%91%E6%80%A5%E8%BB%8A-477369"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q04",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "意図",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "市長の発言の意図を理解する。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%84%8F%E5%9B%B3-434865"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q04:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q04:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E6%84%8F%E5%9B%B3-434865"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q05",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "鉄鉱石",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "中国は鉄鉱石の産出国だ。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E9%89%84%E9%89%B1%E7%9F%B3-576768"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q05:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q05:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E9%89%84%E9%89%B1%E7%9F%B3-576768"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q06",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "所持",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "身分証明書を所持する。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E6%89%80%E6%8C%81-534870"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q06:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q06:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E6%89%80%E6%8C%81-534870"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q07",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "祝辞",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "卒業式で祝辞を述べる。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E7%A5%9D%E8%BE%9E-528217"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q07:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q07:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E7%A5%9D%E8%BE%9E-528217"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q08",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "さまたげる",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "通行を妨げる。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E5%A6%A8%E3%81%92%E3%82%8B-511939"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q08:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q08:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E5%A6%A8%E3%81%92%E3%82%8B-511939"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q09",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "きょうど",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "郷土料理を食べる。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E9%83%B7%E5%9C%9F-478391"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q09:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q09:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E9%83%B7%E5%9C%9F-478391"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-I-Q10",
+      "examId": "FY25-B",
+      "sectionId": "I",
+      "sourcePage": 3,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "こうぼう",
+      "sourceEvidence": {
+        "sourcePages": [
+          3
+        ],
+        "contextBrief": "王国の興亡について研究する。",
+        "lexicalCheckUrl": "https://kotobank.jp/word/%E8%88%88%E4%BA%A1-478641"
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-I-Q10:check1",
+          "kind": "source-form-pass",
+          "result": "PASS",
+          "detail": "問題冊子の傍線部と、カタカナ→漢字／漢字→ひらがなの変換方向を再確認。"
+        },
+        {
+          "checkId": "FY25-B-I-Q10:check2",
+          "kind": "dictionary-recheck",
+          "result": "PASS",
+          "detail": "辞書の見出し・読みで独立確認: https://kotobank.jp/word/%E8%88%88%E4%BA%A1-478641"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
     }
   ]
 }
