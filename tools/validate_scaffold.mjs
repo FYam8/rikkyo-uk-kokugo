@@ -56,5 +56,13 @@ assert.equal(progress.visibleParentQuestions,visibleQuestions.length);
 assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length);
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
 assert.equal(progress.answerAuthorityResolved,0);
+assert.equal(progress.responseTypeResolved,142);
+assert.equal(progress.detailedDemandMapped,41);
+for(const examId of ['FY26-A','FY26-B']){
+  const exam=registry.exams.find(e=>e.examId===examId);
+  for(const section of exam.sections.filter(s=>['literary-reading','expository-reading'].includes(s.sectionType))){
+    for(const q of section.questions) assert.ok(q.skillDemand.length>=1&&q.skillDemand[0]!==`${section.sectionType==='literary-reading'?'literary':'expository'}-reading`,`${q.questionId}: FY26 detailed demand missing`);
+  }
+}
 
 console.log('Rikkyo Kokugo scaffold contract: PASS');
