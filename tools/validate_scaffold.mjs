@@ -40,7 +40,8 @@ for(const exam of registry.exams){
     if(Number.isInteger(section.questionCount)) assert.equal(section.questions.length,section.questionCount,`${exam.examId} ${section.sectionId}: question count mismatch`);
     for(const q of section.questions){
       ids.push(q.questionId);
-      assert.equal(q.authorityStatus,'answer-unresolved','answers must remain unresolved at scaffold stage');
+      const expectedAuthority=exam.examId==='FY25-A'?'app-derived-verified':'answer-unresolved';
+      assert.equal(q.authorityStatus,expectedAuthority,`${q.questionId}: unexpected authority state`);
     }
   }
 }
