@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "schoolId": "rikkyo-uk",
+  "subjectId": "kokugo",
+  "displayName": "立教英国 国語",
+  "eyebrow": "RIKKYO UK KOKUGO",
+  "storage": {
+    "learningDb": "rikkyo-uk-kokugo",
+    "backupV1": "rikkyo-uk-kokugo-local-backup-v1",
+    "backupV2": "rikkyo-uk-kokugo-local-backup-v2",
+    "backupFilePrefix": "rikkyo-uk-kokugo-backup-",
+    "examDisplayModeKey": "rikkyo-uk-kokugo.examDisplayMode",
+    "progressDb": "rikkyo-uk-kokugo-progress-sync",
+    "serviceWorkerCachePrefix": "rikkyo-uk-kokugo-shell-"
+  },
+  "progress": {
+    "enabled": false,
+    "appId": "rikkyo-uk-kokugo",
+    "runtimeWindowKey": "__RIKKYO_UK_KOKUGO_PROGRESS_API__",
+    "apiOrigin": ""
+  },
+  "legacy": {
+    "enabled": false,
+    "owner": "",
+    "repo": ""
+  },
+  "content": {
+    "inheritUpstreamSchoolContent": false
+  }
+}
