@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "kokugo",
+  "sourceAuthority": "user-supplied problem booklets",
+  "extractedAt": "2026-09-18",
+  "exams": [
+    {
+      "examId": "FY24-A",
+      "fileName": "立教_FY24_国語A_問題.pdf",
+      "sha256": "80f4c020925441b1cfb69ae06f57ca9a7bc78052ef50f9a668c7fd1a44e39e1c",
+      "pages": 12,
+      "sectionStarts": {
+        "I": 3,
+        "II": 9,
+        "III": 12
+      },
+      "availability": "problem-booklet-visible",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "III is kanji/orthography section"
+      ]
+    },
+    {
+      "examId": "FY24-B",
+      "fileName": "立教_FY24_国語B_問題.pdf",
+      "sha256": "c95da476be12bdc859400993e0ece14eb1a0626d023b81a94818d0cb520e28fc",
+      "pages": 6,
+      "sectionStarts": {
+        "I": 3,
+        "II": 4,
+        "III": 5,
+        "IV": 6
+      },
+      "availability": "partial-problem-booklet",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "I and II are omitted in the supplied booklet for copyright reasons",
+        "III is kanji/orthography",
+        "IV is a chart/data-reading task"
+      ]
+    },
+    {
+      "examId": "FY25-A",
+      "fileName": "立教_FY25_国語A_問題.pdf",
+      "sha256": "bee649532833b0310b31dcd555780d15fd8def9bbbac34b1fddbcb3beb934e8a",
+      "pages": 16,
+      "sectionStarts": {
+        "I": 3,
+        "II": 4,
+        "III": 12
+      },
+      "availability": "problem-booklet-visible",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "I is 10-item kanji reading/writing section"
+      ]
+    },
+    {
+      "examId": "FY25-B",
+      "fileName": "立教_FY25_国語B_問題.pdf",
+      "sha256": "14505cd677eb51942e820eaece7916924cba27ef2e3dfae3ea9cb51218c68600",
+      "pages": 14,
+      "sectionStarts": {
+        "I": 3,
+        "II": 4,
+        "III": 10
+      },
+      "availability": "problem-booklet-visible",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "I is 10-item kanji reading/writing section"
+      ]
+    },
+    {
+      "examId": "FY26-A",
+      "fileName": "立教_FY26_国語A_問題.pdf",
+      "sha256": "5fc30607c1f97d6a0bd108ff31b45136ff7a0d2b2f4afeae12efe80350ab2b9f",
+      "pages": 12,
+      "sectionStarts": {
+        "I": 3,
+        "II": 4,
+        "III": 9
+      },
+      "availability": "problem-booklet-visible",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "I is 10-item kanji reading/writing section"
+      ]
+    },
+    {
+      "examId": "FY26-B",
+      "fileName": "立教_FY26_国語B_問題.pdf",
+      "sha256": "908e13c0e09c924213ed4c43735a3623026f9d50058c746b9205600aff8f523a",
+      "pages": 12,
+      "sectionStarts": {
+        "I": 3,
+        "II": 4,
+        "III": 8
+      },
+      "availability": "problem-booklet-visible",
+      "notes": [
+        "page 1 cover",
+        "page 2 blank",
+        "I is 10-item kanji reading/writing section"
+      ]
+    }
+  ],
+  "answerAuthority": {
+    "officialAnswerFilesPresent": false,
+    "status": "UNRESOLVED",
+    "rule": "Do not label generated or inferred answers as official."
+  }
+}
