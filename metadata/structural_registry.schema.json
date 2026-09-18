@@ -3,32 +3,117 @@
   "$id": "rikkyo-kokugo-structural-registry.schema.json",
   "title": "Rikkyo Kokugo Structural Registry",
   "type": "object",
-  "required": ["schemaVersion","exams"],
+  "required": [
+    "schemaVersion",
+    "exams"
+  ],
   "properties": {
-    "schemaVersion":{"const":1},
-    "exams":{"type":"array","items":{
-      "type":"object","required":["examId","sections"],
-      "properties":{
-        "examId":{"type":"string","pattern":"^FY(24|25|26)-(A|B)$"},
-        "sections":{"type":"array","items":{
-          "type":"object","required":["sectionId","sourcePageStart","availability"],
-          "properties":{
-            "sectionId":{"type":"string"},
-            "sourcePageStart":{"type":"integer","minimum":1},
-            "availability":{"enum":["visible","copyright-omitted","partial"]},
-            "questions":{"type":"array","items":{
-              "type":"object","required":["questionId","authorityStatus"],
-              "properties":{
-                "questionId":{"type":"string"},
-                "sourcePage":{"type":"integer","minimum":1},
-                "responseType":{"enum":["single","multi","order","text","written","kanji","data-reading","unknown"]},
-                "skillDemand":{"type":"array","items":{"type":"string"}},
-                "authorityStatus":{"enum":["source-visible","answer-unresolved","review-required"]}
+    "schemaVersion": {
+      "const": 1
+    },
+    "exams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "examId",
+          "sections"
+        ],
+        "properties": {
+          "examId": {
+            "type": "string",
+            "pattern": "^FY(24|25|26)-(A|B)$"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "sectionId",
+                "sourcePageStart",
+                "availability"
+              ],
+              "properties": {
+                "sectionId": {
+                  "type": "string"
+                },
+                "sourcePageStart": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "availability": {
+                  "enum": [
+                    "visible",
+                    "copyright-omitted",
+                    "partial"
+                  ]
+                },
+                "questions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "questionId",
+                      "authorityStatus"
+                    ],
+                    "properties": {
+                      "questionId": {
+                        "type": "string"
+                      },
+                      "sourcePage": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "responseType": {
+                        "enum": [
+                          "single",
+                          "multi",
+                          "order",
+                          "text",
+                          "written",
+                          "kanji",
+                          "data-reading",
+                          "unknown"
+                        ]
+                      },
+                      "skillDemand": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "authorityStatus": {
+                        "enum": [
+                          "source-visible",
+                          "answer-unresolved",
+                          "review-required"
+                        ]
+                      },
+                      "partCount": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  }
+                },
+                "sectionType": {
+                  "enum": [
+                    "kanji",
+                    "literary-reading",
+                    "expository-reading",
+                    "data-reading-written",
+                    "unknown"
+                  ]
+                },
+                "questionCount": {
+                  "type": "integer",
+                  "minimum": 1
+                }
               }
-            }}
+            }
           }
-        }}
+        }
       }
-    }}
+    }
   }
 }
