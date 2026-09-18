@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "app-normalized-correctness-not-official-points",
+  "officialPointWeightsKnown": false,
+  "sourceBasis": {
+    "passingGuide": {
+      "valuePercent": 60,
+      "source": "https://www.rikkyo.co.uk/faq/",
+      "status": "official-guidance"
+    },
+    "note": "The school describes about 60% correct on past papers as a guide; official question point weights are not available in the supplied source set."
+  },
+  "targets": [
+    {
+      "value": 60,
+      "label": "最低目標",
+      "authority": "official-guidance"
+    },
+    {
+      "value": 70,
+      "label": "安定圏",
+      "authority": "app-strategy"
+    },
+    {
+      "value": 75,
+      "label": "上積み",
+      "authority": "app-strategy"
+    }
+  ],
+  "exams": {
+    "FY25-A": {
+      "verifiedParentQuestions": 33,
+      "method": "normalized-parent-correctness",
+      "parentQuestionMax": 1,
+      "partRule": "For a parent question with multiple objectively scorable parts, parent credit is correctParts/partCount.",
+      "writtenRule": "Written/diagram items use the verified rubric to award a 0..1 parent fraction; no official partial-credit claim is made.",
+      "displayFormula": "round(100 * earnedParentCredit / 33, 1)",
+      "officialScoreClaim": false
+    }
+  },
+  "promotionRule": "An exam enters scored runtime only after every visible question in that exam is APP_DERIVED_VERIFIED and its rubric/part structure is validated."
+}
