@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "upstreamRepository": "FYam8/waseshibu-source",
-  "upstreamCommit": "05abc07143f7651abe2d8587fc22ea205f4ee41b",
+  "upstreamCommit": "006983492786be86ad3f80c94e0cf3d34a0f33ac",
   "subjectId": "kokugo",
   "updatePolicy": "test-before-promote"
 }
