@@ -2,6 +2,7 @@ export const LEARNING_PATH_CONFIG=Object.freeze({
   schemaVersion:1,
   examKeys:['FY25-A','FY25-B'],
   examUnitNoun:'試験',
+  features:{kobunPractice:false},
   examLabels:{'FY25-A':'FY25 A日程','FY25-B':'FY25 B日程'},
   diagnosticExamKey:'FY25-A',
   bridgeCandidates:[],
