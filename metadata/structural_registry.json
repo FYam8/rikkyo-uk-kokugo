@@ -446,28 +446,30 @@
               "questionId": "FY25-A-II-Q01",
               "responseType": "text",
               "skillDemand": [
-                "CHRONOLOGY",
+                "RELATIONSHIP_MAP",
                 "TEXT_EXTRACTION"
+              ],
+              "authorityStatus": "answer-unresolved",
+              "sourcePage": 7,
+              "partCount": 3
+            },
+            {
+              "questionId": "FY25-A-II-Q02",
+              "responseType": "text",
+              "skillDemand": [
+                "CHRONOLOGY",
+                "REFERENCE_READING"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 8,
               "partCount": 2
             },
             {
-              "questionId": "FY25-A-II-Q02",
+              "questionId": "FY25-A-II-Q03",
               "responseType": "single",
               "skillDemand": [
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
-              ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 8
-            },
-            {
-              "questionId": "FY25-A-II-Q03",
-              "responseType": "single",
-              "skillDemand": [
-                "literary-reading"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 8
