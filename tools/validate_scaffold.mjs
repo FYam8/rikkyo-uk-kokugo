@@ -28,6 +28,13 @@ assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-
 assert.ok(!fs.existsSync('src/schoolLearningConfig.js'),'do not activate a Rikkyo route/score strategy before the school analysis is resolved');
 assert.ok(fs.existsSync('src/schoolLearningConfig.candidate.js'),'candidate route config should exist without becoming runtime config');
 
+const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
+assert.equal(answerAuthority.officialAnswerSourcePresent,false);
+assert.deepEqual(answerAuthority.policy.publishableStates,['APP_DERIVED_VERIFIED']);
+const verifiedRecords=answerAuthority.records.filter(r=>r.state==='APP_DERIVED_VERIFIED');
+const verifiedIds=new Set(verifiedRecords.map(r=>r.questionId));
+assert.equal(verifiedIds.size,verifiedRecords.length,'verified answer question ids must be unique');
+
 const registry=JSON.parse(fs.readFileSync('metadata/structural_registry.json','utf8'));
 assert.equal(registry.exams.length,6);
 const ids=[];
@@ -40,7 +47,7 @@ for(const exam of registry.exams){
     if(Number.isInteger(section.questionCount)) assert.equal(section.questions.length,section.questionCount,`${exam.examId} ${section.sectionId}: question count mismatch`);
     for(const q of section.questions){
       ids.push(q.questionId);
-      const expectedAuthority=exam.examId==='FY25-A'?'app-derived-verified':'answer-unresolved';
+      const expectedAuthority=verifiedIds.has(q.questionId)?'app-derived-verified':'answer-unresolved';
       assert.equal(q.authorityStatus,expectedAuthority,`${q.questionId}: unexpected authority state`);
     }
   }
@@ -57,12 +64,11 @@ const progress=JSON.parse(fs.readFileSync('metadata/mapping_progress.json','utf8
 assert.equal(progress.visibleParentQuestions,visibleQuestions.length);
 assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length);
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
-assert.equal(progress.answerAuthorityResolved,33);
-const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
-assert.equal(answerAuthority.officialAnswerSourcePresent,false);
-assert.deepEqual(answerAuthority.policy.publishableStates,['APP_DERIVED_VERIFIED']);
-assert.equal(answerAuthority.records.length,33);
+assert.equal(progress.answerAuthorityResolved,verifiedRecords.length);
+assert.equal(progress.answerAuthorityPending,visibleQuestions.length-verifiedRecords.length);
+assert.equal(answerAuthority.records.length,43);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-A'&&r.state==='APP_DERIVED_VERIFIED').length,33);
+assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='I'&&r.state==='APP_DERIVED_VERIFIED').length,10);
 for(const r of answerAuthority.records){
   assert.equal(r.official,false,`${r.questionId}: app-derived answer must never be labelled official`);
   assert.equal((r.checks||[]).filter(c=>c.result==='PASS').length,2,`${r.questionId}: two independent PASS checks required`);
@@ -70,14 +76,8 @@ for(const r of answerAuthority.records){
     assert.ok(r.rubric||r.parts,`${r.questionId}: rubric/parts required`);
   }
 }
-const fy25aIds=new Set(answerAuthority.records.map(r=>r.questionId));
-for(const exam of registry.exams.filter(e=>e.examId==='FY25-A')){
-  for(const section of exam.sections){
-    for(const q of section.questions){
-      assert.equal(q.authorityStatus,'app-derived-verified',`${q.questionId}: registry authority not promoted`);
-      assert.ok(fy25aIds.has(q.questionId),`${q.questionId}: verified registry question missing answer record`);
-    }
-  }
+for(const q of visibleQuestions){
+  assert.equal(q.authorityStatus,verifiedIds.has(q.questionId)?'app-derived-verified':'answer-unresolved',`${q.questionId}: registry/answer-authority mismatch`);
 }
 assert.equal(progress.detailedDemandMapped,142);
 const coverage=JSON.parse(fs.readFileSync('metadata/practice_coverage_plan.json','utf8'));
