@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "status": "coverage-plan-not-question-bank",
+  "recoveryPriority": "If the recorded v0.4 24-unit bank is recovered, preserve its stable IDs/content and map it before creating replacements.",
+  "targetUnits": 24,
+  "domains": [
+    {
+      "key": "kanji",
+      "targetUnits": 10,
+      "requiredDemands": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "stages": [
+        "basic",
+        "transfer",
+        "mixed"
+      ]
+    },
+    {
+      "key": "literary",
+      "targetUnits": 7,
+      "requiredDemands": [
+        "LITERARY_CHARACTER",
+        "CONTENT_SELECTION",
+        "TEXT_EXTRACTION",
+        "WRITTEN_EXPLANATION",
+        "PHRASE_INTERPRETATION"
+      ],
+      "stages": [
+        "basic",
+        "transfer",
+        "mixed"
+      ]
+    },
+    {
+      "key": "expository",
+      "targetUnits": 7,
+      "requiredDemands": [
+        "CONTENT_SELECTION",
+        "TEXT_EXTRACTION",
+        "BLANK_COMPLETION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION"
+      ],
+      "stages": [
+        "basic",
+        "transfer",
+        "mixed"
+      ]
+    }
+  ],
+  "specialFormats": [
+    "MULTI_SELECT",
+    "ORDER",
+    "SENTENCE_INSERTION",
+    "TRUE_FALSE",
+    "DATA_INTERPRETATION",
+    "TRANSFER_APPLICATION"
+  ],
+  "rule": "Special formats are coverage constraints inside the 24-unit bank where pedagogically appropriate; do not inflate counts merely to mirror one rare source question.",
+  "authority": "Original practice content may be app-authored, but must be labeled original and must not be presented as a past-paper or official answer."
+}
