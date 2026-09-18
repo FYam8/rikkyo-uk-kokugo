@@ -47,7 +47,7 @@ assert.equal(new Set(ids).size,ids.length,'stable question ids must be unique');
 assert.equal(ids.length,142,'visible parent-question registry count changed unexpectedly');
 const visibleQuestions=registry.exams.flatMap(e=>e.sections.filter(s=>s.availability!=='copyright-omitted').flatMap(s=>s.questions));
 assert.equal(visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length,142,'every visible parent question must map to a source page');
-assert.equal(visibleQuestions.filter(q=>q.responseType!=='unknown').length,119,'response-type resolved count changed unexpectedly');
+assert.equal(visibleQuestions.filter(q=>q.responseType!=='unknown').length,142,'response-type resolved count changed unexpectedly');
 
 const taxonomy=JSON.parse(fs.readFileSync('metadata/observed_skill_taxonomy.json','utf8'));
 assert.equal(taxonomy.status,'provisional-observed-demand-taxonomy');
