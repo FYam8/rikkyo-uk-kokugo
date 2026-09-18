@@ -86,7 +86,8 @@
                         "enum": [
                           "source-visible",
                           "answer-unresolved",
-                          "review-required"
+                          "review-required",
+                          "app-derived-verified"
                         ]
                       },
                       "partCount": {
