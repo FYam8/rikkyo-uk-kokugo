@@ -28,8 +28,8 @@ assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-
 assert.ok(fs.existsSync('src/schoolLearningConfig.js'),'verified diagnostic-only runtime config must exist');
 assert.ok(fs.existsSync('src/schoolLearningConfig.candidate.js'),'full-route candidate config should remain separate from runtime');
 const runtimeConfig=fs.readFileSync('src/schoolLearningConfig.js','utf8');
-assert.match(runtimeConfig,/examKeys:\['FY25-A'\]/,'runtime must expose only fully verified FY25-A');
-assert.match(runtimeConfig,/route:\{recentCheck1:null,recentCheck2:null,loadCheck:null,finalExamKey:null\}/,'unverified exams must not enter runtime route');
+assert.match(runtimeConfig,/examKeys:\['FY25-A','FY25-B'\]/,'runtime must expose only fully verified FY25 A/B');
+assert.match(runtimeConfig,/route:\{recentCheck1:'FY25-B',recentCheck2:null,loadCheck:null,finalExamKey:null\}/,'runtime may include verified FY25-B only');
 assert.match(runtimeConfig,/scoreTargets:\[60,70,75\]/,'runtime score targets must be explicit');
 
 const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
@@ -102,6 +102,8 @@ assert.equal(scoring.officialPointWeightsKnown,false);
 assert.equal(scoring.sourceBasis.passingGuide.valuePercent,60);
 assert.equal(scoring.exams['FY25-A'].verifiedParentQuestions,33);
 assert.equal(scoring.exams['FY25-A'].officialScoreClaim,false);
+assert.equal(scoring.exams['FY25-B'].verifiedParentQuestions,30);
+assert.equal(scoring.exams['FY25-B'].officialScoreClaim,false);
 assert.equal(progress.responseTypeResolved,142);
 assert.equal(progress.detailedDemandMapped,142);
 for(const exam of registry.exams){
