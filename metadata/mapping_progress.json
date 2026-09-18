@@ -16,8 +16,8 @@
     "sourcePageMapping": "PASS",
     "responseTypeMapping": "PASS",
     "answerScoringAuthority": "FY25_A_AND_FY25_B_FULLY_VERIFIED",
-    "schoolLearningConfig": "PASS_DIAGNOSTIC_ONLY_FY25_A",
-    "sharedEngineBuild": "READY_FOR_SCHOOL_MODULES",
+    "schoolLearningConfig": "PASS_FY25_A_B",
+    "sharedEngineBuild": "READY_FOR_FY25_A_B_SCHOOL_MODULES",
     "publicDeploy": "HOLD",
     "questionDemandMapping": "PASS"
   },
