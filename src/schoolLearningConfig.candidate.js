@@ -19,8 +19,9 @@ export const LEARNING_PATH_CONFIG=Object.freeze({
     loadCheck:null,
     finalExamKey:'FY26-B'
   },
-  // Deliberately unresolved. Do not inherit Waseda's 60/70/75.
-  scoreTargets:null,
+  // 60 is grounded in the school's FAQ guidance (~60% correct on past papers).
+  // 70/75 are app-authored buffer/stretch targets, not school-official cutoffs.
+  scoreTargets:[60,70,75],
   reserveExamKeys:['FY26-A','FY26-B'],
   labels:{
     diagnosticTitle:'STAGE 1｜初期診断',
