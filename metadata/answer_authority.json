@@ -1879,6 +1879,463 @@
         }
       ],
       "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q01",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 12,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "A＝では、B＝つまり、C＝ところが、D＝例えば",
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          12
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q01:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "各接続位置を、問いの提示→要約→自家用から商品化への逆接→京都野菜の具体例、の論理展開に照合。"
+        },
+        {
+          "checkId": "FY25-B-III-Q01:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "4語を実際に各空欄へ再挿入し、文法・論理が全箇所で成立する唯一の組合せを確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q02",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 12,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "I",
+          "answer": "エ",
+          "answerText": "チョコチョコ"
+        },
+        {
+          "label": "II",
+          "answer": "ア",
+          "answerText": "チマチマ"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          12
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q02:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "隙間があれば少しずつ植える動作には『チョコチョコ』、多品目を小規模に栽培する様子には『チマチマ』が適合。"
+        },
+        {
+          "checkId": "FY25-B-III-Q02:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "テキパキ/セッセセッセを入れると量・配置の意味が本文説明と合わないことを再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q03",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 12,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "①",
+          "answer": "ウ",
+          "answerText": "多品目少量栽培"
+        },
+        {
+          "label": "②",
+          "answer": "単一栽培",
+          "constraint": "本文から五字以内の漢字"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          12
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q03:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "自家用畑は『いろんな種類を少しずつ』、商品作物は『単一栽培、モノカルチャー』と本文が対照化。"
+        },
+        {
+          "checkId": "FY25-B-III-Q03:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "品目数と栽培量の二軸で選択肢を再分類し、対照語を本文から再抽出。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q04",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 12,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "a",
+          "answer": "連体",
+          "answerText": "連体詞"
+        },
+        {
+          "label": "b",
+          "answer": "副",
+          "answerText": "副詞"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          12
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q04:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『いろんな』は名詞を直接修飾する連体詞、『一斉に』『なるべく』は動作・状態を修飾する副詞。"
+        },
+        {
+          "checkId": "FY25-B-III-Q04:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "各語の文中の修飾先を再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q05",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 13,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "table-rubric",
+      "cells": [
+        {
+          "label": "A",
+          "answer": "即答できる",
+          "constraint": "五字"
+        },
+        {
+          "label": "B",
+          "answer": "時間差で",
+          "constraint": "四字"
+        },
+        {
+          "label": "C",
+          "model": "おいしく楽しく食べられること",
+          "constraint": "二十字以内"
+        }
+      ],
+      "rubric": {
+        "requiredElements": [
+          "Aは商品作物なら作物名をすぐ答えられること",
+          "Bは自家用では時間差をつけて植えること",
+          "Cは自家用の価値としておいしく楽しく食べられること"
+        ],
+        "acceptableVariants": [
+          "Cは毎日の食卓に変化があり、おいしく楽しく食べられる趣旨なら許容"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          13
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q05:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『何作ってるの？』への即答、自家用の時間差栽培、食卓の変化と『おいしく楽しく』の記述から表を埋める。"
+        },
+        {
+          "checkId": "FY25-B-III-Q05:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "表の対照列（商品=一斉/高く多く売る）と逆向きに再照合。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q06",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 13,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "自然環境の資源を共有財産として皆で管理・保護し、子孫まで大切に利用すること。",
+      "constraints": {
+        "maxCharacters": 40,
+        "modelCharacterCount": 38
+      },
+      "rubric": {
+        "requiredElements": [
+          "自然環境の資源であること",
+          "皆の共有財産であること",
+          "皆で管理・保護すること",
+          "子孫の代まで大切に利用すること"
+        ],
+        "zeroCredit": [
+          "単に無料で使うこととする",
+          "市場で売ることだけを説明する"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          13
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q06:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文の『共有財産』『みんなで使い方を決める/管理』『子孫の代までなくならないよう保護』を統合。"
+        },
+        {
+          "checkId": "FY25-B-III-Q06:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "モデル答案38字を再計数し、40字以内で主要要素が残ることを確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q07",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 13,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "山や川や水路",
+      "constraint": "五字程度",
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          13
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q07:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『自然環境や地域社会の富などタダで使えるモノ』の具体例として、本文に食料を産むための『山や川や水路』が示される。"
+        },
+        {
+          "checkId": "FY25-B-III-Q07:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "抽象語ではなく具体例を求める設問条件と再照合。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q08",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 13,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ア",
+      "answerText": "競争を",
+      "sourceEvidence": {
+        "sourcePages": [
+          11,
+          13
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q08:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文は『この競争を強いられる経済の仕組みの中では』で、『この』が直接修飾する名詞句は『競争』。"
+        },
+        {
+          "checkId": "FY25-B-III-Q08:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "連文節の係り受けを再確認し、経済/仕組み/中ではへの直接修飾ではないことを確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q09",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 13,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "2",
+          "answer": "Y",
+          "answerText": "交換価値"
+        },
+        {
+          "label": "3",
+          "answer": "Y",
+          "answerText": "交換価値"
+        },
+        {
+          "label": "4",
+          "answer": "X",
+          "answerText": "使用価値"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          13
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q09:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "売れる商品を高く売る文脈は交換価値、食べものとして胃袋を満たす目的は使用価値。"
+        },
+        {
+          "checkId": "FY25-B-III-Q09:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "三空欄を『使う/食べる価値』対『市場で売れる価値』の対比に戻して再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q10",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "short-text",
+      "answer": "7",
+      "answerText": "第7段落",
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q10:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "第7段落からコモンズの説明を受けて『ところが、売って儲けるために商品を作り始めると』と商品化・交換価値の後半テーマへ転換。"
+        },
+        {
+          "checkId": "FY25-B-III-Q10:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "段落1〜6の自家用/使用価値中心の説明と、第7段落以降の交換価値・競争の説明を見出しで再分割。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-III-Q11",
+      "examId": "FY25-B",
+      "sectionId": "III",
+      "sourcePage": 14,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "農業や経済が発展して食料生産量が増えても、交換価値や利潤が優先されれば、買えない人に食料が届かず、共有資源が損なわれることもあるため、発展だけでは全員の幸せを実現する十分条件にならないから。",
+      "constraints": {
+        "targetCharacters": 100,
+        "modelCharacterCount": 95
+      },
+      "rubric": {
+        "requiredElements": [
+          "農業・経済発展や生産増は必要性をもつこと",
+          "交換価値/利潤優先で食料が必要な人へ届かない場合があること",
+          "自然・共有資源が損なわれる場合があること",
+          "したがって発展だけでは全員の幸福の十分条件でないこと"
+        ],
+        "acceptableVariants": [
+          "本文の食料廃棄・飢餓の例、商品作物の例、コモンズの破壊例のうち複数を用いてよい"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          10,
+          11,
+          14
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-III-Q11:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文冒頭の飢餓/廃棄の対比と、後半の交換価値・商品作物・コモンズ破壊を『必要条件/十分条件』へ統合。"
+        },
+        {
+          "checkId": "FY25-B-III-Q11:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "モデル答案95字を再計数し、100字程度で因果と具体例が成立することを確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
     }
   ]
 }
