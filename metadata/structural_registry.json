@@ -807,7 +807,7 @@
                 "RELATIONSHIP_MAP",
                 "TEXT_EXTRACTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8,
               "partCount": 5
             },
@@ -817,7 +817,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8,
               "partCount": 2
             },
@@ -828,7 +828,7 @@
                 "PHRASE_INTERPRETATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8
             },
             {
@@ -838,7 +838,7 @@
                 "BLANK_COMPLETION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9,
               "partCount": 2
             },
@@ -849,7 +849,7 @@
                 "LITERARY_CHARACTER",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9
             },
             {
@@ -860,7 +860,7 @@
                 "WRITTEN_EXPLANATION",
                 "TEXT_EXTRACTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9,
               "partCount": 2
             },
@@ -871,7 +871,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9
             },
             {
@@ -881,7 +881,7 @@
                 "KANJI",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9,
               "partCount": 2
             },
@@ -892,7 +892,7 @@
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9
             }
           ],
