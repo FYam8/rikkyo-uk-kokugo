@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "exams": [
+    {
+      "examId": "FY24-A",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 9,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 12,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "examId": "FY24-B",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "copyright-omitted",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 4,
+          "availability": "copyright-omitted",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 5,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "IV",
+          "sourcePageStart": 6,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "examId": "FY25-A",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 4,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 12,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "examId": "FY25-B",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 4,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 10,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "examId": "FY26-A",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 4,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 9,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "examId": "FY26-B",
+      "sections": [
+        {
+          "sectionId": "I",
+          "sourcePageStart": 3,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "II",
+          "sourcePageStart": 4,
+          "availability": "visible",
+          "questions": []
+        },
+        {
+          "sectionId": "III",
+          "sourcePageStart": 8,
+          "availability": "visible",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}
