@@ -27,4 +27,26 @@ assert.equal(inventory.answerAuthority.officialAnswerFilesPresent,false);
 assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-problem-booklet');
 assert.ok(!fs.existsSync('src/schoolLearningConfig.js'),'do not activate a Rikkyo route/score strategy before the school analysis is resolved');
 
+const registry=JSON.parse(fs.readFileSync('metadata/structural_registry.json','utf8'));
+assert.equal(registry.exams.length,6);
+const ids=[];
+for(const exam of registry.exams){
+  for(const section of exam.sections){
+    if(section.availability==='copyright-omitted'){
+      assert.equal(section.questions.length,0,'copyright-omitted sections must remain empty');
+      continue;
+    }
+    if(Number.isInteger(section.questionCount)) assert.equal(section.questions.length,section.questionCount,`${exam.examId} ${section.sectionId}: question count mismatch`);
+    for(const q of section.questions){
+      ids.push(q.questionId);
+      assert.equal(q.authorityStatus,'answer-unresolved','answers must remain unresolved at scaffold stage');
+    }
+  }
+}
+assert.equal(new Set(ids).size,ids.length,'stable question ids must be unique');
+assert.equal(ids.length,130,'visible parent-question registry count changed unexpectedly');
+
+const taxonomy=JSON.parse(fs.readFileSync('metadata/observed_skill_taxonomy.json','utf8'));
+assert.equal(taxonomy.status,'provisional-observed-demand-taxonomy');
+
 console.log('Rikkyo Kokugo scaffold contract: PASS');
