@@ -15,7 +15,7 @@ assert.notEqual(adapter.storage.learningDb,'waseshibu-kokugo');
 assert.equal(lock.upstreamRepository,'FYam8/waseshibu-source');
 assert.match(lock.upstreamCommit,/^[0-9a-f]{40}$/);
 
-const forbidden=['src/drills.js','src/kanji50.js','src/kobun100Data.js','src/reviewCurated.js','src/reviewProfiles.js','src/schoolLearningConfig.js','raw'];
+const forbidden=['src/drills.js','src/kanji50.js','src/kobun100Data.js','src/reviewCurated.js','src/reviewProfiles.js','raw'];
 for(const path of forbidden){
   if(fs.existsSync(path)) throw new Error(`Scaffold must not contain unverified/copied school content yet: ${path}`);
 }
@@ -25,8 +25,12 @@ assert.equal(inventory.exams.length,6);
 assert.deepEqual(inventory.exams.map(x=>x.examId),['FY24-A','FY24-B','FY25-A','FY25-B','FY26-A','FY26-B']);
 assert.equal(inventory.answerAuthority.officialAnswerFilesPresent,false);
 assert.equal(inventory.exams.find(x=>x.examId==='FY24-B').availability,'partial-problem-booklet');
-assert.ok(!fs.existsSync('src/schoolLearningConfig.js'),'do not activate a Rikkyo route/score strategy before the school analysis is resolved');
-assert.ok(fs.existsSync('src/schoolLearningConfig.candidate.js'),'candidate route config should exist without becoming runtime config');
+assert.ok(fs.existsSync('src/schoolLearningConfig.js'),'verified diagnostic-only runtime config must exist');
+assert.ok(fs.existsSync('src/schoolLearningConfig.candidate.js'),'full-route candidate config should remain separate from runtime');
+const runtimeConfig=fs.readFileSync('src/schoolLearningConfig.js','utf8');
+assert.match(runtimeConfig,/examKeys:\['FY25-A'\]/,'runtime must expose only fully verified FY25-A');
+assert.match(runtimeConfig,/route:\{recentCheck1:null,recentCheck2:null,loadCheck:null,finalExamKey:null\}/,'unverified exams must not enter runtime route');
+assert.match(runtimeConfig,/scoreTargets:\[60,70,75\]/,'runtime score targets must be explicit');
 
 const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
 assert.equal(answerAuthority.officialAnswerSourcePresent,false);
