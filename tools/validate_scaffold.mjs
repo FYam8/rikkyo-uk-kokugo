@@ -56,11 +56,28 @@ const progress=JSON.parse(fs.readFileSync('metadata/mapping_progress.json','utf8
 assert.equal(progress.visibleParentQuestions,visibleQuestions.length);
 assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteger(q.sourcePage)).length);
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
-assert.equal(progress.answerAuthorityResolved,0);
+assert.equal(progress.answerAuthorityResolved,33);
 const answerAuthority=JSON.parse(fs.readFileSync('metadata/answer_authority.json','utf8'));
 assert.equal(answerAuthority.officialAnswerSourcePresent,false);
 assert.deepEqual(answerAuthority.policy.publishableStates,['APP_DERIVED_VERIFIED']);
-assert.equal(answerAuthority.records.length,0);
+assert.equal(answerAuthority.records.length,33);
+assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-A'&&r.state==='APP_DERIVED_VERIFIED').length,33);
+for(const r of answerAuthority.records){
+  assert.equal(r.official,false,`${r.questionId}: app-derived answer must never be labelled official`);
+  assert.equal((r.checks||[]).filter(c=>c.result==='PASS').length,2,`${r.questionId}: two independent PASS checks required`);
+  if(['written','diagram-rubric','parts-rubric'].includes(r.answerKind)){
+    assert.ok(r.rubric||r.parts,`${r.questionId}: rubric/parts required`);
+  }
+}
+const fy25aIds=new Set(answerAuthority.records.map(r=>r.questionId));
+for(const exam of registry.exams.filter(e=>e.examId==='FY25-A')){
+  for(const section of exam.sections){
+    for(const q of section.questions){
+      assert.equal(q.authorityStatus,'app-derived-verified',`${q.questionId}: registry authority not promoted`);
+      assert.ok(fy25aIds.has(q.questionId),`${q.questionId}: verified registry question missing answer record`);
+    }
+  }
+}
 assert.equal(progress.detailedDemandMapped,142);
 const coverage=JSON.parse(fs.readFileSync('metadata/practice_coverage_plan.json','utf8'));
 assert.equal(coverage.targetUnits,24);
