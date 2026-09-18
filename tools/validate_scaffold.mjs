@@ -57,11 +57,13 @@ assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteg
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
 assert.equal(progress.answerAuthorityResolved,0);
 assert.equal(progress.responseTypeResolved,142);
-assert.equal(progress.detailedDemandMapped,41);
-for(const examId of ['FY26-A','FY26-B']){
-  const exam=registry.exams.find(e=>e.examId===examId);
-  for(const section of exam.sections.filter(s=>['literary-reading','expository-reading'].includes(s.sectionType))){
-    for(const q of section.questions) assert.ok(q.skillDemand.length>=1&&q.skillDemand[0]!==`${section.sectionType==='literary-reading'?'literary':'expository'}-reading`,`${q.questionId}: FY26 detailed demand missing`);
+assert.equal(progress.detailedDemandMapped,142);
+for(const exam of registry.exams){
+  for(const section of exam.sections.filter(s=>s.availability!=='copyright-omitted')){
+    for(const q of section.questions){
+      assert.ok(q.skillDemand.length>=1,`${q.questionId}: demand missing`);
+      assert.ok(!q.skillDemand.includes('literary-reading')&&!q.skillDemand.includes('expository-reading'),`${q.questionId}: generic demand tag remains`);
+    }
   }
 }
 
