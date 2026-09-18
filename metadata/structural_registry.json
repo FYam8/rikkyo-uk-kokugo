@@ -246,7 +246,7 @@
               "questionId": "FY24-A-III-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 6,
@@ -256,7 +256,7 @@
               "questionId": "FY24-A-III-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 4,
@@ -294,7 +294,7 @@
               "questionId": "FY24-B-III-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 6,
@@ -304,7 +304,7 @@
               "questionId": "FY24-B-III-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 4,
@@ -324,8 +324,8 @@
               "sourcePage": 6,
               "responseType": "data-reading",
               "skillDemand": [
-                "data-reading",
-                "written-explanation"
+                "DATA_INTERPRETATION",
+                "WRITTEN_EXPLANATION"
               ],
               "authorityStatus": "answer-unresolved"
             }
@@ -347,7 +347,7 @@
               "questionId": "FY25-A-I-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -356,7 +356,7 @@
               "questionId": "FY25-A-I-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -365,7 +365,7 @@
               "questionId": "FY25-A-I-Q03",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -374,7 +374,7 @@
               "questionId": "FY25-A-I-Q04",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -383,7 +383,7 @@
               "questionId": "FY25-A-I-Q05",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -392,7 +392,7 @@
               "questionId": "FY25-A-I-Q06",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -401,7 +401,7 @@
               "questionId": "FY25-A-I-Q07",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -410,7 +410,7 @@
               "questionId": "FY25-A-I-Q08",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -419,7 +419,7 @@
               "questionId": "FY25-A-I-Q09",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -428,7 +428,7 @@
               "questionId": "FY25-A-I-Q10",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -705,7 +705,7 @@
               "questionId": "FY25-B-I-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -714,7 +714,7 @@
               "questionId": "FY25-B-I-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -723,7 +723,7 @@
               "questionId": "FY25-B-I-Q03",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -732,7 +732,7 @@
               "questionId": "FY25-B-I-Q04",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -741,7 +741,7 @@
               "questionId": "FY25-B-I-Q05",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -750,7 +750,7 @@
               "questionId": "FY25-B-I-Q06",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -759,7 +759,7 @@
               "questionId": "FY25-B-I-Q07",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -768,7 +768,7 @@
               "questionId": "FY25-B-I-Q08",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -777,7 +777,7 @@
               "questionId": "FY25-B-I-Q09",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -786,7 +786,7 @@
               "questionId": "FY25-B-I-Q10",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1037,7 +1037,7 @@
               "questionId": "FY26-A-I-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 3,
@@ -1047,7 +1047,7 @@
               "questionId": "FY26-A-I-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "partCount": 7,
@@ -1300,7 +1300,7 @@
               "questionId": "FY26-B-I-Q01",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1309,7 +1309,7 @@
               "questionId": "FY26-B-I-Q02",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1318,7 +1318,7 @@
               "questionId": "FY26-B-I-Q03",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1327,7 +1327,7 @@
               "questionId": "FY26-B-I-Q04",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1336,7 +1336,7 @@
               "questionId": "FY26-B-I-Q05",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1345,7 +1345,7 @@
               "questionId": "FY26-B-I-Q06",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1354,7 +1354,7 @@
               "questionId": "FY26-B-I-Q07",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1363,7 +1363,7 @@
               "questionId": "FY26-B-I-Q08",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1372,7 +1372,7 @@
               "questionId": "FY26-B-I-Q09",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
@@ -1381,7 +1381,7 @@
               "questionId": "FY26-B-I-Q10",
               "responseType": "kanji",
               "skillDemand": [
-                "kanji"
+                "KANJI"
               ],
               "authorityStatus": "answer-unresolved",
               "sourcePage": 3
