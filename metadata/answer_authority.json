@@ -1509,6 +1509,376 @@
         }
       ],
       "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q01",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 8,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "1",
+          "answer": "姑"
+        },
+        {
+          "label": "2",
+          "answer": "豊彦"
+        },
+        {
+          "label": "3",
+          "answer": "光彦"
+        },
+        {
+          "label": "4",
+          "answer": "嘉彦"
+        },
+        {
+          "label": "5",
+          "answer": "須万"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          8
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q01:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文の家族関係を人物ごとにたどり、豊彦が登瀬を『姉さま』と呼び喜和について詫びること、光彦が喜和の長子と明記されることを確認。"
+        },
+        {
+          "checkId": "FY25-B-II-Q01:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "食卓場面の嘉彦・豊彦両家族、須万の位置づけと、舅亡き後の家長/跡取り関係を別方向から再構成。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q02",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 8,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "①放言",
+          "answer": "エ",
+          "answerText": "無遠慮に言い放つこと"
+        },
+        {
+          "label": "②軽口",
+          "answer": "イ",
+          "answerText": "軽い語調で面白く言うこと"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          8
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q02:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "姑の無遠慮な発言と、嘉彦が実姉の前で冗談めかして言う場面に照合。"
+        },
+        {
+          "checkId": "FY25-B-II-Q02:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "各選択肢を語義と場面に分けて再判定。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q03",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 8,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "ウ",
+      "answerText": "幼い頃から料理が得意な喜和が中傷され、夫もかばおうとしないから。",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          8
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q03:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "喜和は幼少時から母を手伝い料理が得意だったと明記される一方、姑/嘉彦の発言と豊彦の不介入が続く。"
+        },
+        {
+          "checkId": "FY25-B-II-Q03:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "母から直接教わったと断定する肢や、義姉の我慢を中心とする肢を除外して再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q04",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "1",
+          "answer": "エ",
+          "answerText": "不器用"
+        },
+        {
+          "label": "2",
+          "answer": "オ",
+          "answerText": "無慈悲"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          5,
+          6,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q04:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『あの人もおらに負けず劣らず[1]』は生き方/表現の不器用さ、『幸せになれ』を安易に言うことを[2]な話と批判する流れ。"
+        },
+        {
+          "checkId": "FY25-B-II-Q04:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "候補語をそれぞれ文法的に挿入し、前後の意味が最も自然になる組合せを再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q05",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "落胆",
+      "sourceEvidence": {
+        "sourcePages": [
+          6,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q05:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "『女の幸せはみな同じ形であらねばならないのかもしれない』は、自分の望む幸せが一般的な女の幸せとして認められないという諦念を伴う。"
+        },
+        {
+          "checkId": "FY25-B-II-Q05:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "納得・期待・推奨では後続の『歪んだ道』や不満と整合しないことを再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q06",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts-rubric",
+      "parts": [
+        {
+          "label": "①",
+          "model": "父のような櫛を挽き、自分の櫛挽きの道を生きること。",
+          "constraint": "20字以内相当。『櫛を挽く/櫛挽き』『自分の道/家業』を含む意味なら許容。"
+        },
+        {
+          "label": "②",
+          "answer": "板ノ間",
+          "constraint": "本文から三字"
+        }
+      ],
+      "rubric": {
+        "requiredElements": [
+          "登瀬自身の幸せが櫛挽きの仕事/道にあること",
+          "②は『板ノ間』を本文から三字で抜き出すこと"
+        ],
+        "acceptableVariants": [
+          "①は父の仕事を継ぐこと、櫛を作ること等の同義表現を許容"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          6,
+          7,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q06:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "喜和が『姉さんには、あの板ノ間がある』『櫛挽くことしかしてこんかった』と登瀬の生きる場所/仕事を指摘する。"
+        },
+        {
+          "checkId": "FY25-B-II-Q06:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "登瀬が女一般の幸せとは異なる自分の幸せを以前から知るという叙述と、板ノ間での櫛挽きの描写を再照合。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q07",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "written",
+      "modelAnswer": "自分が挽いた櫛を、喜和が父の櫛だと思い込み、父にしか出せない出来だと評したことに驚いたから。",
+      "rubric": {
+        "requiredElements": [
+          "その櫛を登瀬自身が挽いたこと",
+          "喜和が父の櫛だと見誤ったこと",
+          "父にしか出せないほどの出来だと評価したこと"
+        ],
+        "zeroCredit": [
+          "父の櫛そのものを見て驚いたとする",
+          "喜和が櫛を嫌ったとする"
+        ]
+      },
+      "sourceEvidence": {
+        "sourcePages": [
+          7,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q07:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "土産のお六櫛は登瀬自身が挽いた直後、喜和が『懐かしな。父さまの櫛だ』と断定する。"
+        },
+        {
+          "checkId": "FY25-B-II-Q07:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "続く『父さまの櫛は一目でわかる』『他にいねえ』という評価と登瀬の身体反応を因果で再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q08",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "parts",
+      "parts": [
+        {
+          "label": "⑦",
+          "answer": "一言一句"
+        },
+        {
+          "label": "⑧",
+          "answer": "血肉"
+        }
+      ],
+      "sourceEvidence": {
+        "sourcePages": [
+          7,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q08:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文のカタカナ『イチゴンイック』『ケツニク』を文脈に沿って漢字化。"
+        },
+        {
+          "checkId": "FY25-B-II-Q08:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "慣用的な表記『一言一句』『血肉』を再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
+    },
+    {
+      "questionId": "FY25-B-II-Q09",
+      "examId": "FY25-B",
+      "sectionId": "II",
+      "sourcePage": 9,
+      "state": "APP_DERIVED_VERIFIED",
+      "official": false,
+      "answerKind": "single",
+      "answer": "イ",
+      "answerText": "登瀬が喜和を嫁ぎ先から去らせようと密かに決心している、という内容。",
+      "sourceEvidence": {
+        "sourcePages": [
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "checks": [
+        {
+          "checkId": "FY25-B-II-Q09:check1",
+          "kind": "source-context-pass",
+          "result": "PASS",
+          "detail": "本文に登瀬が喜和を家から去らせようと決意する叙述はない。"
+        },
+        {
+          "checkId": "FY25-B-II-Q09:check2",
+          "kind": "independent-recheck",
+          "result": "PASS",
+          "detail": "他三肢は、喜和の育児/気丈さ、登瀬の自分の道への再覚醒、姉妹の夜語りと整合することを再確認。"
+        }
+      ],
+      "reviewedAt": "2026-09-18"
     }
   ]
 }
