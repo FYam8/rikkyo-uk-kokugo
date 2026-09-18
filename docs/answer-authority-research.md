@@ -24,3 +24,15 @@ For this app:
 - A/B use the same shared engine and demand taxonomy; schedule identity remains exam data.
 
 This research strengthens the fail-closed policy; it does not prove that no private/internal answer material exists.
+
+
+## Official score-guidance evidence
+
+The current official FAQ states that the school does not publish a calculable admission deviation score, but at school briefings it explains **about 60% correct on past papers as a guide for passing**.
+
+Source:
+- https://www.rikkyo.co.uk/faq/
+
+This supports using 60 as the Rikkyo app's minimum learning target. It does **not** establish official subject-by-subject point weights, a guaranteed cutoff, or official 70/75 thresholds.
+
+For the app, 70 and 75 may be used only as explicitly app-authored buffer/stretch targets above the school's 60% guide, never as school-official cutoffs.
