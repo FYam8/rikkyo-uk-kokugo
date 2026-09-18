@@ -85,8 +85,17 @@ assert.equal(coverage.targetUnits,24);
 assert.equal(coverage.domains.reduce((n,d)=>n+d.targetUnits,0),24);
 const route=JSON.parse(fs.readFileSync('metadata/learning_route_candidate.json','utf8'));
 assert.equal(route.status,'candidate-not-runtime-config');
-assert.equal(route.scoreTargets,null,'Rikkyo score targets must remain unresolved at this stage');
+assert.deepEqual(route.scoreTargets,[60,70,75]);
+assert.equal(route.scoreTargetAuthority.minimum60.status,'official-guidance');
+assert.equal(route.scoreTargetAuthority.stable70.status,'app-strategy');
+assert.equal(route.scoreTargetAuthority.stretch75.status,'app-strategy');
 assert.equal(route.candidateRoles.final,'FY26-B');
+const scoring=JSON.parse(fs.readFileSync('metadata/scoring_strategy.json','utf8'));
+assert.equal(scoring.status,'app-normalized-correctness-not-official-points');
+assert.equal(scoring.officialPointWeightsKnown,false);
+assert.equal(scoring.sourceBasis.passingGuide.valuePercent,60);
+assert.equal(scoring.exams['FY25-A'].verifiedParentQuestions,33);
+assert.equal(scoring.exams['FY25-A'].officialScoreClaim,false);
 assert.equal(progress.responseTypeResolved,142);
 assert.equal(progress.detailedDemandMapped,142);
 for(const exam of registry.exams){
