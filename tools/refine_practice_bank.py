@@ -13,6 +13,7 @@ def refine(result):
   uid,n=key.split('-');q=units[uid]['items'][int(n)-1]
   for k in ['options','rubric','modelAnswer']:q.pop(k,None)
   q.update(responseType='extraction',prompt=prompt,answer=answer,skills=['TEXT_EXTRACTION'],constraints={'exactCharacters':len(answer)},revision=3,explanation=f'本文の「{answer}」が指定された内容を表す。{len(answer)}字で、前後の助詞や句点を勝手に付け足さない。')
+ q=units['K01']['items'][2];q['acceptableAnswers']=['意思','意志'];q['explanation']='参加しようという考えは一般に「意思」。参加を決めた強い意志とも読めるため、この短い文では「意志」も許容する。「医師」「遺志」とは区別する。'
  # Add a distinct seven-item language strand inside the existing vocabulary unit.
  grammar=[
  ('basic','白い雲がゆっくり東へ流れる。','主語と述語の文節の組合せを選ぼう。',['白い―流れる','雲が―流れる','ゆっくり―東へ','東へ―雲が'],'2',['GRAMMAR'],'何がどうするかを探すと「雲が流れる」。白いは雲への修飾、ゆっくりと東へは流れるへの修飾。'),
@@ -44,5 +45,7 @@ def refine(result):
    q['skills']=list(dict.fromkeys(tags));q['revision']=max(3,q.get('revision',1))
   u['skills']=list(dict.fromkeys(t for q in u['items'] for t in q['skills']));u['revision']=3
  result['itemCount']=sum(len(u['items']) for u in units.values());result['contentSet']='rikkyo-original-practice-20260925-v3'
- result['contentReview']['status']='ANSWER_REVIEWED_PEDAGOGY_QA_PENDING';result['contentReview']['remaining']='Detailed distractor feedback, source-demand routing and end-to-end STEP/retention QA.'
+ result['status']='REVIEWED_SHARED_ENGINE_INTEGRATED'
+ result['contentReview']['status']='175_ANSWERS_PASSAGES_RUBRICS_REVIEWED'
+ result['contentReview']['remaining']='Long-term educational effectiveness has not been measured. Detailed demand coverage and limits: docs/practice-coverage-review.md.'
  return result

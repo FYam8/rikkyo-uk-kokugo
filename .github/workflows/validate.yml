@@ -25,6 +25,7 @@ jobs:
           node tools/validate_scaffold.mjs
           python tools/test_authority_baseline.py
           python tools/test_practice_bank.py
+          node tools/test_runtime_bank.mjs
           python tools/verify_shared_snapshot.py
           python tools/build_content.py
           python tools/test_question_pages.py
@@ -40,6 +41,7 @@ jobs:
           npx playwright install --with-deps chromium
           node tools/audit_browser_diagnostic.mjs
           node tools/audit_browser_exams.mjs
+          node tools/audit_browser_training.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

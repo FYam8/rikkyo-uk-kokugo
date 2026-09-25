@@ -1,3 +1,4 @@
+import PracticePassage from './PracticePassage.jsx';
 import SourceReplay from './SourceReplay.jsx';
 import {pendingRetention} from './retention.js';
 import AnswerReference from './AnswerReference.jsx';
@@ -615,6 +616,7 @@ function App(){
     setBusy(true);
     try{
       if(!canStartHoldout(y,HOLDOUT_POLICY,getGuidedStep(events))) throw new Error('最終確認は、前の過去問と弱点補強を終えた後に開始できます。');
+      if(isFinalExam(y)&&HOLDOUT_POLICY?.strict===true&&attempt==='first'&&!window.confirm('最終未見確認を開始します。途中の学習用問題には戻せません。準備ができたら開始してください。'))return;
       const st=yearStatus(y);
       if(attempt==='first'&&st!=='この端末では未見') throw new Error('この端末ではすでに開始済みです。');
       const sid=crypto.randomUUID(), now=new Date().toISOString();
@@ -812,7 +814,8 @@ function App(){
 
   function openRetention(row){
     if(!row.due)return;
-    const item=freePracticeItems.find(q=>q.sourcePhase==='retention'&&q.domain===row.skill);
+    const attempts=id=>events.filter(e=>e.type==='drill_practice_answered'&&e.itemId===id).length;
+    const item=freePracticeItems.filter(q=>q.sourcePhase==='retention'&&q.domain===row.skill).sort((a,b)=>attempts(a.id)-attempts(b.id))[0];
     if(!item){setStatus('この分野の定着確認教材は準備中です。');return;}
     setDrillLibraryDomain(item.domain);setDrillLibraryItemId(item.id);setDrillLibrarySelection(null);setDrillLibraryFeedback(false);setDrillLibraryStartedAt(Date.now());setScreen('drill-library');
   }
@@ -891,6 +894,7 @@ function App(){
 
   async function startRepair(sourceYear,skillsOverride=null){
     try{ if(!aManifest?.years?.[String(sourceYear)]&&version) setAManifest(await loadAnswerManifest(version,sourceYear)); }catch(e){ setStatus(`解説データ読込エラー: ${e.message}`); return; }
+    setStatus('');
     const skills=Array.isArray(skillsOverride)&&skillsOverride.length?[...new Set(skillsOverride)]:nextRepairSkillsForYear(events,sourceYear);
     if(!skills.length){ setStatus('現在、補強する弱点はありません。'); return; }
     clearTimeout(repairDraftTimerRef.current);
@@ -1181,6 +1185,7 @@ function App(){
   if(screen==='home'){
     const fs=firstScores().sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt))),priorities=reviewPriorities();
     const guided=getGuidedStep(events),progress=courseProgress(events),routeLabels=courseRouteLabels(events);
+    const finalEvaluationReady=guided.type==='exam'&&isFinalExam(guided.year)&&HOLDOUT_POLICY?.strict===true;
     const guidedDraft=guided.type==='exam'?resumeDrafts[String(guided.year)]:null;
     const latest=fs[0];
     const ledger=weaknessLedger(events);
@@ -1218,7 +1223,7 @@ function App(){
         <div className="settingsActions">
           <button onClick={backup}>学習データを書き出す</button>
           <label className="fileButton">学習データを読み込む<input type="file" accept="application/json" onChange={e=>{const f=e.target.files?.[0];if(f)restore(f);e.target.value=''}} /></label>
-          {LEARNING_PATH_CONFIG.features?.resetLearning===true&&<button onClick={async()=>{if(!window.confirm('この端末の立教国語の答案・学習履歴を削除します。必要な場合は先に書き出してください。削除しますか？'))return;try{await resetLocalLearningData({confirmed:true});await reloadLocal();setStatus('学習履歴を削除しました。');}catch(e){setStatus('削除できません：'+e.message);}}}>学習履歴をリセット</button>}
+          {LEARNING_PATH_CONFIG.features?.resetLearning===true&&<button onClick={async()=>{if(!window.confirm('この端末の国語アプリの答案・学習履歴を削除します。必要な場合は先に書き出してください。削除しますか？'))return;try{await resetLocalLearningData({confirmed:true});await reloadLocal();setStatus('学習履歴を削除しました。');}catch(e){setStatus('削除できません：'+e.message);}}}>学習履歴をリセット</button>}
           
         </div>
         {legacyOpen&&<div className="legacyBox">
@@ -1242,9 +1247,9 @@ function App(){
       </section>}
 
       <section className="dashboardHero">
-        <article className="card todayPanel">
+        <article className={'card '+(finalEvaluationReady?'finalEvaluationPanel':'todayPanel')}>
           <div className="todayTop">
-            <div><div className="eyebrow">NEXT STEP</div><span className="stageLabel">{guided.type==='exam'?'過去問':guided.type==='repair'?'弱点トレーニング':guided.type==='retention'?'定着確認':'コース完了'}</span></div>
+            <div><div className="eyebrow">{finalEvaluationReady?'FINAL EVALUATION':'NEXT STEP'}</div><span className="stageLabel">{guided.type==='exam'?'過去問':guided.type==='repair'?'弱点トレーニング':guided.type==='retention'?'定着確認':'コース完了'}</span></div>
             <div className="stepCount"><b>{progress.done}</b><span> / {progress.total}</span></div>
           </div>
           <h2>{guided.title}</h2>
@@ -1258,7 +1263,7 @@ function App(){
               ?<button className="primary bigAction" onClick={()=>resumeExam(guided.year)}>{guidedDraft.stage==='score'?'採点を再開':'続きから解く'} <span>→</span></button>
               :<button className="primary bigAction" disabled={busy} onClick={()=>startExam(guided.year,'first')}>{examLabel(guided.year)}を始める <span>→</span></button>)}
             {guided.type==='repair'&&<button className="primary bigAction" onClick={()=>startRepair(guided.sourceYear)}>弱点トレーニングを始める <span>→</span></button>}
-            {guided.type==='retention'&&<div>{guided.pending.map(row=><div key={row.skill}><b>{row.skill}</b><p>{row.due?'別素材で確かめましょう。':`開始できる日時：${new Date(row.dueAt).toLocaleString('ja-JP')}`}</p><button disabled={!row.due} onClick={()=>openRetention(row)}>定着確認を始める</button></div>)}</div>}
+            {guided.type==='retention'&&<div>{guided.pending.map(row=><div key={row.skill}><b>{row.skill}</b><p>{row.due?'定着を確かめましょう。':`開始できる日時：${new Date(row.dueAt).toLocaleString('ja-JP')}`}</p><button disabled={!row.due} onClick={()=>openRetention(row)}>定着確認を始める</button></div>)}</div>}
             {guided.type==='complete'&&<div className="courseComplete">✓ コース完了</div>}
           </div>
         </article>
@@ -1392,18 +1397,18 @@ function App(){
       const answerMissing=directAnswer?!String(drillLibrarySelection??'').trim():structuredAnswer?(!Array.isArray(drillLibrarySelection)||drillLibrarySelection.length!==requiredCount):drillLibrarySelection===null;
       return <main className="shell adaptiveTraining drillLibraryShell">
         <header className="topbar trainingTopbar">
-          <div><div className="eyebrow">FREE PRACTICE</div><h1>{drillDomainLabel(selectedDomain)}</h1></div>
+          <div><div className="eyebrow">{activeItem.sourcePhase==='retention'?'RETENTION':'FREE PRACTICE'}</div><h1>{drillDomainLabel(selectedDomain)}</h1></div>
           <button type="button" onClick={closeDrillLibraryItem}>← 類題一覧</button>
         </header>
         <div className="drillLibraryNotice"><b>自由練習</b><span>回答履歴は保存しますが、過去問の得点・答案・初見判定は変更しません。</span></div>
         <section className="trainingStageHead">
-          <div><div className="eyebrow">{activeItem.passage?'本文あり':'短問'}</div><h2>類題 {activeItem.number||activeIndex+1} / {baseItems.length}</h2></div>
+          <div><div className="eyebrow">{activeItem.passage?'本文あり':'短問'}</div><h2>{activeItem.sourcePhase==='retention'?'翌日の定着確認':`類題 ${activeItem.number||activeIndex+1} / ${baseItems.length}`}</h2></div>
           <div className="trainingCounter">累計 {lifetimePracticeStats.get(activeItem.id)?.attempts||0}回答</div>
         </section>
         <section className={'trainingQuestionLayout '+(!activeItem.passage?'noPassage':'')}>
           {activeItem.passage&&<article className="card passagePanel">
             <div className="passageMeta"><span>{activeItem.passage.genre}</span><small>本文</small></div>
-            <p>{activeItem.passage.text}</p>
+            <p>{activeItem.passage.text}</p><PracticePassage item={activeItem}/>
           </article>}
           <article className="card focusedDrillCard">
             <div className="drillQuestionTags"><span>{drillDomainLabel(selectedDomain)}</span><small>{activeItem.passage?.genre||'知識確認'}・{activeItem.practiceType||activeItem.phase}</small></div>
@@ -1481,7 +1486,7 @@ function App(){
                 ?<button type="button" className="primary" disabled={answerMissing||busy} onClick={()=>submitDrillLibraryAnswer(activeItem)}>{busy?'保存中…':'答えを確定'}</button>
                 :drillLibraryFeedback.pendingSelfAssessment?null:<>
                   <button type="button" onClick={closeDrillLibraryItem}>一覧に戻る</button>
-                  {nextItem&&<button type="button" className="primary" onClick={()=>openDrillLibraryItem(nextItem.id)}>次の問題 →</button>}
+                  {activeItem.sourcePhase==='retention'?<button type="button" className="primary" onClick={()=>setScreen('home')}>ホームで次の学習を確認</button>:nextItem&&<button type="button" className="primary" onClick={()=>openDrillLibraryItem(nextItem.id)}>次の問題 →</button>}
                 </>}
             </div>
           </article>
@@ -1548,7 +1553,7 @@ function App(){
       .sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt)))[0];
     const sourcePlan=repairPlanForYear(events,examKeyForStorage(trainingSourceYear));
     const sourceMisses=(sourceExam?.questionResults||[]).filter(q=>Math.max(0,Number(q.points||0)-Number(q.score||0))>0)
-      .filter(q=>trainingAllSkills.includes((q.reason==='選択肢処理'&&q.id?autoMissReason(q.id):q.reason)||(q.hasAutoSelection?autoMissReason(q.id):q.topic||'')));
+      .filter(q=>trainingAllSkills.includes(inferCause(q)));
     const phaseKey=trainingStage==='basic'?'basic':trainingStage==='transfer'?'transfer':null;
     const skill=phaseKey?trainingSession?.skills?.[trainingSkillIndex]:null;
     const phaseItems=phaseKey&&skill?(trainingSession?.bySkill?.[skill]?.[phaseKey]||[]):[];
@@ -1606,7 +1611,7 @@ function App(){
         </div>
         {sourceMisses.length>0&&<div className="sourceMissList">
           <b>該当する元問題と解説</b>
-          {sourceMisses.slice(0,6).map(r=>{
+          {trainingAllSkills.flatMap(skill=>sourceMisses.filter(q=>inferCause(q)===skill).slice(0,2)).slice(0,6).map(r=>{
             const q=pManifest?.years?.[String(trainingSourceYear)]?.questions?.find(x=>x.id===r.id)||r;
             const rule=aManifest?.years?.[String(trainingSourceYear)]?.grading?.[r.id];
             return <ReviewCard key={r.id} q={q} result={{...r,year:trainingSourceYear}} rule={rule} review={aManifest?.years?.[String(trainingSourceYear)]?.review?.[r.id]}
@@ -1645,7 +1650,7 @@ function App(){
         <section className={'trainingQuestionLayout '+(!activeItem.passage?'noPassage':'')}>
           {activeItem.passage&&<article className="card passagePanel">
             <div className="passageMeta"><span>{activeItem.passage.genre}</span><small>本文</small></div>
-            <p>{activeItem.passage.text}</p>
+            <p>{activeItem.passage.text}</p><PracticePassage item={activeItem}/>
           </article>}
           <article className="card focusedDrillCard">
             {trainingStage!=='mixed'&&<div className="drillSkillTag">{skill}</div>}

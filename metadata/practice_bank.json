@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentSet": "rikkyo-original-practice-20260925-v3",
-  "status": "CONTENT_REVIEW_PENDING_ENGINE_INTEGRATION",
+  "status": "REVIEWED_SHARED_ENGINE_INTEGRATED",
   "origin": "NEW_APP_AUTHORED_NOT_RECOVERED",
   "referenceBankRecovered": false,
   "holdoutSourceUsed": false,
@@ -12,7 +12,7 @@
     "reuseInInitialTraining": false
   },
   "contentReview": {
-    "status": "ANSWER_REVIEWED_PEDAGOGY_QA_PENDING",
+    "status": "175_ANSWERS_PASSAGES_RUBRICS_REVIEWED",
     "correctedItemIds": [
       "RUK-ORIGINAL-L04-02",
       "RUK-ORIGINAL-L04-06",
@@ -24,7 +24,7 @@
       "RUK-ORIGINAL-E06-01",
       "RUK-ORIGINAL-E06-07"
     ],
-    "remaining": "Detailed distractor feedback, source-demand routing and end-to-end STEP/retention QA."
+    "remaining": "Long-term educational effectiveness has not been measured. Detailed demand coverage and limits: docs/practice-coverage-review.md."
   },
   "units": [
     {
@@ -80,9 +80,13 @@
           "passage": "参加するイシがあるか、全員に確かめる。",
           "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
           "responseType": "text",
-          "explanation": "文の中の意味に合う表記・読みは「意思」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "explanation": "参加しようという考えは一般に「意思」。参加を決めた強い意志とも読めるため、この短い文では「意志」も許容する。「医師」「遺志」とは区別する。",
           "origin": "APP_AUTHORED",
-          "answer": "意思"
+          "answer": "意思",
+          "acceptableAnswers": [
+            "意思",
+            "意志"
+          ]
         },
         {
           "id": "RUK-ORIGINAL-K01-04",

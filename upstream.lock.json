@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
   "upstreamRepository": "FYam8/waseshibu-source",
-  "upstreamCommit": "006983492786be86ad3f80c94e0cf3d34a0f33ac",
+  "upstreamCommit": "3b244d7abd2f53acfa335ef55a40229d6a7ae263",
   "subjectId": "kokugo",
   "updatePolicy": "test-before-promote",
-  "candidateUpstreamCommit": "45365156145279b3168f706744aaf9d585701c54",
-  "candidateStatus": "PENDING_FULL_UPSTREAM_REGRESSION_AND_DOWNSTREAM_QA"
+  "candidateUpstreamCommit": "3b244d7abd2f53acfa335ef55a40229d6a7ae263",
+  "candidateStatus": "PROMOTED_AFTER_UPSTREAM_AND_DOWNSTREAM_QA",
+  "upstreamValidationRun": 36190612232
 }

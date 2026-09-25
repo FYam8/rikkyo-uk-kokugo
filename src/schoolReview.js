@@ -1,3 +1,4 @@
+import {displayAnswer} from './answerUi.js';
 import {reviewPriority} from './reviewEngine.js';
 const text=value=>Array.isArray(value)?value.map(text).join(' / '):value&&typeof value==='object'?Object.values(value).map(text).join(' / '):String(value??'');
 export function schoolModelText(record){
@@ -19,7 +20,7 @@ export function buildSchoolReview({question,result,rule,totalScore,review},profi
   conclusion:model?`答案例（アプリ作成・非公式）：${model}`:'正答は確認中のため採点しません。',
   source:`問題冊子 ${review?.sourceEvidence?.sourcePages?.join('・')||question.page}ページ。${evidence||''}`,
   method:elements.length?'必要要素を本文へ戻して確認し、主語・理由・字数をそろえて答える。':'まず設問の指定を確認し、本文の根拠と答案を照合する。',
-  wrong:`自分の答案：${result.answer||'未回答'}。答案例と根拠を照合する。`,
+  wrong:`自分の答案：${displayAnswer(result.answer,question.answerFormat)||'未回答'}。答案例と根拠を照合する。`,
   errorFix:'誤答だけから原因を断定せず、違っている箇所を本文に戻って確認する。',
   replay:profile?.replay||'解説を閉じて、元の設問をもう一度解く。',
   elementChecks:elements.map((x,i)=>({label:String(i+1),text:x,status:'自己照合'})),officialModel:model,

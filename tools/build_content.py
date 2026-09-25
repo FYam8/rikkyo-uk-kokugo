@@ -38,7 +38,7 @@ for exam in registry['exams']:
  manifest['years'][eid]={'questions':questions,'sectionStarts':starts,'problemPages':pages,'partial':eid=='FY24-B','notice':'大問I・IIは原本で省略されています。完全試験・診断には使いません。' if eid=='FY24-B' else ''}
  filename='answers-'+eid+'.json';answerFiles[eid]=filename;write(out/filename,{'years':{eid:{'grading':grading,'review':review,'answerPages':[]}}})
 write(out/'problems.json',manifest)
-meta={'contentVersion':version,'problemManifest':'problems.json','problemManifestSha256':sha(out/'problems.json'),'answerManifests':answerFiles,'gradingSha256':sha(ROOT/'metadata/answer_authority.json'),'scoringSha256':sha(ROOT/'metadata/scoring_strategy.json'),'releaseStatus':'HOLD','officialAnswers':False}
+meta={'contentVersion':version,'problemManifest':'problems.json','problemManifestSha256':sha(out/'problems.json'),'answerManifests':answerFiles,'gradingSha256':sha(ROOT/'metadata/answer_authority.json'),'scoringSha256':sha(ROOT/'metadata/scoring_strategy.json'),'releaseStatus':'PRODUCTION_CANDIDATE','officialAnswers':False}
 write(out/'version.json',meta);write(ROOT/'public/content/current.json',meta)
 # Profiles contain demands and input conditions only; answer evidence is fetched after submission.
 (ROOT/'src/reviewProfiles.js').write_text('const profiles='+json.dumps(profiles,ensure_ascii=False)+';\nexport const getReviewProfile=id=>profiles[id]||null;\n')

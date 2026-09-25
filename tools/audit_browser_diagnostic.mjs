@@ -2,8 +2,8 @@ import http from 'node:http';import fs from 'node:fs';import path from 'node:pat
 const root=process.env.QA_DIST||'dist';const server=http.createServer((req,res)=>{let file=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(req.url==='/')file+='/index.html';try{let ext=path.extname(file);res.setHeader('Content-Type',({'.js':'text/javascript','.css':'text/css','.json':'application/json','.html':'text/html','.webp':'image/webp'})[ext]||'application/octet-stream');res.end(fs.readFileSync(file));}catch{res.statusCode=404;res.end();}});await new Promise(r=>server.listen(4173,'127.0.0.1',r));
 import {chromium} from 'playwright';
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
-try{for(const width of [1280,390]){
- const page=await browser.newPage({viewport:{width,height:900}});const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));page.on('dialog',d=>d.accept());
+try{for(const width of (process.env.QA_WIDTHS||'1280,390').split(',').map(Number)){
+ const page=await browser.newPage({viewport:{width,height:900},isMobile:width===390,hasTouch:width===390});const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));page.on('dialog',d=>d.accept());
  await page.goto('http://127.0.0.1:4173');await page.getByRole('button',{name:'FY25 A日程を始める'}).click();
  await page.getByRole('textbox',{name:'解答',exact:true}).fill('器官');await page.waitForTimeout(400);await page.reload();await page.getByRole('button',{name:'続きから解く'}).click();if(await page.getByRole('textbox',{name:'解答',exact:true}).inputValue()!=='器官')throw Error('Resume lost text');
  // Visit every diagnostic question and operate every visible response field.

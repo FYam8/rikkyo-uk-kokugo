@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "candidate-not-runtime-config",
+  "status": "adopted-runtime-route",
   "examKeys": [
     "FY24-A",
     "FY24-B",
@@ -55,5 +55,7 @@
       "status": "app-strategy",
       "note": "Stretch target for learning stability; not a school cutoff."
     }
-  }
+  },
+  "reviewedAt": "2026-09-25",
+  "evaluationLimit": "FY26-B has 29 scorable parents and one excluded REVIEW_REQUIRED parent. This is not an official full-paper mark."
 }

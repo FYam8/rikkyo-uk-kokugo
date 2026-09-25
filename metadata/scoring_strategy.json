@@ -6,7 +6,8 @@
     "passingGuide": {
       "valuePercent": 60,
       "source": "https://www.rikkyo.co.uk/faq/",
-      "status": "official-guidance"
+      "status": "official-guidance",
+      "verifiedAt": "2026-09-25"
     },
     "note": "The school describes about 60% correct on past papers as a guide; official question point weights are not available in the supplied source set."
   },
@@ -35,7 +36,8 @@
       "partRule": "For a parent question with multiple objectively scorable parts, parent credit is correctParts/partCount.",
       "writtenRule": "Written/diagram items use the verified rubric to award a 0..1 parent fraction; no official partial-credit claim is made.",
       "displayFormula": "round(100 * earnedParentCredit / 33, 1)",
-      "officialScoreClaim": false
+      "officialScoreClaim": false,
+      "runtimeEnabled": true
     },
     "FY25-B": {
       "verifiedParentQuestions": 30,
@@ -44,7 +46,8 @@
       "partRule": "For a parent question with multiple objectively scorable parts, parent credit is correctParts/partCount.",
       "writtenRule": "Written/table items use the verified rubric to award a 0..1 parent fraction; no official partial-credit claim is made.",
       "displayFormula": "round(100 * earnedParentCredit / 30, 1)",
-      "officialScoreClaim": false
+      "officialScoreClaim": false,
+      "runtimeEnabled": true
     },
     "FY24-A": {
       "verifiedParentQuestions": 23,
@@ -53,7 +56,7 @@
       "reviewRequiredExcluded": true,
       "displayFormula": "round(100 * earnedParentCredit / 23, 1)",
       "officialScoreClaim": false,
-      "runtimeEnabled": false,
+      "runtimeEnabled": true,
       "partialBooklet": false
     },
     "FY24-B": {
@@ -63,7 +66,7 @@
       "reviewRequiredExcluded": true,
       "displayFormula": "round(100 * earnedParentCredit / 3, 1)",
       "officialScoreClaim": false,
-      "runtimeEnabled": false,
+      "runtimeEnabled": true,
       "partialBooklet": true
     },
     "FY26-A": {
@@ -73,7 +76,7 @@
       "reviewRequiredExcluded": true,
       "displayFormula": "round(100 * earnedParentCredit / 23, 1)",
       "officialScoreClaim": false,
-      "runtimeEnabled": false,
+      "runtimeEnabled": true,
       "partialBooklet": false
     },
     "FY26-B": {
@@ -83,7 +86,7 @@
       "reviewRequiredExcluded": true,
       "displayFormula": "round(100 * earnedParentCredit / 29, 1)",
       "officialScoreClaim": false,
-      "runtimeEnabled": false,
+      "runtimeEnabled": true,
       "partialBooklet": false
     }
   },

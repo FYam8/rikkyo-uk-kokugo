@@ -42,3 +42,7 @@ Practice Bank was not recovered from the accessible searches. No replacement
 bank was authored in this checkpoint. See `review-20260925.md` for search scope,
 the three confirmed reference discrepancies and the 79 provisional review
 records. Neither those records nor the reference PDF are verified scoring data.
+
+## Final integration update — 2026-09-25
+
+The preceding sections are historical checkpoints. The current answer audit is **141 verified / 1 review-required**, with the original 63 records and 142 IDs preserved. Four candidate-PDF answers were corrected after source review; see `authority_review_20260925.json`. The historical bank remains unrecovered. A **new app-authored** 24-unit / 175-item bank is now integrated through the shared engine. Its scope and limits are documented in `practice-coverage-review.md`. Release readiness is tracked only in `metadata/release_gate.json` and the two-loop evidence, not inferred from these historical notes.

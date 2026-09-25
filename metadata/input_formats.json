@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "SOURCE_REVIEWED_RUNTIME_QA_PENDING",
+  "status": "SOURCE_REVIEWED_142_BROWSER_INPUTS_PASS",
   "questions": {
     "FY24-A-I-Q01": {
       "kind": "parts",
