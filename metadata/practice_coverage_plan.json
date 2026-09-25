@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "coverage-plan-not-question-bank",
+  "status": "new-app-authored-bank-content-review-pending-integration",
   "recoveryPriority": "If the recorded v0.4 24-unit bank is recovered, preserve its stable IDs/content and map it before creating replacements.",
   "targetUnits": 24,
   "domains": [
@@ -59,5 +59,10 @@
     "TRANSFER_APPLICATION"
   ],
   "rule": "Special formats are coverage constraints inside the 24-unit bank where pedagogically appropriate; do not inflate counts merely to mirror one rare source question.",
-  "authority": "Original practice content may be app-authored, but must be labeled original and must not be presented as a past-paper or official answer."
+  "authority": "Original practice content may be app-authored, but must be labeled original and must not be presented as a past-paper or official answer.",
+  "bankPath": "metadata/practice_bank.json",
+  "actualUnits": 24,
+  "actualItems": 168,
+  "oldBankRecovered": false,
+  "retentionItems": 24
 }

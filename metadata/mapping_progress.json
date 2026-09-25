@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-25",
   "visibleParentQuestions": 142,
   "sourcePageMapped": 142,
   "responseTypeResolved": 142,
   "responseTypePending": 0,
-  "answerAuthorityResolved": 63,
-  "answerAuthorityPending": 79,
+  "answerAuthorityResolved": 141,
+  "answerAuthorityPending": 1,
   "copyrightOmittedSections": [
     "FY24-B-I",
     "FY24-B-II"
@@ -15,12 +15,13 @@
     "stableIds": "PASS",
     "sourcePageMapping": "PASS",
     "responseTypeMapping": "PASS",
-    "answerScoringAuthority": "FY25_A_AND_FY25_B_FULLY_VERIFIED",
-    "schoolLearningConfig": "PASS_FY25_A_B",
-    "sharedEngineBuild": "READY_FOR_FY25_A_B_SCHOOL_MODULES",
-    "publicDeploy": "HOLD",
+    "answerScoringAuthority": "PARTIAL_WITH_EXPLICIT_REVIEW_REQUIRED",
+    "schoolLearningConfig": "PASS_FIVE_EXAM_ROUTE_WITH_PARTIAL_FY24_B_EXTRA",
+    "sharedEngineBuild": "PASS_GENERATED_SHARED_ENGINE",
+    "publicDeploy": "CONTROLLED_BY_METADATA_RELEASE_GATE",
     "questionDemandMapping": "PASS"
   },
   "detailedDemandMapped": 142,
-  "detailedDemandPending": 0
+  "detailedDemandPending": 0,
+  "unavailableSectionCount": 2
 }

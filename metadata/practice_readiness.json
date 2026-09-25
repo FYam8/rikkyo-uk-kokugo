@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "status": "REVIEWED_CORE_SKILLS_WITH_DOCUMENTED_LIMITS",
+  "unitCount": 24,
+  "itemCount": 175,
+  "interpretation": "Declared unit tags are an inventory only. They do not certify that each item exercises each tagged skill, nor that drill progression can be completed without repetition.",
+  "observedSourceDemands": {
+    "AGRICULTURE_TERM": 1,
+    "ANTONYM": 1,
+    "ATTITUDE_CHANGE": 1,
+    "BIAS_CONCEPT": 2,
+    "BLANK_COMPLETION": 17,
+    "BODY_PART": 1,
+    "CAUSAL_EXPLANATION": 1,
+    "CHRONOLOGY": 2,
+    "COMPARISON": 1,
+    "CONCEPT_COMPARISON": 1,
+    "CONCEPT_DEFINITION": 1,
+    "CONCEPT_EXPLANATION": 4,
+    "CONCEPT_RELATION": 1,
+    "CONJUNCTION": 2,
+    "CONTENT_SELECTION": 28,
+    "CULTURAL_KNOWLEDGE": 1,
+    "DATA_INTERPRETATION": 1,
+    "DIAGRAM_COMPLETION": 1,
+    "DIALOGUE_COMPLETION": 1,
+    "DICTIONARY_USAGE": 1,
+    "EXAMPLE_IDENTIFICATION": 2,
+    "GRAMMAR": 3,
+    "GRAMMAR_PATTERN": 1,
+    "HISTORICAL_CAUSATION": 1,
+    "HOMOPHONE": 1,
+    "IDIOM": 2,
+    "KANJI": 47,
+    "LITERARY_CHARACTER": 19,
+    "LOGIC_RELATION": 8,
+    "METAPHOR_INTERPRETATION": 1,
+    "MIMETIC_WORD": 1,
+    "MULTI_SELECT": 1,
+    "NOTE_COMPLETION": 1,
+    "NUMERIC_INFORMATION": 1,
+    "ORDER": 1,
+    "PARAGRAPH_ROLE": 1,
+    "PARAGRAPH_STRUCTURE": 1,
+    "PARAPHRASE": 1,
+    "PART_OF_SPEECH": 1,
+    "PHRASE_INTERPRETATION": 8,
+    "REFERENCE_READING": 1,
+    "RELATIONSHIP_MAP": 2,
+    "SENTENCE_INSERTION": 1,
+    "TABLE_COMPLETION": 1,
+    "TEXT_EXTRACTION": 24,
+    "THEME": 1,
+    "THEME_SUMMARY": 3,
+    "TRANSFER_APPLICATION": 2,
+    "TRUE_FALSE": 1,
+    "VOCAB_CONTEXT": 19,
+    "WRITTEN_EXPLANATION": 17
+  },
+  "declaredTagPhaseCounts": {
+    "ANTONYM": {
+      "transfer": 1
+    },
+    "BLANK_COMPLETION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "CHRONOLOGY": {
+      "basic": 1
+    },
+    "CONCEPT_DEFINITION": {
+      "transfer": 1
+    },
+    "CONJUNCTION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "CONTENT_SELECTION": {
+      "basic": 26,
+      "transfer": 25,
+      "mixed": 12,
+      "retention": 12
+    },
+    "DATA_INTERPRETATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "DICTIONARY_USAGE": {
+      "transfer": 1
+    },
+    "GRAMMAR": {
+      "basic": 1,
+      "transfer": 1,
+      "retention": 1
+    },
+    "IDIOM": {
+      "basic": 1
+    },
+    "KANJI": {
+      "basic": 20,
+      "transfer": 30,
+      "mixed": 10,
+      "retention": 10
+    },
+    "LITERARY_CHARACTER": {
+      "basic": 13,
+      "transfer": 18,
+      "mixed": 6,
+      "retention": 6
+    },
+    "LOGIC_RELATION": {
+      "basic": 13,
+      "transfer": 18,
+      "mixed": 6,
+      "retention": 6
+    },
+    "METAPHOR_INTERPRETATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "MIMETIC_WORD": {
+      "mixed": 1
+    },
+    "MULTI_SELECT": {
+      "transfer": 13
+    },
+    "NUMERIC_INFORMATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "ORDER": {
+      "basic": 1
+    },
+    "PART_OF_SPEECH": {
+      "transfer": 1
+    },
+    "PHRASE_INTERPRETATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "SENTENCE_INSERTION": {
+      "mixed": 1
+    },
+    "TEXT_EXTRACTION": {
+      "basic": 2,
+      "transfer": 4,
+      "mixed": 2,
+      "retention": 2
+    },
+    "TRUE_FALSE": {
+      "retention": 1
+    },
+    "VOCAB_CONTEXT": {
+      "basic": 21,
+      "transfer": 31,
+      "mixed": 11,
+      "retention": 10
+    },
+    "WRITTEN_EXPLANATION": {
+      "transfer": 13
+    }
+  },
+  "actualResponseFormatPhaseCounts": {
+    "extraction": {
+      "basic": 2,
+      "transfer": 4,
+      "mixed": 2,
+      "retention": 2
+    },
+    "multi": {
+      "transfer": 13
+    },
+    "order": {
+      "basic": 1
+    },
+    "single": {
+      "basic": 27,
+      "transfer": 15,
+      "mixed": 13,
+      "retention": 12
+    },
+    "text": {
+      "basic": 20,
+      "transfer": 30,
+      "mixed": 10,
+      "retention": 10
+    },
+    "true-false": {
+      "retention": 1
+    },
+    "written": {
+      "transfer": 13
+    }
+  },
+  "demandsWithoutDirectTag": [
+    "AGRICULTURE_TERM",
+    "ATTITUDE_CHANGE",
+    "BIAS_CONCEPT",
+    "BODY_PART",
+    "CAUSAL_EXPLANATION",
+    "COMPARISON",
+    "CONCEPT_COMPARISON",
+    "CONCEPT_EXPLANATION",
+    "CONCEPT_RELATION",
+    "CULTURAL_KNOWLEDGE",
+    "DIAGRAM_COMPLETION",
+    "DIALOGUE_COMPLETION",
+    "EXAMPLE_IDENTIFICATION",
+    "GRAMMAR_PATTERN",
+    "HISTORICAL_CAUSATION",
+    "HOMOPHONE",
+    "NOTE_COMPLETION",
+    "PARAGRAPH_ROLE",
+    "PARAGRAPH_STRUCTURE",
+    "PARAPHRASE",
+    "REFERENCE_READING",
+    "RELATIONSHIP_MAP",
+    "TABLE_COMPLETION",
+    "THEME",
+    "THEME_SUMMARY",
+    "TRANSFER_APPLICATION"
+  ],
+  "coverageReview": "docs/practice-coverage-review.md",
+  "remainingGates": [
+    "Controlled by metadata/release_gate.json and fingerprint-bound CLEAN evidence"
+  ],
+  "limitations": [
+    "No distinct practice for every fine-grained source tag",
+    "No measured admission or score-improvement outcome",
+    "Some retention strands reuse a reserved item on later days"
+  ]
+}

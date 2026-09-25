@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "reviewBatch": "20260925-fresh-source-recheck",
+  "reviewer": "same-model, separate fresh source pass; not two humans",
+  "sourcePages": {
+    "FY24-A-I": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "FY24-A-II": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "FY24-A-III": [
+      12
+    ],
+    "FY24-B-III": [
+      5
+    ],
+    "FY24-B-IV": [
+      6
+    ],
+    "FY26-A-I": [
+      3
+    ],
+    "FY26-A-II": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "FY26-A-III": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "FY26-B-I": [
+      3
+    ],
+    "FY26-B-II": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "FY26-B-III": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "verifiedAdditions": [
+    "FY24-A-I-Q01",
+    "FY24-A-I-Q02",
+    "FY24-A-I-Q03",
+    "FY24-A-I-Q04",
+    "FY24-A-I-Q05",
+    "FY24-A-I-Q06",
+    "FY24-A-I-Q07",
+    "FY24-A-I-Q08",
+    "FY24-A-I-Q09",
+    "FY24-A-I-Q10",
+    "FY24-A-II-Q01",
+    "FY24-A-II-Q02",
+    "FY24-A-II-Q03",
+    "FY24-A-II-Q04",
+    "FY24-A-II-Q05",
+    "FY24-A-II-Q06",
+    "FY24-A-II-Q07",
+    "FY24-A-II-Q08",
+    "FY24-A-II-Q09",
+    "FY24-A-II-Q10",
+    "FY24-A-II-Q11",
+    "FY24-A-III-Q01",
+    "FY24-A-III-Q02",
+    "FY24-B-III-Q01",
+    "FY24-B-III-Q02",
+    "FY26-A-I-Q01",
+    "FY26-A-I-Q02",
+    "FY26-A-II-Q01",
+    "FY26-A-II-Q02",
+    "FY26-A-II-Q03",
+    "FY26-A-II-Q04",
+    "FY26-A-II-Q05",
+    "FY26-A-II-Q06",
+    "FY26-A-II-Q07",
+    "FY26-A-II-Q08",
+    "FY26-A-II-Q09",
+    "FY26-A-II-Q10",
+    "FY26-A-II-Q11",
+    "FY26-A-II-Q12",
+    "FY26-A-II-Q13",
+    "FY26-A-III-Q01",
+    "FY26-A-III-Q02",
+    "FY26-A-III-Q03",
+    "FY26-A-III-Q04",
+    "FY26-A-III-Q05",
+    "FY26-A-III-Q06",
+    "FY26-A-III-Q07",
+    "FY26-A-III-Q08",
+    "FY26-B-I-Q01",
+    "FY26-B-I-Q02",
+    "FY26-B-I-Q03",
+    "FY26-B-I-Q04",
+    "FY26-B-I-Q05",
+    "FY26-B-I-Q06",
+    "FY26-B-I-Q07",
+    "FY26-B-I-Q08",
+    "FY26-B-I-Q09",
+    "FY26-B-I-Q10",
+    "FY26-B-II-Q01",
+    "FY26-B-II-Q02",
+    "FY26-B-II-Q03",
+    "FY26-B-II-Q04",
+    "FY26-B-II-Q05",
+    "FY26-B-II-Q06",
+    "FY26-B-II-Q07",
+    "FY26-B-II-Q08",
+    "FY26-B-II-Q09",
+    "FY26-B-II-Q10",
+    "FY26-B-III-Q02",
+    "FY26-B-III-Q03",
+    "FY26-B-III-Q04",
+    "FY26-B-III-Q05",
+    "FY26-B-III-Q06",
+    "FY26-B-III-Q07",
+    "FY26-B-III-Q08",
+    "FY26-B-III-Q09",
+    "FY26-B-III-Q10",
+    "FY24-B-IV-Q01"
+  ],
+  "remainingReview": [
+    "FY26-B-III-Q01"
+  ],
+  "referenceCorrections": [
+    {
+      "questionId": "FY24-A-II-Q01",
+      "from": "イ",
+      "to": "ウ",
+      "reason": "対照の選択肢記号はウ。イは対称。"
+    },
+    {
+      "questionId": "FY24-A-II-Q02",
+      "from": "c",
+      "to": "b",
+      "reason": "原本の接続を再分析。a/cは動詞未然形に接続、bはではなく。"
+    },
+    {
+      "questionId": "FY26-A-II-Q03",
+      "from": [
+        "イ",
+        "ア",
+        "エ"
+      ],
+      "to": [
+        "ウ",
+        "ア",
+        "エ"
+      ],
+      "reason": "不穏の意味はウ「おだやかでないこと」。"
+    },
+    {
+      "questionId": "FY26-B-III-Q07",
+      "from": "価値観",
+      "to": "基準",
+      "reason": "原本は漢字二字指定。本文の美の基準と対応。"
+    }
+  ]
+}

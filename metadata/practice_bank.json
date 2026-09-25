@@ -1,0 +1,6092 @@
+{
+  "schemaVersion": 1,
+  "contentSet": "rikkyo-original-practice-20260925-v3",
+  "status": "REVIEWED_SHARED_ENGINE_INTEGRATED",
+  "origin": "NEW_APP_AUTHORED_NOT_RECOVERED",
+  "referenceBankRecovered": false,
+  "holdoutSourceUsed": false,
+  "unitCount": 24,
+  "itemCount": 175,
+  "retentionPolicy": {
+    "minimumDelayHours": 24,
+    "reuseInInitialTraining": false
+  },
+  "contentReview": {
+    "status": "175_ANSWERS_PASSAGES_RUBRICS_REVIEWED",
+    "correctedItemIds": [
+      "RUK-ORIGINAL-L04-02",
+      "RUK-ORIGINAL-L04-06",
+      "RUK-ORIGINAL-L04-07",
+      "RUK-ORIGINAL-E06-02",
+      "RUK-ORIGINAL-E05-04",
+      "RUK-ORIGINAL-E05-06",
+      "RUK-ORIGINAL-K02-04",
+      "RUK-ORIGINAL-E06-01",
+      "RUK-ORIGINAL-E06-07"
+    ],
+    "remaining": "Long-term educational effectiveness has not been measured. Detailed demand coverage and limits: docs/practice-coverage-review.md."
+  },
+  "units": [
+    {
+      "id": "RUK-ORIGINAL-K01",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "文脈で同音語を選ぶ",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K01-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "将来は人の命を救うイシになりたい。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「医師」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "医師"
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "最後までやり抜くイシを固める。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「意志」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "意志"
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "参加するイシがあるか、全員に確かめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "参加しようという考えは一般に「意思」。参加を決めた強い意志とも読めるため、この短い文では「意志」も許容する。「医師」「遺志」とは区別する。",
+          "origin": "APP_AUTHORED",
+          "answer": "意思",
+          "acceptableAnswers": [
+            "意思",
+            "意志"
+          ]
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "亡くなった研究者のイシを継ぐ。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「遺志」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "遺志"
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "会議でイギを申し立てた。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「異議」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "異議"
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "地域の歴史を調べるイギを考える。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「意義」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "意義"
+        },
+        {
+          "id": "RUK-ORIGINAL-K01-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "先生の話にイロンを述べる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「異論」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "異論"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K02",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "動作に合う漢字を書く",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K02-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "駅で友人とワカれる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「別」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "別"
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "細い道が二本にワカれる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「分」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "分"
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "授業料を期限までにオサめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「納」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "納"
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "注文された品物を取引先にオサめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "注文された品物を相手へ引き渡す意味なので「納める」。カタカナ部分だけを答えるため、解答は「納」。",
+          "origin": "APP_AUTHORED",
+          "answer": "納",
+          "references": [
+            "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_12.pdf"
+          ]
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "争いをオサめるため話し合う。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「収」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "収"
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "祭りの様子を写真にオサめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「収」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "収"
+        },
+        {
+          "id": "RUK-ORIGINAL-K02-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "税金をオサめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「納」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "納"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K03",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "説明文で使う熟語",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K03-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "二つの実験結果をヒカクする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「比較」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "比較"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "調査のタイショウを中学生にしぼる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「対象」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "対象"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "道具のトクチョウを三つ挙げる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「特徴」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "特徴"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "材料を同じジョウケンで加熱する。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「条件」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "条件"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "予測を実験でケンショウする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「検証」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "検証"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "結果をグタイ的な数値で示す。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「具体」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "具体"
+        },
+        {
+          "id": "RUK-ORIGINAL-K03-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "結論のコンキョを示す。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「根拠」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "根拠"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K04",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "人の気持ちを表す語",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K04-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "友人の成功をスナオに喜ぶ。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「素直」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "素直"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "知らない街でコドクを感じる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「孤独」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "孤独"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "失敗を他人のせいにしたことをハンセイする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「反省」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "反省"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "救助を待つ人々をゲキレイする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「激励」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "激励"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "計画が中止になりザンネンに思う。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「残念」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "残念"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "相手へのハイリョを忘れない。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「配慮」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "配慮"
+        },
+        {
+          "id": "RUK-ORIGINAL-K04-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "予想外の再会にカンゲキする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「感激」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "感激"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K05",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "社会や暮らしの語",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K05-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "町のケイカンを守る。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「景観」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "景観"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "水をムダにしない。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「無駄」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "無駄"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "災害に備えて食料をビチクする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「備蓄」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "備蓄"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "品物の品質をホショウする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「保証」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "保証"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "事故で生じた損失をホショウする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「補償」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "補償"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "最低限の生活をホショウする制度。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「保障」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "保障"
+        },
+        {
+          "id": "RUK-ORIGINAL-K05-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "古い建物をホゼンする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「保全」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "保全"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K06",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "身近な語を正確に読む",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K06-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "朝の空気は清々しい。",
+          "prompt": "「清々」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「すがすが」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "すがすが"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "急な変更に戸惑う。",
+          "prompt": "「戸惑」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「とまど」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "とまど"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "荷物を慎重に運ぶ。",
+          "prompt": "「慎重」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「しんちょう」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "しんちょう"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "料理の手順を省く。",
+          "prompt": "「省」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「はぶ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "はぶ"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "船が港に停泊する。",
+          "prompt": "「停泊」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「ていはく」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "ていはく"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "調査を丹念に続ける。",
+          "prompt": "「丹念」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「たんねん」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "たんねん"
+        },
+        {
+          "id": "RUK-ORIGINAL-K06-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "静かな部屋で憩う。",
+          "prompt": "「憩」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「いこ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "いこ"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K07",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "自然・科学の語を読む",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K07-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "冬には湖面が凍結する。",
+          "prompt": "「凍結」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「とうけつ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "とうけつ"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "斜面の土が崩れる。",
+          "prompt": "「崩」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「くず」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "くず"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "観測を継続する。",
+          "prompt": "「継続」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「けいぞく」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "けいぞく"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "温度差が顕著になる。",
+          "prompt": "「顕著」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「けんちょ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "けんちょ"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "現象の原因を究明する。",
+          "prompt": "「究明」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「きゅうめい」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "きゅうめい"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "小さな変化を捉える。",
+          "prompt": "「捉」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「とら」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "とら"
+        },
+        {
+          "id": "RUK-ORIGINAL-K07-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "材料の性質を吟味する。",
+          "prompt": "「吟味」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「ぎんみ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "ぎんみ"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K08",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "読解で役立つ語を読む",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K08-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "文章の概要をつかむ。",
+          "prompt": "「概要」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「がいよう」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "がいよう"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "説明の矛盾を指摘する。",
+          "prompt": "「矛盾」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「むじゅん」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "むじゅん"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "計画を柔軟に見直す。",
+          "prompt": "「柔軟」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「じゅうなん」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "じゅうなん"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "複数の条件を考慮する。",
+          "prompt": "「考慮」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「こうりょ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "こうりょ"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "主張を簡潔にまとめる。",
+          "prompt": "「簡潔」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「かんけつ」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "かんけつ"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "相手の意図を推測する。",
+          "prompt": "「意図」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「いと」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "いと"
+        },
+        {
+          "id": "RUK-ORIGINAL-K08-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "結果を慎重に解釈する。",
+          "prompt": "「解釈」の読みをひらがなで書こう。送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「かいしゃく」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "かいしゃく"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K09",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "言葉の意味・文の組み立てを確かめる",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT",
+        "GRAMMAR",
+        "IDIOM",
+        "PART_OF_SPEECH",
+        "DICTIONARY_USAGE",
+        "ANTONYM",
+        "CONCEPT_DEFINITION",
+        "MIMETIC_WORD"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K09-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "短所だけで人をヒハンしない。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「批判」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "批判"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "問題点をシテキする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「指摘」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "指摘"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "失敗からキョウクンを得る。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「教訓」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "教訓"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "新しい視点からブンセキする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「分析」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "分析"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "十分な根拠なしにダンテイしない。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「断定」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "断定"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "話し合いでゴウイを得る。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「合意」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "合意"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "違いをソンチョウする。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「尊重」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "尊重"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-08",
+          "revision": 1,
+          "phase": "basic",
+          "skills": [
+            "GRAMMAR"
+          ],
+          "passage": "白い雲がゆっくり東へ流れる。",
+          "prompt": "主語と述語の文節の組合せを選ぼう。",
+          "options": [
+            {
+              "id": "1",
+              "text": "白い―流れる"
+            },
+            {
+              "id": "2",
+              "text": "雲が―流れる"
+            },
+            {
+              "id": "3",
+              "text": "ゆっくり―東へ"
+            },
+            {
+              "id": "4",
+              "text": "東へ―雲が"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "何がどうするかを探すと「雲が流れる」。白いは雲への修飾、ゆっくりと東へは流れるへの修飾。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-09",
+          "revision": 1,
+          "phase": "basic",
+          "skills": [
+            "IDIOM",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "遠足の帰り、なくしたと思った財布が鞄の底から見つかり、玲は胸をなで下ろした。",
+          "prompt": "胸をなで下ろした気持ちとして適切なのは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "怒りが強まった"
+            },
+            {
+              "id": "2",
+              "text": "安心した"
+            },
+            {
+              "id": "3",
+              "text": "得意になった"
+            },
+            {
+              "id": "4",
+              "text": "疑いを深めた"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "心配していた財布が見つかったため安心した。胸をなで下ろすは安堵を表し、怒り・自慢・疑念を意味しない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-10",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "GRAMMAR",
+            "PART_OF_SPEECH"
+          ],
+          "passage": "①冷たい水を飲む。②水は冷たい。",
+          "prompt": "①②の「冷たい」の品詞として正しいものは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "①形容詞・②形容詞"
+            },
+            {
+              "id": "2",
+              "text": "①名詞・②動詞"
+            },
+            {
+              "id": "3",
+              "text": "①副詞・②名詞"
+            },
+            {
+              "id": "4",
+              "text": "①動詞・②副詞"
+            }
+          ],
+          "answer": "1",
+          "responseType": "single",
+          "explanation": "どちらも性質を表し、言い切りが「い」の形容詞。①は水を修飾し、②は述語になっているが、文中の役割が違っても品詞は変わらない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-11",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "DICTIONARY_USAGE",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "【学習用の語義】通る：①ある場所を移動する。②音や声が遠くまではっきり届く。\n体育館で舞台係が「後ろの席まで声が通るように話そう」と呼びかけた。",
+          "prompt": "本文での意味と根拠として正しい組合せは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "①―人が後ろの席へ歩くから"
+            },
+            {
+              "id": "2",
+              "text": "②―声が離れた席にも聞こえるようにするから"
+            },
+            {
+              "id": "3",
+              "text": "①―声には必ず歩く力があるから"
+            },
+            {
+              "id": "4",
+              "text": "②―後ろの席をなくすから"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "「通る」の主語は人ではなく声。遠い席まで音が届く意味②に合う。席へ歩く行動や席をなくす話は示されていない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-12",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "ANTONYM",
+            "CONCEPT_DEFINITION"
+          ],
+          "passage": "「果物」は、りんごやみかんに共通する性質をまとめた言葉だ。種類の違いをいったん取り去り、共通点に注目して考えている。",
+          "prompt": "この説明の「具体的」と対になる考え方を表す語は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "時間的"
+            },
+            {
+              "id": "2",
+              "text": "形式的"
+            },
+            {
+              "id": "3",
+              "text": "抽象的"
+            },
+            {
+              "id": "4",
+              "text": "個別的"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "個々の具体例から共通する性質を取り出すのが抽象化。「時間的」は時間、「形式的」は形式、「個別的」は一つ一つの対象に関わる語。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-13",
+          "revision": 1,
+          "phase": "mixed",
+          "skills": [
+            "MIMETIC_WORD",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "帰り道、雨がぽつぽつ降り始めた。まだ地面の乾いた部分が多く残っていた。",
+          "prompt": "ぽつぽつが表す降り方は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "激しく連続して降る"
+            },
+            {
+              "id": "2",
+              "text": "大きな音を立てて吹き付ける"
+            },
+            {
+              "id": "3",
+              "text": "少しずつ間を置いて降る"
+            },
+            {
+              "id": "4",
+              "text": "すでに完全にやんでいる"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "「降り始め」「乾いた部分が多い」と合わせると、小さな雨粒が間を置いて落ちる様子。激しい連続的な雨や止んだ状態とは違う。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-14",
+          "revision": 1,
+          "phase": "retention",
+          "skills": [
+            "GRAMMAR"
+          ],
+          "passage": "風で窓が急に閉まった。机の上の紙が少し動いた。",
+          "prompt": "最初の文の「急に」が直接修飾する文節は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "風で"
+            },
+            {
+              "id": "2",
+              "text": "窓が"
+            },
+            {
+              "id": "3",
+              "text": "閉まった"
+            },
+            {
+              "id": "4",
+              "text": "紙が"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "「急に」は閉まり方を表し、閉まったを修飾する。窓という物の性質ではなく動きの様子であり、次の文の紙がにもかからない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-K10",
+      "revision": 3,
+      "domain": "kanji",
+      "title": "送り仮名を確かめる",
+      "skills": [
+        "KANJI",
+        "VOCAB_CONTEXT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-K10-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "新しい計画をクワダてる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「企」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "企"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "責任をハたす。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「果」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "果"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "成功の喜びをアジわう。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「味」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "味"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "友人の申し出をコトワる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「断」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "断"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "担当者に事実をタズねる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「尋」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "尋"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "夜の街の様子をエガく。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「描」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "描"
+        },
+        {
+          "id": "RUK-ORIGINAL-K10-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "KANJI",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "意見の違いをミトめる。",
+          "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
+          "responseType": "text",
+          "explanation": "文の中の意味に合う表記・読みは「認」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "origin": "APP_AUTHORED",
+          "answer": "認"
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L01",
+      "revision": 3,
+      "domain": "literary",
+      "title": "人物の気持ち・変化",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L01-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "合唱の練習で、葵は手を挙げかけて下ろした。前の練習で意見を笑われたことを思い出したのだ。隣の澪が「さっきの案、もう一度聞きたい」と言うと、葵は折り畳んでいた楽譜を開いた。",
+          "prompt": "最初に手を下ろした主な理由は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「また笑われるのが不安だから」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "歌詞を忘れたから"
+            },
+            {
+              "id": "2",
+              "text": "また笑われるのが不安だから"
+            },
+            {
+              "id": "3",
+              "text": "澪の案に賛成だから"
+            },
+            {
+              "id": "4",
+              "text": "練習が終わったから"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "合唱の練習で、葵は手を挙げかけて下ろした。前の練習で意見を笑われたことを思い出したのだ。隣の澪が「さっきの案、もう一度聞きたい」と言うと、葵は折り畳んでいた楽譜を開いた。",
+          "prompt": "楽譜を開いた行動から読み取れる変化は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「話してみようという気持ちが生まれた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "話してみようという気持ちが生まれた"
+            },
+            {
+              "id": "2",
+              "text": "歌が嫌いになった"
+            },
+            {
+              "id": "3",
+              "text": "自分の案を捨てた"
+            },
+            {
+              "id": "4",
+              "text": "澪を疑い始めた"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
+          "prompt": "支柱を直し始めた理由として最も適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「作品を完成させる気持ちを取り戻した」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "弟に命令された"
+            },
+            {
+              "id": "2",
+              "text": "捨てる準備をした"
+            },
+            {
+              "id": "3",
+              "text": "作品を完成させる気持ちを取り戻した"
+            },
+            {
+              "id": "4",
+              "text": "箱が壊れた"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
+          "prompt": "陸の気持ちの変化を、弟の言葉と結び付けて説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "自信を失っていたが、弟に帆を褒められ、作品を完成させようという意欲が戻った。",
+          "rubric": {
+            "requiredElements": [
+              "初めは作品に自信がない",
+              "弟の肯定的な言葉",
+              "制作意欲の回復"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
+          "prompt": "本文で直接確認できる行動を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは箱のふたを閉めなかった、折れた支柱を直した。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "箱のふたを閉めなかった"
+            },
+            {
+              "id": "2",
+              "text": "船を捨てた"
+            },
+            {
+              "id": "3",
+              "text": "折れた支柱を直した"
+            },
+            {
+              "id": "4",
+              "text": "弟に船を渡した"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "発表前、凛は原稿を握り締めていた。客席の友人が小さくうなずくと、指の力を緩めて顔を上げた。",
+          "prompt": "顔を上げた理由として適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「友人の合図に安心を得た」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "友人の合図に安心を得た"
+            },
+            {
+              "id": "2",
+              "text": "内容を忘れた"
+            },
+            {
+              "id": "3",
+              "text": "発表を断るため"
+            },
+            {
+              "id": "4",
+              "text": "客席が空だった"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L01-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "遥は何度も描いた線を消した。先生が「この曲がり方が面白いね」と言うと、消しゴムを置いて続きを描いた。",
+          "prompt": "行動の変化に最も関係するものは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「評価への不安が和らいだこと」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "道具の故障"
+            },
+            {
+              "id": "2",
+              "text": "時間切れ"
+            },
+            {
+              "id": "3",
+              "text": "評価への不安が和らいだこと"
+            },
+            {
+              "id": "4",
+              "text": "題材の変更"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L02",
+      "revision": 3,
+      "domain": "literary",
+      "title": "主語と人物の関係",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L02-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "直人は妹から借りた傘を玄関に置いた。濡れた傘に気付いた父が外へ運び、広げた。妹は帰宅すると父に礼を言い、それから直人に「次は自分で干してね」と言った。",
+          "prompt": "傘を広げたのは誰か。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「父」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "直人"
+            },
+            {
+              "id": "2",
+              "text": "父"
+            },
+            {
+              "id": "3",
+              "text": "妹"
+            },
+            {
+              "id": "4",
+              "text": "不明"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "直人は妹から借りた傘を玄関に置いた。濡れた傘に気付いた父が外へ運び、広げた。妹は帰宅すると父に礼を言い、それから直人に「次は自分で干してね」と言った。",
+          "prompt": "妹が直人に求めたことは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「使った傘を自分で干す」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "傘を買う"
+            },
+            {
+              "id": "2",
+              "text": "父に傘を貸す"
+            },
+            {
+              "id": "3",
+              "text": "使った傘を自分で干す"
+            },
+            {
+              "id": "4",
+              "text": "帰宅を早める"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
+          "prompt": "眼鏡の場所を見つけたのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「弟」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "祖母"
+            },
+            {
+              "id": "2",
+              "text": "美緒"
+            },
+            {
+              "id": "3",
+              "text": "弟"
+            },
+            {
+              "id": "4",
+              "text": "父"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
+          "prompt": "祖母が二人に違う言葉をかけた理由を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "弟は眼鏡の場所を見つけ、美緒は拾って届けるという、異なる手助けをしたから。",
+          "rubric": {
+            "requiredElements": [
+              "弟が場所を発見",
+              "美緒が拾って届けた",
+              "役割の違い"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
+          "prompt": "正しい内容を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは美緒が眼鏡を拾った、祖母は二人に言葉をかけた。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "2",
+            "4"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "弟が眼鏡を祖母へ手渡した"
+            },
+            {
+              "id": "2",
+              "text": "美緒が眼鏡を拾った"
+            },
+            {
+              "id": "3",
+              "text": "祖母が机の下を指した"
+            },
+            {
+              "id": "4",
+              "text": "祖母は二人に言葉をかけた"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "悠が運んだ本を、司書の佐伯さんが棚に戻した。それを見た弟が悠に「重かったね」と言った。",
+          "prompt": "本を運んだ人は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「悠」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "弟"
+            },
+            {
+              "id": "2",
+              "text": "佐伯さん"
+            },
+            {
+              "id": "3",
+              "text": "悠"
+            },
+            {
+              "id": "4",
+              "text": "不明"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L02-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "母から預かった種を姉が弟に渡した。弟は庭にまき、姉は日付を札に書いた。",
+          "prompt": "札を書いた人は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「姉」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "母"
+            },
+            {
+              "id": "2",
+              "text": "弟"
+            },
+            {
+              "id": "3",
+              "text": "姉"
+            },
+            {
+              "id": "4",
+              "text": "不明"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L03",
+      "revision": 3,
+      "domain": "literary",
+      "title": "行動から理由を読む",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L03-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "湊は負けた試合の記録を捨てようとした。だが、裏に仲間の助言が書かれているのを見て、机の一番上の引き出しにしまった。翌朝、誰よりも早く練習場へ向かった。",
+          "prompt": "記録を残したきっかけは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「仲間の助言を見た」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "紙が新しかった"
+            },
+            {
+              "id": "2",
+              "text": "仲間の助言を見た"
+            },
+            {
+              "id": "3",
+              "text": "引き出しが空だった"
+            },
+            {
+              "id": "4",
+              "text": "試合に勝った"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "湊は負けた試合の記録を捨てようとした。だが、裏に仲間の助言が書かれているのを見て、机の一番上の引き出しにしまった。翌朝、誰よりも早く練習場へ向かった。",
+          "prompt": "翌朝の行動は何を示すか。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「敗戦を次へ生かす意思」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "敗戦を次へ生かす意思"
+            },
+            {
+              "id": "2",
+              "text": "記録を忘れたこと"
+            },
+            {
+              "id": "3",
+              "text": "仲間を避ける気持ち"
+            },
+            {
+              "id": "4",
+              "text": "試合をやめる決意"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
+          "prompt": "紬が書き直しを始めた理由は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「関心を寄せられた場面を伝え直したいから」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "赤字を隠すだけのため"
+            },
+            {
+              "id": "2",
+              "text": "関心を寄せられた場面を伝え直したいから"
+            },
+            {
+              "id": "3",
+              "text": "友人に頼まれたから"
+            },
+            {
+              "id": "4",
+              "text": "別の話を思い付いたから"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
+          "prompt": "初めの行動と最後の行動を比べ、気持ちの変化を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "指摘の多さを恥じていたが、読んでもらえた場面を知り、より詳しく伝えようと思った。",
+          "rubric": {
+            "requiredElements": [
+              "恥ずかしさ",
+              "場面への関心を受け止める",
+              "詳しく伝える意欲"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
+          "prompt": "本文に書かれていることを二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは作文に赤字があった、新しい紙を取り出した。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "作文に赤字があった"
+            },
+            {
+              "id": "2",
+              "text": "作文が受賞した"
+            },
+            {
+              "id": "3",
+              "text": "新しい紙を取り出した"
+            },
+            {
+              "id": "4",
+              "text": "友人に代筆を頼んだ"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "航は失敗した実験のノートを開いた。前と同じ失敗を避けるため、温度の欄に印を付けた。",
+          "prompt": "ノートを開いた目的は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「次の試行を改善する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "失敗を隠す"
+            },
+            {
+              "id": "2",
+              "text": "次の試行を改善する"
+            },
+            {
+              "id": "3",
+              "text": "友人を責める"
+            },
+            {
+              "id": "4",
+              "text": "実験を諦める"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L03-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "優は縫い目のほどけた袋を見てため息をついたが、祖父の使っていた針箱を開いた。",
+          "prompt": "最も控えめで妥当な読みは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「修理を試みようとしている」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "必ず修理に成功する"
+            },
+            {
+              "id": "2",
+              "text": "修理を試みようとしている"
+            },
+            {
+              "id": "3",
+              "text": "袋を捨てると決めた"
+            },
+            {
+              "id": "4",
+              "text": "祖父に怒っている"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LITERARY_CHARACTER",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L04",
+      "revision": 3,
+      "domain": "literary",
+      "title": "本文にない断定を避ける",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L04-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "駅で沙耶は時計を見た。約束の時刻まで十分ある。それでも改札を何度も振り返った。友人から届いた「少し話したいことがある」という短い連絡が、朝から気になっていた。",
+          "prompt": "本文と一致するものは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「約束まで時間が残っていた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "沙耶は遅刻した"
+            },
+            {
+              "id": "2",
+              "text": "約束まで時間が残っていた"
+            },
+            {
+              "id": "3",
+              "text": "友人は来ないと決めた"
+            },
+            {
+              "id": "4",
+              "text": "友人は怒っている"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "駅で沙耶は時計を見た。約束の時刻まで十分ある。それでも改札を何度も振り返った。友人から届いた「少し話したいことがある」という短い連絡が、朝から気になっていた。",
+          "prompt": "本文だけでは断定できないものは。",
+          "responseType": "single",
+          "explanation": "本文には時計を見たこと、連絡が短いこと、その連絡を気にしていることがある。一方、話したい内容自体は示されていない。したがって「断定できないもの」は選択肢3。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "沙耶が時計を見た"
+            },
+            {
+              "id": "2",
+              "text": "連絡が短かった"
+            },
+            {
+              "id": "3",
+              "text": "友人が話したい内容"
+            },
+            {
+              "id": "4",
+              "text": "沙耶が連絡を気にした"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
+          "prompt": "本文から確実に言えるのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「律は祖母と来た経験がある」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "店主と律は親戚だ"
+            },
+            {
+              "id": "2",
+              "text": "律は店の閉店を前から知っていた"
+            },
+            {
+              "id": "3",
+              "text": "律は祖母と来た経験がある"
+            },
+            {
+              "id": "4",
+              "text": "店は経営難で閉まる"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
+          "prompt": "閉店の理由を断定してはいけないのはなぜか。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "本文には閉店の知らせと人物の行動はあるが、閉店する原因は書かれていないから。",
+          "rubric": {
+            "requiredElements": [
+              "書かれた事実",
+              "閉店原因は未記載"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
+          "prompt": "本文にある事実を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは律が菓子を買った、店主が会釈した。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "律が菓子を買った"
+            },
+            {
+              "id": "2",
+              "text": "祖母が店にいた"
+            },
+            {
+              "id": "3",
+              "text": "店主が会釈した"
+            },
+            {
+              "id": "4",
+              "text": "律が店を引き継いだ"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "港で風が強くなった。船員は空を見上げたが、船はまだ動かなかった。",
+          "prompt": "断定できないのは。",
+          "responseType": "single",
+          "explanation": "風が強まったこと、船員が空を見たこと、船がまだ動かないことは本文にある。しかし動かない原因は書かれていないので、「故障した」とは断定できない。選択肢3を選ぶ。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "風が強くなった"
+            },
+            {
+              "id": "2",
+              "text": "船員が空を見た"
+            },
+            {
+              "id": "3",
+              "text": "船が故障した"
+            },
+            {
+              "id": "4",
+              "text": "船がまだ動かない"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L04-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "理央は封筒を机にしまった。その日は誰にも中身を話さなかった。",
+          "prompt": "本文にない断定は。",
+          "responseType": "single",
+          "explanation": "しまった場所は机で、その日は中身を話さなかった。封筒の中身は示されていない。「不合格通知だ」は読み手が付け加えた事情なので、本文にない断定は選択肢3。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "封筒をしまった"
+            },
+            {
+              "id": "2",
+              "text": "中身を話さなかった"
+            },
+            {
+              "id": "3",
+              "text": "中身は不合格通知だ"
+            },
+            {
+              "id": "4",
+              "text": "机を使った"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L05",
+      "revision": 3,
+      "domain": "literary",
+      "title": "抜き出す範囲を守る",
+      "skills": [
+        "TEXT_EXTRACTION",
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L05-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "真帆は「悔しくない」と言った。けれども、膝の上の手は震えていた。兄はその手を見て、勝った理由を話しかけるのをやめた。",
+          "prompt": "真帆の手があった場所を、本文から三字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "「膝の上の手」から場所を表す三字「膝の上」を取り出す。後ろの助詞「の」は含めない。",
+          "origin": "APP_AUTHORED",
+          "answer": "膝の上",
+          "constraints": {
+            "exactCharacters": 3
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "真帆は「悔しくない」と言った。けれども、膝の上の手は震えていた。兄はその手を見て、勝った理由を話しかけるのをやめた。",
+          "prompt": "言葉と行動の関係として正しいものは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「発言だけでは本心を決められない」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "どちらも喜びだけを示す"
+            },
+            {
+              "id": "2",
+              "text": "発言だけでは本心を決められない"
+            },
+            {
+              "id": "3",
+              "text": "震えは勝利の証拠である"
+            },
+            {
+              "id": "4",
+              "text": "兄は真帆を見ていない"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
+          "prompt": "母がいた場所を、本文から漢字二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「窓辺」が指定された内容を表す。2字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "窓辺",
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 2
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
+          "prompt": "澄がうなずいた後にしたことを、本文から十一字で抜き出そう。句点は含めない。",
+          "responseType": "extraction",
+          "explanation": "本文の「握っていた地図を開いた」が指定された内容を表す。11字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "握っていた地図を開いた",
+          "constraints": {
+            "exactCharacters": 11
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
+          "prompt": "本文の表記と一致する語を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは地図、窓辺。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "地図"
+            },
+            {
+              "id": "2",
+              "text": "窓際"
+            },
+            {
+              "id": "3",
+              "text": "窓辺"
+            },
+            {
+              "id": "4",
+              "text": "案内図"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "健は笑ったが、その声はかすれていた。友人は黙って水を渡した。",
+          "prompt": "声の様子を表す部分を、本文から六字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「かすれていた」が指定された内容を表す。6字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "かすれていた",
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 6
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L05-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "雨がやむと、絵里は窓を開けた。湿った土の匂いが入ってきた。",
+          "prompt": "絵里が感じた匂いを、本文から七字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「湿った土の匂い」が指定された内容を表す。7字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "湿った土の匂い",
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L06",
+      "revision": 3,
+      "domain": "literary",
+      "title": "理由を根拠と結び付ける",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L06-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "班の発表が止まった。担当の結が言葉を忘れたのだ。隣の奏は自分が話し出さず、結の資料の一行を指さした。結はそこを見て説明を再開した。",
+          "prompt": "発表が止まった理由は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「結が言葉を忘れた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "資料がなかった"
+            },
+            {
+              "id": "2",
+              "text": "結が言葉を忘れた"
+            },
+            {
+              "id": "3",
+              "text": "奏が反対した"
+            },
+            {
+              "id": "4",
+              "text": "時間が終わった"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "班の発表が止まった。担当の結が言葉を忘れたのだ。隣の奏は自分が話し出さず、結の資料の一行を指さした。結はそこを見て説明を再開した。",
+          "prompt": "奏の行動の効果は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「結自身の再開を助けた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "結自身の再開を助けた"
+            },
+            {
+              "id": "2",
+              "text": "結から役割を奪った"
+            },
+            {
+              "id": "3",
+              "text": "発表を中止した"
+            },
+            {
+              "id": "4",
+              "text": "資料を隠した"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
+          "prompt": "祖父が手を止めた理由として適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「孫が自力で進める様子を見たから」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "助けるのを忘れた"
+            },
+            {
+              "id": "2",
+              "text": "孫が嫌いだから"
+            },
+            {
+              "id": "3",
+              "text": "孫が自力で進める様子を見たから"
+            },
+            {
+              "id": "4",
+              "text": "坂がなくなったから"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
+          "prompt": "手を止めたことと拍手したことに共通する祖父の姿勢を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "必要なら助けようとしつつ、孫が自分でやり遂げる力を尊重し、その達成を喜んでいる。",
+          "rubric": {
+            "requiredElements": [
+              "支援の用意",
+              "自力での達成を尊重",
+              "達成を喜ぶ"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
+          ],
+          "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
+          "prompt": "根拠となる行動を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは手を伸ばしかけた、上り切った後に拍手した。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "手を伸ばしかけた"
+            },
+            {
+              "id": "2",
+              "text": "孫を背負った"
+            },
+            {
+              "id": "3",
+              "text": "上り切った後に拍手した"
+            },
+            {
+              "id": "4",
+              "text": "先に帰った"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "失敗した友人に、杏は答えを教えず「どこまでは分かった？」と聞いた。",
+          "prompt": "発言の働きは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「考え直す出発点を一緒に探す」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "考え直す出発点を一緒に探す"
+            },
+            {
+              "id": "2",
+              "text": "友人を責める"
+            },
+            {
+              "id": "3",
+              "text": "話を終える"
+            },
+            {
+              "id": "4",
+              "text": "正解を隠して困らせる"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L06-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
+          ],
+          "passage": "弟が靴ひもを結び直す間、姉は急がせず玄関で待った。",
+          "prompt": "本文に基づく説明は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「姉は弟の行動を待っている」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "姉は弟の行動を待っている"
+            },
+            {
+              "id": "2",
+              "text": "姉は必ず遅刻する"
+            },
+            {
+              "id": "3",
+              "text": "弟は靴を失くした"
+            },
+            {
+              "id": "4",
+              "text": "姉は外出しない"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-L07",
+      "revision": 3,
+      "domain": "literary",
+      "title": "比喩を具体的な状態に戻す",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "PHRASE_INTERPRETATION",
+        "METAPHOR_INTERPRETATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-L07-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "転校初日、教室の声は遠い波のように聞こえた。名前を呼ばれても一瞬気付かなかった。隣の生徒が笑顔で椅子を引くと、ようやく周りの顔がはっきり見えた。",
+          "prompt": "遠い波のようという表現が示す状態は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「緊張して周囲を身近に感じられない」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "海辺にいる"
+            },
+            {
+              "id": "2",
+              "text": "緊張して周囲を身近に感じられない"
+            },
+            {
+              "id": "3",
+              "text": "耳が病気で聞こえない"
+            },
+            {
+              "id": "4",
+              "text": "全員が歌っている"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "転校初日、教室の声は遠い波のように聞こえた。名前を呼ばれても一瞬気付かなかった。隣の生徒が笑顔で椅子を引くと、ようやく周りの顔がはっきり見えた。",
+          "prompt": "笑顔と椅子を引く行動の働きは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「不安を和らげる」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "不安を和らげる"
+            },
+            {
+              "id": "2",
+              "text": "海を見せる"
+            },
+            {
+              "id": "3",
+              "text": "会話を止める"
+            },
+            {
+              "id": "4",
+              "text": "席を奪う"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
+          "prompt": "石が軽くなるとはどんなことか。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「落胆が和らぐ」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "荷物を減らす"
+            },
+            {
+              "id": "2",
+              "text": "展示を片付ける"
+            },
+            {
+              "id": "3",
+              "text": "落胆が和らぐ"
+            },
+            {
+              "id": "4",
+              "text": "病気が治る"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
+          "prompt": "石の比喩を使わず、千夏の心情変化を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "見てもらえず落胆していたが、子どもが興味を示してくれたため、気持ちが少し明るくなった。",
+          "rubric": {
+            "requiredElements": [
+              "見てもらえない落胆",
+              "質問による関心",
+              "気持ちが和らぐ"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
+          "prompt": "本文に合うものを二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは初めは通り過ぎる人がいた、閉館前に質問された。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "初めは通り過ぎる人がいた"
+            },
+            {
+              "id": "2",
+              "text": "展示は全員に不評だった"
+            },
+            {
+              "id": "3",
+              "text": "閉館前に質問された"
+            },
+            {
+              "id": "4",
+              "text": "千夏は石を投げた"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "友人の一言で、行き詰まっていた考えに窓が開いた。別の方法を試せそうだった。",
+          "prompt": "窓が開いたの意味は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「新しい見通しが得られた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "外の音が入った"
+            },
+            {
+              "id": "2",
+              "text": "新しい見通しが得られた"
+            },
+            {
+              "id": "3",
+              "text": "考えるのをやめた"
+            },
+            {
+              "id": "4",
+              "text": "部屋が暗くなった"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-L07-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
+          ],
+          "passage": "長い沈黙の後、名前を呼ぶ声が二人の間に橋を架けた。",
+          "prompt": "橋を架けたとは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「再び関わるきっかけを作った」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "川を渡った"
+            },
+            {
+              "id": "2",
+              "text": "再び関わるきっかけを作った"
+            },
+            {
+              "id": "3",
+              "text": "道を建設した"
+            },
+            {
+              "id": "4",
+              "text": "別れを決めた"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "PHRASE_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E01",
+      "revision": 3,
+      "domain": "expository",
+      "title": "要旨と例を区別する",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E01-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "図書館の本を増やせば、利用者も必ず増えるだろうか。冊数が多くても、探す仕組みが分かりにくければ本には出会いにくい。必要なのは量だけでなく、利用者と本を結ぶ案内である。",
+          "prompt": "筆者の中心的な主張は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「量に加えて案内も重要だ」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "冊数だけ増やせばよい"
+            },
+            {
+              "id": "2",
+              "text": "図書館に本は要らない"
+            },
+            {
+              "id": "3",
+              "text": "量に加えて案内も重要だ"
+            },
+            {
+              "id": "4",
+              "text": "利用者は本を探さない"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "図書館の本を増やせば、利用者も必ず増えるだろうか。冊数が多くても、探す仕組みが分かりにくければ本には出会いにくい。必要なのは量だけでなく、利用者と本を結ぶ案内である。",
+          "prompt": "本を増やす例の役割は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「量だけでは十分でないと示す」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "量だけでは十分でないと示す"
+            },
+            {
+              "id": "2",
+              "text": "本が有害だと示す"
+            },
+            {
+              "id": "3",
+              "text": "利用者数を報告する"
+            },
+            {
+              "id": "4",
+              "text": "図書館の歴史を述べる"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
+          "prompt": "この文章の要旨は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「情報が届く表現や方法も工夫すべきだ」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "毎月配れば十分だ"
+            },
+            {
+              "id": "2",
+              "text": "情報が届く表現や方法も工夫すべきだ"
+            },
+            {
+              "id": "3",
+              "text": "すべて外国語にすべきだ"
+            },
+            {
+              "id": "4",
+              "text": "住民は情報を読まない"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
+          "prompt": "配布と伝達が同じでない理由を本文の例を使って説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "配っても、文字の小ささや言語の違いで内容を読み取れない人がいるため、情報が理解されるとは限らない。",
+          "rubric": {
+            "requiredElements": [
+              "配布だけでは理解を保証しない",
+              "文字又は言語の障壁"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
+          ],
+          "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
+          "prompt": "本文の例に含まれる人を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは小さな文字が読めない人、日本語に不慣れな人。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "小さな文字が読めない人"
+            },
+            {
+              "id": "2",
+              "text": "防災に必ず反対する人"
+            },
+            {
+              "id": "3",
+              "text": "日本語に不慣れな人"
+            },
+            {
+              "id": "4",
+              "text": "町に住んでいない人"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "公園を造るだけでは誰もが使えるとは限らない。入口に段差があれば、入れない人もいる。設備の存在と使いやすさは別である。",
+          "prompt": "中心的な主張は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「使いやすさにも配慮が必要」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "公園は不要"
+            },
+            {
+              "id": "2",
+              "text": "使いやすさにも配慮が必要"
+            },
+            {
+              "id": "3",
+              "text": "段差は常に必要"
+            },
+            {
+              "id": "4",
+              "text": "全員が公園を嫌う"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E01-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "質問箱を設置しても、誰に読まれるか分からなければ意見を入れにくい。利用を促すには扱い方の説明が欠かせない。",
+          "prompt": "筆者の提案は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「扱い方を説明する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "箱を大きくするだけ"
+            },
+            {
+              "id": "2",
+              "text": "扱い方を説明する"
+            },
+            {
+              "id": "3",
+              "text": "質問を禁止する"
+            },
+            {
+              "id": "4",
+              "text": "名前を必ず公開する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "CONTENT_SELECTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E02",
+      "revision": 3,
+      "domain": "expository",
+      "title": "条件に合う語句を探す",
+      "skills": [
+        "TEXT_EXTRACTION",
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E02-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "同じ道を毎日歩くと、小さな変化を見落とすことがある。そこで、観察する場所を一つ決め、昨日との違いを記録する。記録は記憶だけに頼る判断を補ってくれる。",
+          "prompt": "記録が補うものを本文から九字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "「記録は」の後にある目的語を抜き出す。助詞「を」は入れず九字。",
+          "origin": "APP_AUTHORED",
+          "answer": "記憶だけに頼る判断",
+          "constraints": {
+            "exactCharacters": 9
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "同じ道を毎日歩くと、小さな変化を見落とすことがある。そこで、観察する場所を一つ決め、昨日との違いを記録する。記録は記憶だけに頼る判断を補ってくれる。",
+          "prompt": "筆者が勧める方法は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「一つの場所を観察して違いを記録する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "毎日違う国へ行く"
+            },
+            {
+              "id": "2",
+              "text": "一つの場所を観察して違いを記録する"
+            },
+            {
+              "id": "3",
+              "text": "記憶を使わない"
+            },
+            {
+              "id": "4",
+              "text": "変化を無視する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
+          "prompt": "繰り返す測定で区別する二つを、間の「と」も含めて本文から十二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「偶然の変動と安定した傾向」が指定された内容を表す。12字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "偶然の変動と安定した傾向",
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 12
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
+          "prompt": "繰り返すだけでは不十分な理由を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "道具などに同じ誤りがあると、何度測っても誤った値を得るおそれがあるから。",
+          "rubric": {
+            "requiredElements": [
+              "共通する測定の誤り",
+              "繰り返しても解消しない可能性"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
+          "prompt": "測定を繰り返す際に必要なことを、本文から五字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「道具の点検」が指定された内容を表す。5字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "道具の点検",
+          "misconceptions": {
+            "2": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 5
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "比較では条件をそろえる必要がある。植物の成長を光の違いで調べるなら、水や土の量は同じにする。",
+          "prompt": "同じにするものを本文から五字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "比較する光以外の条件「水や土の量」をそろえる。原文表記を五字で抜き出す。",
+          "origin": "APP_AUTHORED",
+          "answer": "水や土の量",
+          "constraints": {
+            "exactCharacters": 5
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E02-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "TEXT_EXTRACTION"
+          ],
+          "passage": "短い記録でも、日付がなければ変化の順序を確かめにくい。記録を比較するため、観察した日付を添える。",
+          "prompt": "記録を比べるために添えるものを、本文から二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「日付」が指定された内容を表す。2字で、前後の助詞や句点を勝手に付け足さない。",
+          "origin": "APP_AUTHORED",
+          "answer": "日付",
+          "misconceptions": {
+            "1": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "TEXT_EXTRACTION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "constraints": {
+            "exactCharacters": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E03",
+      "revision": 3,
+      "domain": "expository",
+      "title": "接続語と空欄を考える",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "BLANK_COMPLETION",
+        "CONJUNCTION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E03-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "この道具は軽く、持ち運びやすい。（　）、強い力を加えると曲がりやすい。使う場面に合わせて選ぶ必要がある。",
+          "prompt": "空欄に適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「しかし」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "しかし"
+            },
+            {
+              "id": "2",
+              "text": "そのため"
+            },
+            {
+              "id": "3",
+              "text": "つまり"
+            },
+            {
+              "id": "4",
+              "text": "例えば"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "この道具は軽く、持ち運びやすい。（　）、強い力を加えると曲がりやすい。使う場面に合わせて選ぶ必要がある。",
+          "prompt": "最後の文が勧める判断は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「長所と弱点を場面と照らす」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "軽さだけで決める"
+            },
+            {
+              "id": "2",
+              "text": "欠点だけで全否定する"
+            },
+            {
+              "id": "3",
+              "text": "長所と弱点を場面と照らす"
+            },
+            {
+              "id": "4",
+              "text": "いつも同じ物を使う"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
+          "prompt": "AとBの組合せとして適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「Aしかし・Bそのため」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "Aしかし・Bそのため"
+            },
+            {
+              "id": "2",
+              "text": "Aそのため・B例えば"
+            },
+            {
+              "id": "3",
+              "text": "A例えば・Bしかし"
+            },
+            {
+              "id": "4",
+              "text": "Aつまり・Bそれでも"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
+          "prompt": "結論が導かれる理由を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "通信が届いても、相手には授業や休息などの事情があり、すぐ返信できるとは限らないから。",
+          "rubric": {
+            "requiredElements": [
+              "通信到達と返信可能の区別",
+              "相手の事情"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
+          "prompt": "本文に示された返信できない事情を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは授業中、休息中。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "授業中"
+            },
+            {
+              "id": "2",
+              "text": "必ず相手を嫌っている"
+            },
+            {
+              "id": "3",
+              "text": "休息中"
+            },
+            {
+              "id": "4",
+              "text": "通信手段が存在しない"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "校庭には日陰が少ない。（　）、休憩場所に屋根を設けた。",
+          "prompt": "空欄に適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「そのため」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "しかし"
+            },
+            {
+              "id": "2",
+              "text": "そのため"
+            },
+            {
+              "id": "3",
+              "text": "例えば"
+            },
+            {
+              "id": "4",
+              "text": "一方で"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E03-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "BLANK_COMPLETION",
+            "CONJUNCTION"
+          ],
+          "passage": "虫には多様な食べ物がある。（　）、花の蜜を吸うものも、葉を食べるものもいる。",
+          "prompt": "空欄に適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「例えば」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "つまり"
+            },
+            {
+              "id": "2",
+              "text": "しかし"
+            },
+            {
+              "id": "3",
+              "text": "例えば"
+            },
+            {
+              "id": "4",
+              "text": "そのため"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "BLANK_COMPLETION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E04",
+      "revision": 3,
+      "domain": "expository",
+      "title": "条件と因果を区別する",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E04-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "雨の日に図書室の利用者が多かった。だが、これだけで雨が利用者を増やしたとは決められない。同じ日に新刊の展示も始まっていたからだ。",
+          "prompt": "因果を断定できない理由は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「別の要因も同時にあった」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "利用者がいない"
+            },
+            {
+              "id": "2",
+              "text": "別の要因も同時にあった"
+            },
+            {
+              "id": "3",
+              "text": "雨が降っていない"
+            },
+            {
+              "id": "4",
+              "text": "新刊は絶対に無関係"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "雨の日に図書室の利用者が多かった。だが、これだけで雨が利用者を増やしたとは決められない。同じ日に新刊の展示も始まっていたからだ。",
+          "prompt": "本文が示す姿勢は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「複数の説明の可能性を検討する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "数字を一切使わない"
+            },
+            {
+              "id": "2",
+              "text": "複数の説明の可能性を検討する"
+            },
+            {
+              "id": "3",
+              "text": "最初の印象だけで決める"
+            },
+            {
+              "id": "4",
+              "text": "すべて偶然と決める"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
+          "prompt": "調査結果から直ちに言えるのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「調査した集団では二つに関連があった」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "運動が必ず睡眠を延ばす"
+            },
+            {
+              "id": "2",
+              "text": "長く眠れば全員運動する"
+            },
+            {
+              "id": "3",
+              "text": "調査した集団では二つに関連があった"
+            },
+            {
+              "id": "4",
+              "text": "家庭の条件は無関係"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
+          "prompt": "関連があることと原因が分かることの違いを説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "二つが一緒に見られても、どちらが原因かや、共通する別の条件があるかまでは分からない。",
+          "rubric": {
+            "requiredElements": [
+              "同時に見られる関連",
+              "因果の向き又は共通要因は未確定"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
+          ],
+          "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
+          "prompt": "本文が検討する可能性を二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは睡眠を確保できる生活が運動を可能にする、生活時間が両方に関わる。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "睡眠を確保できる生活が運動を可能にする"
+            },
+            {
+              "id": "2",
+              "text": "全員が同じ家庭で暮らす"
+            },
+            {
+              "id": "3",
+              "text": "生活時間が両方に関わる"
+            },
+            {
+              "id": "4",
+              "text": "睡眠時間は計測できない"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "売上が増えた月に広告を変えた。しかし、その月は営業日も増えていた。",
+          "prompt": "売上増の原因を考えるとき必要なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「営業日数など他の条件も調べる」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "広告だけを見る"
+            },
+            {
+              "id": "2",
+              "text": "営業日数など他の条件も調べる"
+            },
+            {
+              "id": "3",
+              "text": "売上を無視する"
+            },
+            {
+              "id": "4",
+              "text": "広告は無意味と断定する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E04-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "練習した生徒全員が上達したとは書かれていない。「平均が上がった」という結果だけが示されている。",
+          "prompt": "正しい読みは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「個人差はこの結果だけでは分からない」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "全員が同じだけ伸びた"
+            },
+            {
+              "id": "2",
+              "text": "下がった人はいない"
+            },
+            {
+              "id": "3",
+              "text": "個人差はこの結果だけでは分からない"
+            },
+            {
+              "id": "4",
+              "text": "練習には効果がない"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E05",
+      "revision": 3,
+      "domain": "expository",
+      "title": "仕組みを自分の言葉で説明する",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E05-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。",
+          "prompt": "表を置く目的は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「利用時刻の重なりを調整する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "道具を増やす"
+            },
+            {
+              "id": "2",
+              "text": "利用時刻の重なりを調整する"
+            },
+            {
+              "id": "3",
+              "text": "費用を隠す"
+            },
+            {
+              "id": "4",
+              "text": "利用を禁止する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。",
+          "prompt": "共有の利点として本文にあるものは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「買う費用を分けられる」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "常に待たずに使える"
+            },
+            {
+              "id": "2",
+              "text": "買う費用を分けられる"
+            },
+            {
+              "id": "3",
+              "text": "管理が一切要らない"
+            },
+            {
+              "id": "4",
+              "text": "全員が同時に使える"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
+          "prompt": "この対応が重視することは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「異なる必要に応じた環境をつくる」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "一種類の学び方だけを認める"
+            },
+            {
+              "id": "2",
+              "text": "異なる必要に応じた環境をつくる"
+            },
+            {
+              "id": "3",
+              "text": "会話を全面禁止する"
+            },
+            {
+              "id": "4",
+              "text": "利用者の意見を無視する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "【文章A】共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。\n\n【文章B】寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
+          "prompt": "文章Aと文章Bに共通する、利用者の必要を両立させる考え方を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "利用者の必要が重なる問題に対し、時間や場所の使い方を調整して両立を図るという考え方。",
+          "rubric": {
+            "requiredElements": [
+              "複数利用者の必要",
+              "時間又は場所の調整",
+              "両立を図る"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
+          ],
+          "passage": "寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
+          "prompt": "本文で決めたことを二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは区域を分ける、意見を聞いて配置を見直す。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "区域を分ける"
+            },
+            {
+              "id": "2",
+              "text": "話す生徒を退寮させる"
+            },
+            {
+              "id": "3",
+              "text": "意見を聞いて配置を見直す"
+            },
+            {
+              "id": "4",
+              "text": "全区域で会話を禁止する"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "学校の畑に水をやる当番が重なった。担当日を見える場所に掲示して重複を防いだ。",
+          "prompt": "この掲示の働きとして適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「情報共有で調整する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "情報共有で調整する"
+            },
+            {
+              "id": "2",
+              "text": "当番をなくす"
+            },
+            {
+              "id": "3",
+              "text": "水を使わない"
+            },
+            {
+              "id": "4",
+              "text": "畑を増やす"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E05-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "多言語の案内に図を添えると、文字だけでは読み取りにくい人にも手順が伝わりやすい。",
+          "prompt": "説明として適切なのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「表現方法を増やし理解を助ける」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "すべての言語学習が不要になる"
+            },
+            {
+              "id": "2",
+              "text": "表現方法を増やし理解を助ける"
+            },
+            {
+              "id": "3",
+              "text": "全員が必ず理解する"
+            },
+            {
+              "id": "4",
+              "text": "文字は常に有害だ"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "WRITTEN_EXPLANATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E06",
+      "revision": 3,
+      "domain": "expository",
+      "title": "表の数値から言える範囲",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "DATA_INTERPRETATION",
+        "NUMERIC_INFORMATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT",
+        "TRUE_FALSE"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E06-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
+          "prompt": "4月から5月に増えた学年は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「一年生」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "一年生"
+            },
+            {
+              "id": "2",
+              "text": "二年生"
+            },
+            {
+              "id": "3",
+              "text": "両方"
+            },
+            {
+              "id": "4",
+              "text": "どちらも増えていない"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "dataTable": {
+            "caption": "読書会の参加人数（人）",
+            "columns": [
+              "月",
+              "一年生",
+              "二年生"
+            ],
+            "rows": [
+              [
+                "4月",
+                12,
+                8
+              ],
+              [
+                "5月",
+                15,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
+          "prompt": "この資料だけでは分からないことは。",
+          "responseType": "single",
+          "explanation": "示されているのは学年別・月別の参加人数。4月と5月の人数やその増減は分かるが、読んだ冊数の数値はない。資料だけでは分からないのは選択肢3。",
+          "origin": "APP_AUTHORED",
+          "answer": "3",
+          "options": [
+            {
+              "id": "1",
+              "text": "4月の参加人数"
+            },
+            {
+              "id": "2",
+              "text": "5月の参加人数"
+            },
+            {
+              "id": "3",
+              "text": "読んだ冊数"
+            },
+            {
+              "id": "4",
+              "text": "二年生の人数の変化"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "2": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          },
+          "dataTable": {
+            "caption": "読書会の参加人数（人）",
+            "columns": [
+              "月",
+              "一年生",
+              "二年生"
+            ],
+            "rows": [
+              [
+                "4月",
+                12,
+                8
+              ],
+              [
+                "5月",
+                15,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
+          "prompt": "回答者に占める「毎日」の割合が高いのは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「A組」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "A組"
+            },
+            {
+              "id": "2",
+              "text": "B組"
+            },
+            {
+              "id": "3",
+              "text": "同じ"
+            },
+            {
+              "id": "4",
+              "text": "人数だけでB組と決まる"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
+          "prompt": "人数と割合を区別して比較しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "人数はB組の15人がA組の12人より多いが、割合はA組60％がB組50％より高い。",
+          "rubric": {
+            "requiredElements": [
+              "人数はBが多い",
+              "Aは12/20で60％",
+              "Bは15/30で50％"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
+          "prompt": "確実に言えることを二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのはB組の回答者は30人、A組の回答者の60％が毎日と答えた。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "B組の回答者は30人"
+            },
+            {
+              "id": "2",
+              "text": "未回答者も全員毎日食べる"
+            },
+            {
+              "id": "3",
+              "text": "A組の回答者の60％が毎日と答えた"
+            },
+            {
+              "id": "4",
+              "text": "学年全体の傾向が確定した"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "同じ時間の来館者は、平日40人、休日60人だった。開館時間全体の合計は調べていない。",
+          "prompt": "正しい説明は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「調べた時間内では休日が20人多い」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "休日の一日合計は必ず1.5倍"
+            },
+            {
+              "id": "2",
+              "text": "調べた時間内では休日が20人多い"
+            },
+            {
+              "id": "3",
+              "text": "平日の利用者は減った"
+            },
+            {
+              "id": "4",
+              "text": "全員が毎日来る"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "DATA_INTERPRETATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E06-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "TRUE_FALSE",
+            "DATA_INTERPRETATION",
+            "NUMERIC_INFORMATION"
+          ],
+          "passage": "10人中6人と100人中60人が同じ案に賛成した。",
+          "prompt": "「賛成人数は異なるが、賛成割合は同じだ」は本文の数値と一致するか。",
+          "responseType": "true-false",
+          "explanation": "6/10も60/100も60％。人数6人と60人は異なる。",
+          "origin": "APP_AUTHORED",
+          "answer": "○",
+          "options": [
+            {
+              "id": "○",
+              "text": "一致する"
+            },
+            {
+              "id": "×",
+              "text": "一致しない"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RUK-ORIGINAL-E07",
+      "revision": 3,
+      "domain": "expository",
+      "title": "順序と文のつながり",
+      "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "ORDER",
+        "CHRONOLOGY",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT",
+        "SENTENCE_INSERTION"
+      ],
+      "origin": "NEW_APP_AUTHORED",
+      "pastPaperSourceIds": [],
+      "items": [
+        {
+          "id": "RUK-ORIGINAL-E07-01",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "ORDER",
+            "CHRONOLOGY"
+          ],
+          "passage": "実験は、材料を量り、次に容器で混ぜ、最後に変化を記録する。混ぜる前の量が分からなければ、結果を比べられない。",
+          "prompt": "実験の順番に並べよう。",
+          "responseType": "order",
+          "explanation": "材料の量を確認し、混ぜ、その結果の変化を記録する。結果を記録してから混ぜる順序にはできない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "2",
+            "3",
+            "1"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "変化を記録する"
+            },
+            {
+              "id": "2",
+              "text": "材料を量る"
+            },
+            {
+              "id": "3",
+              "text": "容器で混ぜる"
+            }
+          ]
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-02",
+          "revision": 3,
+          "phase": "basic",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "実験は、材料を量り、次に容器で混ぜ、最後に変化を記録する。混ぜる前の量が分からなければ、結果を比べられない。",
+          "prompt": "量を先に確かめる理由は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「後で結果を比較するため」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "後で結果を比較するため"
+            },
+            {
+              "id": "2",
+              "text": "材料を必ず増やすため"
+            },
+            {
+              "id": "3",
+              "text": "記録を省くため"
+            },
+            {
+              "id": "4",
+              "text": "混ぜなくてよくするため"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-03",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
+          "prompt": "回数を決める根拠になったものは。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「土の乾き方の調査」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "1",
+          "options": [
+            {
+              "id": "1",
+              "text": "土の乾き方の調査"
+            },
+            {
+              "id": "2",
+              "text": "葉の色を想像しただけ"
+            },
+            {
+              "id": "3",
+              "text": "前年の回数を無条件に採用"
+            },
+            {
+              "id": "4",
+              "text": "友人の好み"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-04",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
+          "prompt": "実施後にも確認する理由を説明しよう。",
+          "responseType": "written",
+          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "origin": "APP_AUTHORED",
+          "modelAnswer": "決めた水やりが植物に合っているか確かめ、必要に応じて回数を調整するため。",
+          "rubric": {
+            "requiredElements": [
+              "実施した方法の効果確認",
+              "必要に応じた調整"
+            ],
+            "exactMatchRequired": false,
+            "acceptableVariants": [
+              "本文の根拠と因果関係を保つ別表現を許容する。"
+            ],
+            "gradingMode": "manual-element-comparison",
+            "maxCharacters": 120
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-05",
+          "revision": 3,
+          "phase": "transfer",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
+          ],
+          "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
+          "prompt": "本文の順序関係として正しいものを二つ選ぼう。",
+          "responseType": "multi",
+          "explanation": "本文中で直接確認できるのは土の調査の後に回数を決める、実施後に葉を確認する。他の選択肢の断定には根拠がない。",
+          "origin": "APP_AUTHORED",
+          "answer": [
+            "1",
+            "3"
+          ],
+          "options": [
+            {
+              "id": "1",
+              "text": "土の調査の後に回数を決める"
+            },
+            {
+              "id": "2",
+              "text": "回数を変える前に必ず枯らす"
+            },
+            {
+              "id": "3",
+              "text": "実施後に葉を確認する"
+            },
+            {
+              "id": "4",
+              "text": "観察より先に結果を断定する"
+            }
+          ],
+          "misconceptions": {
+            "2": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-06",
+          "revision": 3,
+          "phase": "mixed",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "SENTENCE_INSERTION"
+          ],
+          "passage": "［A］案を集めた。［B］似た案をまとめた。［C］その上で、実現できるかを検討した。［D］",
+          "prompt": "「同じ内容の提案がいくつもあったからだ。」を入れる位置を選ぼう。",
+          "responseType": "single",
+          "explanation": "同じ内容の提案が多いことは、似た案をまとめた理由である。その文の直後Cに入れる。",
+          "origin": "APP_AUTHORED",
+          "answer": "C",
+          "options": [
+            {
+              "id": "A",
+              "text": "A"
+            },
+            {
+              "id": "B",
+              "text": "B"
+            },
+            {
+              "id": "C",
+              "text": "C"
+            },
+            {
+              "id": "D",
+              "text": "D"
+            }
+          ]
+        },
+        {
+          "id": "RUK-ORIGINAL-E07-07",
+          "revision": 3,
+          "phase": "retention",
+          "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
+          ],
+          "passage": "調べた事実を示した後で、その事実から考えられることを書くと、根拠と意見を区別しやすい。",
+          "prompt": "適切な順序は。",
+          "responseType": "single",
+          "explanation": "本文の根拠に合うのは「事実を示してから考察を書く」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "origin": "APP_AUTHORED",
+          "answer": "2",
+          "options": [
+            {
+              "id": "1",
+              "text": "意見だけを書く"
+            },
+            {
+              "id": "2",
+              "text": "事実を示してから考察を書く"
+            },
+            {
+              "id": "3",
+              "text": "結論を隠す"
+            },
+            {
+              "id": "4",
+              "text": "事実を削除する"
+            }
+          ],
+          "misconceptions": {
+            "1": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "3": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            },
+            "4": {
+              "skill": "LOGIC_RELATION",
+              "confidence": "possible",
+              "reason": "本文の条件・主語・変化・根拠と照合して確認する"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

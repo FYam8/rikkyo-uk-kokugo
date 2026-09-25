@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "status": "APPROVED_FOR_DEPLOY",
+  "school": "rikkyo-uk",
+  "subject": "kokugo",
+  "officialAnswers": false,
+  "scoreMethod": "normalized-parent-correctness",
+  "answerAuthority": {
+    "verified": 141,
+    "reviewRequired": 1,
+    "unavailableSections": 2,
+    "unavailableQuestionCount": null
+  },
+  "practice": {
+    "units": 24,
+    "items": 175,
+    "origin": "NEW_APP_AUTHORED_NOT_RECOVERED"
+  },
+  "route": [
+    "FY25-A",
+    "FY24-A",
+    "FY25-B",
+    "FY26-A",
+    "FY26-B"
+  ],
+  "holdout": "FY26-B; application-level isolation until final submission",
+  "robots": "noindex,nofollow,noarchive",
+  "targetUrl": "https://fyam8.github.io/rikkyo-uk-kokugo/",
+  "commit": "SET_BY_VERIFIED_MAIN_WORKFLOW",
+  "sharedEnginePin": "3b244d7abd2f53acfa335ef55a40229d6a7ae263"
+}

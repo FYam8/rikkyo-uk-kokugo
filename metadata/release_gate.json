@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "APPROVED_FOR_DEPLOY",
+  "production": false,
+  "evaluatedAt": "2026-09-25",
+  "baselineMain": "e24824be11b2e7e2cb6f16adb073e7df54d8333e",
+  "consecutiveCleanLoops": 2,
+  "pagesEnabledByThisChange": false,
+  "releaseTagCreated": false,
+  "sourceFingerprint": "3e24025c868831dd0da5776cc4ac8ae090eae6fd9655eab2b61711f190bddefd",
+  "checks": {
+    "originalVerified63Preserved": "PASS",
+    "stableIds142Preserved": "PASS",
+    "sourceMapping142": "PASS",
+    "reviewRequiredExcluded": "PASS",
+    "unavailableSectionsNotGenerated": "PASS",
+    "practiceBank24Units175Items": "PASS",
+    "sharedEngineIntegration": "PASS",
+    "holdoutIsolation": "PASS",
+    "desktopBrowser": "PASS",
+    "mobileTouchBrowser": "PASS",
+    "resume": "PASS",
+    "today": "PASS",
+    "exportImport": "PASS",
+    "reset": "PASS",
+    "sourceReplay": "PASS",
+    "step1Step2Step3": "PASS",
+    "retention24Hours": "PASS",
+    "cleanLoop1": "PASS",
+    "cleanLoop2": "PASS"
+  },
+  "sharedEngineEvidence": {
+    "repository": "FYam8/waseshibu-source",
+    "pr": 40,
+    "verifiedCommit": "2b60203a491c8bd7eb941cb6f0a7ab0f04f72afd",
+    "mergedCommit": "3b244d7abd2f53acfa335ef55a40229d6a7ae263",
+    "workflowRun": 36190612232,
+    "conclusion": "success",
+    "mergedTreeEqualsVerifiedTree": true,
+    "downstreamPinPromoted": true
+  },
+  "deploymentBlockers": [
+    "GitHub Pages is not yet enabled; connected GitHub tools do not expose Pages configuration."
+  ],
+  "evidence": "metadata/clean_loops.json",
+  "note": "Approval of content/build is not a claim of a successful production deployment. The Pages workflow repeats both CLEAN loops before publishing."
+}

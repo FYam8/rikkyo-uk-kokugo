@@ -1,0 +1,70 @@
+name: Publish verified Rikkyo Kokugo
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rikkyo-pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Require approved release evidence
+        run: python tools/verify_release_gate.py
+      - name: Build exact release
+        run: |
+          npm ci --no-audit --no-fund
+          python tools/build_content.py
+          npm run build
+          npm install --no-save --package-lock=false --no-audit --no-fund playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Two complete CLEAN loops on the publish artifact
+        run: python tools/run_clean_loops.py
+      - name: Record deployed commit
+        env:
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json,os,pathlib
+          r=json.loads(pathlib.Path('metadata/production_release.json').read_text())
+          r['commit']=os.environ['RELEASE_SHA']
+          r['status']='VERIFIED_BUILD'
+          pathlib.Path('dist/release.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+          PY
+          python tools/check_public_artifact.py dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: production-clean-evidence
+          path: |
+            metadata/clean_loops.json
+            qa-*.png
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: verify
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
