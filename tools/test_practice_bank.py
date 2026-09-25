@@ -12,12 +12,13 @@ ids=[];formats=set()
 for u in b['units']:
  assert u['pastPaperSourceIds']==[]
  assert u['skills'] and u['title']
- assert len(u['items'])==7
- assert Counter(i['phase'] for i in u['items'])=={'basic':2,'transfer':3,'mixed':1,'retention':1}
+ assert len(u['items'])==(14 if u['id'].endswith('K09') else 7)
+ strands=2 if u['id'].endswith('K09') else 1
+ assert Counter(i['phase'] for i in u['items'])=={k:v*strands for k,v in {'basic':2,'transfer':3,'mixed':1,'retention':1}.items()}
  for i in u['items']:
   ids.append(i['id']);formats.add(i['responseType'])
   assert i['passage'] and i['prompt'] and i['explanation']
-  assert i['skills']==u['skills']
+  assert i['skills'] and set(i['skills'])<=set(u['skills'])
   if 'options' in i:
    allowed={o['id'] for o in i['options']}
    assert len(allowed)==len(i['options'])
@@ -37,11 +38,11 @@ for u in b['units']:
  assert u['items'][0]['passage']!=u['items'][2]['passage']
  assert u['items'][5]['passage']!=u['items'][2]['passage']
  assert u['items'][6]['passage'] not in {i['passage'] for i in u['items'][:6]}
-assert len(ids)==len(set(ids))==b['itemCount']==168
+assert len(ids)==len(set(ids))==b['itemCount']==175
 assert {'single','multi','order','written','extraction','true-false','text'}<=formats
 assert b['retentionPolicy']['minimumDelayHours']==24
 assert b['retentionPolicy']['reuseInInitialTraining'] is False
-print('Practice content contract: 24 new units / 168 IDs / phase coverage / extraction / rubrics / retention PASS')
+print('Practice content contract: 24 new units / 175 IDs / phase coverage / extraction / rubrics / retention PASS')
 labels=json.loads((r/'metadata/skill_labels.json').read_text())['labels']
 assert all(skill in labels for u in b['units'] for skill in u['skills'])
 assert all(skill in labels for group in json.loads((r/'metadata/observed_skill_taxonomy.json').read_text())['groups'] for skill in group['demands'])

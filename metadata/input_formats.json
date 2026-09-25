@@ -1,0 +1,1784 @@
+{
+  "schemaVersion": 1,
+  "status": "SOURCE_REVIEWED_RUNTIME_QA_PENDING",
+  "questions": {
+    "FY24-A-I-Q01": {
+      "kind": "parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-I-Q02": {
+      "kind": "text-parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY24-A-I-Q03": {
+      "kind": "text-parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY24-A-I-Q04": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-I-Q05": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-I-Q06": {
+      "kind": "written",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY24-A-I-Q07": {
+      "kind": "text-parts",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-A-I-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-I-Q09": {
+      "kind": "single",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-I-Q10": {
+      "kind": "order",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "tokens": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY24-A-II-Q01": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-A-II-Q02": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "a",
+        "b",
+        "c"
+      ],
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY24-A-II-Q03": {
+      "kind": "text",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-A-II-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY24-A-II-Q05": {
+      "kind": "single",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY24-A-II-Q06": {
+      "kind": "written",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY24-A-II-Q07": {
+      "kind": "single",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY24-A-II-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY24-A-II-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY24-A-II-Q10": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY24-A-II-Q11": {
+      "kind": "written",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY24-A-III-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 6,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-A-III-Q02": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-B-III-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        5
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 6,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-B-III-Q02": {
+      "kind": "text-parts",
+      "sourcePages": [
+        5
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY24-B-IV-Q01": {
+      "kind": "written",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-A-I-Q01": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q02": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q03": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q05": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q06": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q07": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q08": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-I-Q10": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-A-II-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hints": [
+        "漢字二字",
+        "漢字二字",
+        "六字"
+      ],
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-II-Q02": {
+      "kind": "text-parts",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "開始年",
+        "終了年"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q03": {
+      "kind": "single",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q04": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q05": {
+      "kind": "text",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY25-A-II-Q06": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q07": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q09": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q10": {
+      "kind": "text",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-II-Q11": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-A-II-Q12": {
+      "kind": "written",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-A-III-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "①マイノリティ",
+        "②マジョリティ"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-III-Q02": {
+      "kind": "single",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-A-III-Q03": {
+      "kind": "single",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-A-III-Q04": {
+      "kind": "single",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "文脈に合う言葉"
+    },
+    "FY25-A-III-Q05": {
+      "kind": "written",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-III-Q06": {
+      "kind": "written",
+      "sourcePages": [
+        15
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-A-III-Q07": {
+      "kind": "text-parts",
+      "sourcePages": [
+        15
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 5,
+      "labels": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "hints": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "manual": true,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-III-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        15
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-A-III-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        15
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-A-III-Q10": {
+      "kind": "parts",
+      "sourcePages": [
+        16
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "labels": [
+        "a モチーフ",
+        "b アップデート"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "文脈に合う言葉"
+    },
+    "FY25-A-III-Q11": {
+      "kind": "written",
+      "sourcePages": [
+        16
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-B-I-Q01": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q02": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q03": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q05": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q06": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q07": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q08": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-I-Q10": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-II-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 5,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-B-II-Q02": {
+      "kind": "parts",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "labels": [
+        "①放言",
+        "②軽口"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-B-II-Q03": {
+      "kind": "single",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-B-II-Q04": {
+      "kind": "parts",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "labels": [
+        "1",
+        "2"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-B-II-Q05": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-B-II-Q06": {
+      "kind": "text-parts",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "①",
+        "②"
+      ],
+      "hints": [
+        "20字以内相当。『櫛を挽く/櫛挽き』『自分の道/家業』を含む意味なら許容。",
+        "本文から三字"
+      ],
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-B-II-Q07": {
+      "kind": "written",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-B-II-Q08": {
+      "kind": "text-parts",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "⑦",
+        "⑧"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY25-B-II-Q09": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY25-B-III-Q01": {
+      "kind": "single",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-B-III-Q02": {
+      "kind": "parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "labels": [
+        "I",
+        "II"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY25-B-III-Q03": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "①",
+        "②"
+      ],
+      "hints": [
+        "",
+        "本文から五字以内の漢字"
+      ],
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-B-III-Q04": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "a",
+        "b"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY25-B-III-Q05": {
+      "kind": "text-parts",
+      "sourcePages": [
+        13
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "hints": [
+        "五字",
+        "四字",
+        "二十字以内"
+      ],
+      "manual": true,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-B-III-Q06": {
+      "kind": "written",
+      "sourcePages": [
+        13
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY25-B-III-Q07": {
+      "kind": "text",
+      "sourcePages": [
+        13
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY25-B-III-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        13
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-B-III-Q09": {
+      "kind": "parts",
+      "sourcePages": [
+        13
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "tokens": [
+        "X",
+        "Y"
+      ],
+      "labels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "hints": [
+        "",
+        "",
+        ""
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-B-III-Q10": {
+      "kind": "text",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY25-B-III-Q11": {
+      "kind": "written",
+      "sourcePages": [
+        14
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-A-I-Q01": {
+      "kind": "text-parts",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-I-Q02": {
+      "kind": "text-parts",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 7,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-II-Q01": {
+      "kind": "parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ",
+        "カ",
+        "キ",
+        "ク"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-A-II-Q02": {
+      "kind": "text",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-II-Q03": {
+      "kind": "parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-A-II-Q04": {
+      "kind": "text-parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "(1)",
+        "(2)"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "manual": true,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY26-A-II-Q05": {
+      "kind": "text-parts",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "(1)",
+        "(2)"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-A-II-Q06": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-A-II-Q07": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-A-II-Q08": {
+      "kind": "text",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-II-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY26-A-II-Q10": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-II-Q11": {
+      "kind": "text",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-A-II-Q12": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-A-II-Q13": {
+      "kind": "written",
+      "sourcePages": [
+        8
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-A-III-Q01": {
+      "kind": "single",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-A-III-Q02": {
+      "kind": "parts",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "repairSkill": "文脈に合う言葉"
+    },
+    "FY26-A-III-Q03": {
+      "kind": "single",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-A-III-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-A-III-Q05": {
+      "kind": "text-parts",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-A-III-Q06": {
+      "kind": "text-parts",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "labels": [
+        "意味",
+        "使い分け"
+      ],
+      "hints": [
+        "",
+        ""
+      ],
+      "manual": true,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY26-A-III-Q07": {
+      "kind": "written",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-A-III-Q08": {
+      "kind": "set",
+      "sourcePages": [
+        12
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 2,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "select": 2,
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-B-I-Q01": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q02": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q03": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q05": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q06": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q07": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q08": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-I-Q10": {
+      "kind": "text",
+      "sourcePages": [
+        3
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-II-Q01": {
+      "kind": "parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 6,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ",
+        "カ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-B-II-Q02": {
+      "kind": "text",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-II-Q03": {
+      "kind": "parts",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-B-II-Q04": {
+      "kind": "text",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-B-II-Q05": {
+      "kind": "text",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-B-II-Q06": {
+      "kind": "text",
+      "sourcePages": [
+        6
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-B-II-Q07": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-B-II-Q08": {
+      "kind": "single",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "人物と表現を読み取る"
+    },
+    "FY26-B-II-Q09": {
+      "kind": "text",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "文の組み立てと語の使い方"
+    },
+    "FY26-B-II-Q10": {
+      "kind": "written",
+      "sourcePages": [
+        7
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-B-III-Q01": {
+      "kind": "single",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-B-III-Q02": {
+      "kind": "parts",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 3,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ",
+        "オ"
+      ],
+      "repairSkill": "漢字の読み書き"
+    },
+    "FY26-B-III-Q03": {
+      "kind": "text",
+      "sourcePages": [
+        9
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-B-III-Q04": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-B-III-Q05": {
+      "kind": "single",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "tokens": [
+        "ア",
+        "イ",
+        "ウ",
+        "エ"
+      ],
+      "repairSkill": "文脈に合う言葉"
+    },
+    "FY26-B-III-Q06": {
+      "kind": "written",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    },
+    "FY26-B-III-Q07": {
+      "kind": "text",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "抜き出しの条件を守る"
+    },
+    "FY26-B-III-Q08": {
+      "kind": "text",
+      "sourcePages": [
+        10
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-B-III-Q09": {
+      "kind": "parts",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 4,
+      "tokens": [
+        "○",
+        "×"
+      ],
+      "repairSkill": "本文と選択肢を照合する"
+    },
+    "FY26-B-III-Q10": {
+      "kind": "written",
+      "sourcePages": [
+        11
+      ],
+      "reviewedAt": "2026-09-25",
+      "parts": 1,
+      "manual": true,
+      "repairSkill": "根拠を使って説明する"
+    }
+  }
+}

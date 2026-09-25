@@ -1,25 +1,47 @@
-name: Validate Rikkyo Kokugo scaffold
-
+name: Validate Rikkyo Kokugo integration (no publish)
 on:
   push:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-
 permissions:
   contents: read
-
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node tools/validate_scaffold.mjs
+          cache: npm
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/test_authority_baseline.py
-      - run: python tools/test_practice_bank.py
+      - name: Content authority and shared snapshot
+        run: |
+          set -euo pipefail
+          node tools/validate_scaffold.mjs
+          python tools/test_authority_baseline.py
+          python tools/test_practice_bank.py
+          python tools/verify_shared_snapshot.py
+          python tools/build_content.py
+          python tools/test_question_pages.py
+          python tools/validate_grading.py
+      - name: Build application
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          python tools/check_public_artifact.py dist
+      - name: Desktop and mobile diagnostic and source-input checks
+        run: |
+          npm install --no-save --package-lock=false --no-audit --no-fund playwright@1.55.0
+          npx playwright install --with-deps chromium
+          node tools/audit_browser_diagnostic.mjs
+          node tools/audit_browser_exams.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: integration-browser-evidence
+          path: qa-*.png

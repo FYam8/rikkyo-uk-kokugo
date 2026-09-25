@@ -231,5 +231,7 @@ v=by['E06']['items'][6];v['prompt']=v['prompt'].replace('表の数値','本文�
 for u in BANK:
  if any(i['revision']>1 for i in u['items']):u['revision']=2
 result={'schemaVersion':1,'contentSet':'rikkyo-original-practice-20260925-v1','status':'CONTENT_REVIEW_PENDING_ENGINE_INTEGRATION','origin':'NEW_APP_AUTHORED_NOT_RECOVERED','referenceBankRecovered':False,'holdoutSourceUsed':False,'unitCount':len(BANK),'itemCount':sum(len(u['items']) for u in BANK),'retentionPolicy':{'minimumDelayHours':24,'reuseInInitialTraining':False},'contentReview':{'status':'PARTIAL_REVIEW','correctedItemIds':changed,'remaining':'Full 168-item review, per-option rationale, engine and learner QA remain pending.'},'units':BANK}
+from refine_practice_bank import refine
+result=refine(result)
 (ROOT/'metadata/practice_bank.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(result['unitCount'],result['itemCount'])

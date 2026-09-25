@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "upstreamRepository": "FYam8/waseshibu-source",
+  "schoolId": "rikkyo-uk",
+  "subjectId": "kokugo",
+  "generatedAt": "2026-09-25T20:45:11.869Z",
+  "upstreamCommit": "45365156145279b3168f706744aaf9d585701c54",
+  "inheritedUpstreamSchoolContent": false
+}

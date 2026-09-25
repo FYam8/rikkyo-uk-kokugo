@@ -8,14 +8,14 @@
     "originalVerified63Preserved": "PASS",
     "stableIds142Preserved": "PASS",
     "remaining79IndependentReview": "78_VERIFIED_1_REVIEW_REQUIRED",
-    "practiceBank24Units": "24_UNITS_168_ITEMS_PARTIAL_CONTENT_REVIEW_40_DEMAND_TAGS_REQUIRE_COVERAGE_REVIEW",
-    "sharedEngineIntegration": "SHARED_PR_40_CI_PASS_RIKKYO_INTEGRATION_PENDING",
-    "holdoutIsolation": "NOT_TESTED",
-    "desktopBrowser": "NOT_RUN",
-    "mobileBrowser": "NOT_RUN",
-    "resume": "NOT_RUN",
-    "today": "NOT_RUN",
-    "exportImport": "NOT_RUN",
+    "practiceBank24Units": "24_UNITS_175_ITEMS_ANSWER_REVIEWED_PEDAGOGY_QA_PENDING",
+    "sharedEngineIntegration": "RUNNABLE_CANDIDATE_FULL_UPSTREAM_REGRESSION_PENDING",
+    "holdoutIsolation": "DIAGNOSTIC_NETWORK_PASS_FULL_GATE_PENDING",
+    "desktopBrowser": "142_INPUTS_SCORING_PASS_BEFORE_LATEST_FIXES_RECHECK_PENDING",
+    "mobileBrowser": "DIAGNOSTIC33_PASS_FULL_SUITE_FOUND_STALE_TOAST_FIX_RECHECK_PENDING",
+    "resume": "EXAM_AND_REPAIR_DRAFT_PASS_1280_390",
+    "today": "DIAGNOSTIC_AND_REPAIR_ROUTING_PASS_RETENTION_PENDING",
+    "exportImport": "EXPORT_RESET_IMPORT_PASS_1280_390",
     "cleanLoop1": "NOT_RUN",
     "cleanLoop2": "NOT_RUN"
   },
@@ -30,6 +30,7 @@
     "workflowRun": 36183548766,
     "conclusion": "success",
     "scope": "Waseda regression/build/browser checks plus shared school editor fixtures at 390px and 1280px; not full Rikkyo application QA",
-    "downstreamPinPromoted": false
+    "downstreamPinPromoted": false,
+    "candidateCommit": "45365156145279b3168f706744aaf9d585701c54"
   }
 }

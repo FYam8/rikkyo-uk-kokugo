@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "contentSet": "rikkyo-original-practice-20260925-v1",
+  "contentSet": "rikkyo-original-practice-20260925-v3",
   "status": "CONTENT_REVIEW_PENDING_ENGINE_INTEGRATION",
   "origin": "NEW_APP_AUTHORED_NOT_RECOVERED",
   "referenceBankRecovered": false,
   "holdoutSourceUsed": false,
   "unitCount": 24,
-  "itemCount": 168,
+  "itemCount": 175,
   "retentionPolicy": {
     "minimumDelayHours": 24,
     "reuseInInitialTraining": false
   },
   "contentReview": {
-    "status": "PARTIAL_REVIEW",
+    "status": "ANSWER_REVIEWED_PEDAGOGY_QA_PENDING",
     "correctedItemIds": [
       "RUK-ORIGINAL-L04-02",
       "RUK-ORIGINAL-L04-06",
@@ -24,12 +24,12 @@
       "RUK-ORIGINAL-E06-01",
       "RUK-ORIGINAL-E06-07"
     ],
-    "remaining": "Full 168-item review, per-option rationale, engine and learner QA remain pending."
+    "remaining": "Detailed distractor feedback, source-demand routing and end-to-end STEP/retention QA."
   },
   "units": [
     {
       "id": "RUK-ORIGINAL-K01",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "文脈で同音語を選ぶ",
       "skills": [
@@ -41,7 +41,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K01-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -56,7 +56,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -71,7 +71,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -86,7 +86,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -101,7 +101,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -116,7 +116,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -131,7 +131,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K01-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -148,7 +148,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K02",
-      "revision": 2,
+      "revision": 3,
       "domain": "kanji",
       "title": "動作に合う漢字を書く",
       "skills": [
@@ -160,7 +160,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K02-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -175,7 +175,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -190,7 +190,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -205,7 +205,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-04",
-          "revision": 2,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -223,7 +223,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -238,7 +238,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -253,7 +253,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -270,7 +270,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K03",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "説明文で使う熟語",
       "skills": [
@@ -282,7 +282,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K03-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -297,7 +297,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -312,7 +312,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -327,7 +327,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -342,7 +342,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -357,7 +357,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -372,7 +372,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K03-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -389,7 +389,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K04",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "人の気持ちを表す語",
       "skills": [
@@ -401,7 +401,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K04-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -416,7 +416,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -431,7 +431,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -446,7 +446,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -461,7 +461,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -476,7 +476,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -491,7 +491,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K04-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -508,7 +508,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K05",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "社会や暮らしの語",
       "skills": [
@@ -520,7 +520,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K05-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -535,7 +535,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -550,7 +550,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -565,7 +565,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -580,7 +580,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -595,7 +595,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -610,7 +610,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K05-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -627,7 +627,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K06",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "身近な語を正確に読む",
       "skills": [
@@ -639,7 +639,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K06-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -654,7 +654,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -669,7 +669,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -684,7 +684,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -699,7 +699,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -714,7 +714,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -729,7 +729,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K06-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -746,7 +746,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K07",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "自然・科学の語を読む",
       "skills": [
@@ -758,7 +758,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K07-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -773,7 +773,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -788,7 +788,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -803,7 +803,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -818,7 +818,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -833,7 +833,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -848,7 +848,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K07-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -865,7 +865,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K08",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "読解で役立つ語を読む",
       "skills": [
@@ -877,7 +877,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K08-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -892,7 +892,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -907,7 +907,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -922,7 +922,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -937,7 +937,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -952,7 +952,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -967,7 +967,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K08-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -984,19 +984,26 @@
     },
     {
       "id": "RUK-ORIGINAL-K09",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
-      "title": "言葉を文脈に戻す",
+      "title": "言葉の意味・文の組み立てを確かめる",
       "skills": [
         "KANJI",
-        "VOCAB_CONTEXT"
+        "VOCAB_CONTEXT",
+        "GRAMMAR",
+        "IDIOM",
+        "PART_OF_SPEECH",
+        "DICTIONARY_USAGE",
+        "ANTONYM",
+        "CONCEPT_DEFINITION",
+        "MIMETIC_WORD"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-K09-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -1011,7 +1018,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -1026,7 +1033,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1041,7 +1048,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1056,7 +1063,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1071,7 +1078,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -1086,7 +1093,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K09-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -1098,12 +1105,248 @@
           "explanation": "文の中の意味に合う表記・読みは「尊重」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
           "origin": "APP_AUTHORED",
           "answer": "尊重"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-08",
+          "revision": 1,
+          "phase": "basic",
+          "skills": [
+            "GRAMMAR"
+          ],
+          "passage": "白い雲がゆっくり東へ流れる。",
+          "prompt": "主語と述語の文節の組合せを選ぼう。",
+          "options": [
+            {
+              "id": "1",
+              "text": "白い―流れる"
+            },
+            {
+              "id": "2",
+              "text": "雲が―流れる"
+            },
+            {
+              "id": "3",
+              "text": "ゆっくり―東へ"
+            },
+            {
+              "id": "4",
+              "text": "東へ―雲が"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "何がどうするかを探すと「雲が流れる」。白いは雲への修飾、ゆっくりと東へは流れるへの修飾。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-09",
+          "revision": 1,
+          "phase": "basic",
+          "skills": [
+            "IDIOM",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "遠足の帰り、なくしたと思った財布が鞄の底から見つかり、玲は胸をなで下ろした。",
+          "prompt": "胸をなで下ろした気持ちとして適切なのは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "怒りが強まった"
+            },
+            {
+              "id": "2",
+              "text": "安心した"
+            },
+            {
+              "id": "3",
+              "text": "得意になった"
+            },
+            {
+              "id": "4",
+              "text": "疑いを深めた"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "心配していた財布が見つかったため安心した。胸をなで下ろすは安堵を表し、怒り・自慢・疑念を意味しない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-10",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "GRAMMAR",
+            "PART_OF_SPEECH"
+          ],
+          "passage": "①冷たい水を飲む。②水は冷たい。",
+          "prompt": "①②の「冷たい」の品詞として正しいものは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "①形容詞・②形容詞"
+            },
+            {
+              "id": "2",
+              "text": "①名詞・②動詞"
+            },
+            {
+              "id": "3",
+              "text": "①副詞・②名詞"
+            },
+            {
+              "id": "4",
+              "text": "①動詞・②副詞"
+            }
+          ],
+          "answer": "1",
+          "responseType": "single",
+          "explanation": "どちらも性質を表し、言い切りが「い」の形容詞。①は水を修飾し、②は述語になっているが、文中の役割が違っても品詞は変わらない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-11",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "DICTIONARY_USAGE",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "【学習用の語義】通る：①ある場所を移動する。②音や声が遠くまではっきり届く。\n体育館で舞台係が「後ろの席まで声が通るように話そう」と呼びかけた。",
+          "prompt": "本文での意味と根拠として正しい組合せは。",
+          "options": [
+            {
+              "id": "1",
+              "text": "①―人が後ろの席へ歩くから"
+            },
+            {
+              "id": "2",
+              "text": "②―声が離れた席にも聞こえるようにするから"
+            },
+            {
+              "id": "3",
+              "text": "①―声には必ず歩く力があるから"
+            },
+            {
+              "id": "4",
+              "text": "②―後ろの席をなくすから"
+            }
+          ],
+          "answer": "2",
+          "responseType": "single",
+          "explanation": "「通る」の主語は人ではなく声。遠い席まで音が届く意味②に合う。席へ歩く行動や席をなくす話は示されていない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-12",
+          "revision": 1,
+          "phase": "transfer",
+          "skills": [
+            "ANTONYM",
+            "CONCEPT_DEFINITION"
+          ],
+          "passage": "「果物」は、りんごやみかんに共通する性質をまとめた言葉だ。種類の違いをいったん取り去り、共通点に注目して考えている。",
+          "prompt": "この説明の「具体的」と対になる考え方を表す語は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "時間的"
+            },
+            {
+              "id": "2",
+              "text": "形式的"
+            },
+            {
+              "id": "3",
+              "text": "抽象的"
+            },
+            {
+              "id": "4",
+              "text": "個別的"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "個々の具体例から共通する性質を取り出すのが抽象化。「時間的」は時間、「形式的」は形式、「個別的」は一つ一つの対象に関わる語。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-13",
+          "revision": 1,
+          "phase": "mixed",
+          "skills": [
+            "MIMETIC_WORD",
+            "VOCAB_CONTEXT"
+          ],
+          "passage": "帰り道、雨がぽつぽつ降り始めた。まだ地面の乾いた部分が多く残っていた。",
+          "prompt": "ぽつぽつが表す降り方は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "激しく連続して降る"
+            },
+            {
+              "id": "2",
+              "text": "大きな音を立てて吹き付ける"
+            },
+            {
+              "id": "3",
+              "text": "少しずつ間を置いて降る"
+            },
+            {
+              "id": "4",
+              "text": "すでに完全にやんでいる"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "「降り始め」「乾いた部分が多い」と合わせると、小さな雨粒が間を置いて落ちる様子。激しい連続的な雨や止んだ状態とは違う。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
+        },
+        {
+          "id": "RUK-ORIGINAL-K09-14",
+          "revision": 1,
+          "phase": "retention",
+          "skills": [
+            "GRAMMAR"
+          ],
+          "passage": "風で窓が急に閉まった。机の上の紙が少し動いた。",
+          "prompt": "最初の文の「急に」が直接修飾する文節は。",
+          "options": [
+            {
+              "id": "1",
+              "text": "風で"
+            },
+            {
+              "id": "2",
+              "text": "窓が"
+            },
+            {
+              "id": "3",
+              "text": "閉まった"
+            },
+            {
+              "id": "4",
+              "text": "紙が"
+            }
+          ],
+          "answer": "3",
+          "responseType": "single",
+          "explanation": "「急に」は閉まり方を表し、閉まったを修飾する。窓という物の性質ではなく動きの様子であり、次の文の紙がにもかからない。",
+          "origin": "APP_AUTHORED",
+          "repairSkill": "文の組み立てと語の使い方"
         }
       ]
     },
     {
       "id": "RUK-ORIGINAL-K10",
-      "revision": 1,
+      "revision": 3,
       "domain": "kanji",
       "title": "送り仮名を確かめる",
       "skills": [
@@ -1115,7 +1358,7 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-K10-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -1130,7 +1373,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "KANJI",
@@ -1145,7 +1388,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1160,7 +1403,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1175,7 +1418,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "KANJI",
@@ -1190,7 +1433,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "KANJI",
@@ -1205,7 +1448,7 @@
         },
         {
           "id": "RUK-ORIGINAL-K10-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "KANJI",
@@ -1222,20 +1465,24 @@
     },
     {
       "id": "RUK-ORIGINAL-L01",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "人物の気持ち・変化",
       "skills": [
-        "LITERARY_CHARACTER"
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L01-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER"
           ],
           "passage": "合唱の練習で、葵は手を挙げかけて下ろした。前の練習で意見を笑われたことを思い出したのだ。隣の澪が「さっきの案、もう一度聞きたい」と言うと、葵は折り畳んでいた楽譜を開いた。",
@@ -1282,9 +1529,10 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER"
           ],
           "passage": "合唱の練習で、葵は手を挙げかけて下ろした。前の練習で意見を笑われたことを思い出したのだ。隣の澪が「さっきの案、もう一度聞きたい」と言うと、葵は折り畳んでいた楽譜を開いた。",
@@ -1331,9 +1579,10 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER"
           ],
           "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
@@ -1380,9 +1629,10 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "WRITTEN_EXPLANATION",
             "LITERARY_CHARACTER"
           ],
           "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
@@ -1407,10 +1657,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LITERARY_CHARACTER"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
           ],
           "passage": "図工室で、陸は作りかけの船を箱へしまった。「不格好だろ」と笑ったが、箱のふたは閉めなかった。弟が帆の形を褒めると、陸は箱から船を出し、折れた支柱を直し始めた。",
           "prompt": "本文で直接確認できる行動を二つ選ぼう。",
@@ -1454,9 +1706,10 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER"
           ],
           "passage": "発表前、凛は原稿を握り締めていた。客席の友人が小さくうなずくと、指の力を緩めて顔を上げた。",
@@ -1503,9 +1756,10 @@
         },
         {
           "id": "RUK-ORIGINAL-L01-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER"
           ],
           "passage": "遥は何度も描いた線を消した。先生が「この曲がり方が面白いね」と言うと、消しゴムを置いて続きを描いた。",
@@ -1554,23 +1808,25 @@
     },
     {
       "id": "RUK-ORIGINAL-L02",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "主語と人物の関係",
       "skills": [
+        "CONTENT_SELECTION",
         "LITERARY_CHARACTER",
-        "CONTENT_SELECTION"
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L02-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "直人は妹から借りた傘を玄関に置いた。濡れた傘に気付いた父が外へ運び、広げた。妹は帰宅すると父に礼を言い、それから直人に「次は自分で干してね」と言った。",
           "prompt": "傘を広げたのは誰か。",
@@ -1616,11 +1872,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "直人は妹から借りた傘を玄関に置いた。濡れた傘に気付いた父が外へ運び、広げた。妹は帰宅すると父に礼を言い、それから直人に「次は自分で干してね」と言った。",
           "prompt": "妹が直人に求めたことは。",
@@ -1666,11 +1922,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
           "prompt": "眼鏡の場所を見つけたのは。",
@@ -1716,11 +1972,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
           "prompt": "祖母が二人に違う言葉をかけた理由を説明しよう。",
@@ -1744,11 +2000,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "MULTI_SELECT"
           ],
           "passage": "美緒は祖母の眼鏡を探していた。弟が机の下を指さしたので、美緒は拾って祖母に渡した。祖母は弟を見て「よく見つけたね」と言い、美緒には「届けてくれてありがとう」と言った。",
           "prompt": "正しい内容を二つ選ぼう。",
@@ -1792,11 +2049,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "悠が運んだ本を、司書の佐伯さんが棚に戻した。それを見た弟が悠に「重かったね」と言った。",
           "prompt": "本を運んだ人は。",
@@ -1842,11 +2099,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L02-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "LITERARY_CHARACTER",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "母から預かった種を姉が弟に渡した。弟は庭にまき、姉は日付を札に書いた。",
           "prompt": "札を書いた人は。",
@@ -1894,23 +2151,25 @@
     },
     {
       "id": "RUK-ORIGINAL-L03",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "行動から理由を読む",
       "skills": [
+        "CONTENT_SELECTION",
         "LITERARY_CHARACTER",
-        "WRITTEN_EXPLANATION"
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L03-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "湊は負けた試合の記録を捨てようとした。だが、裏に仲間の助言が書かれているのを見て、机の一番上の引き出しにしまった。翌朝、誰よりも早く練習場へ向かった。",
           "prompt": "記録を残したきっかけは。",
@@ -1956,11 +2215,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "湊は負けた試合の記録を捨てようとした。だが、裏に仲間の助言が書かれているのを見て、机の一番上の引き出しにしまった。翌朝、誰よりも早く練習場へ向かった。",
           "prompt": "翌朝の行動は何を示すか。",
@@ -2006,11 +2265,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
           "prompt": "紬が書き直しを始めた理由は。",
@@ -2056,11 +2315,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
           "prompt": "初めの行動と最後の行動を比べ、気持ちの変化を説明しよう。",
@@ -2084,11 +2343,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
             "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "MULTI_SELECT"
           ],
           "passage": "紬は返された作文を伏せた。赤字の多さが恥ずかしかった。休み時間に読み返すと、最後に「この場面をもっと知りたい」とあった。紬は新しい紙を取り出し、その場面から書き始めた。",
           "prompt": "本文に書かれていることを二つ選ぼう。",
@@ -2132,11 +2392,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "航は失敗した実験のノートを開いた。前と同じ失敗を避けるため、温度の欄に印を付けた。",
           "prompt": "ノートを開いた目的は。",
@@ -2182,11 +2442,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L03-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "LITERARY_CHARACTER",
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "優は縫い目のほどけた袋を見てため息をついたが、祖父の使っていた針箱を開いた。",
           "prompt": "最も控えめで妥当な読みは。",
@@ -2234,21 +2494,25 @@
     },
     {
       "id": "RUK-ORIGINAL-L04",
-      "revision": 2,
+      "revision": 3,
       "domain": "literary",
       "title": "本文にない断定を避ける",
       "skills": [
-        "CONTENT_SELECTION"
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L04-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "駅で沙耶は時計を見た。約束の時刻まで十分ある。それでも改札を何度も振り返った。友人から届いた「少し話したいことがある」という短い連絡が、朝から気になっていた。",
           "prompt": "本文と一致するものは。",
@@ -2294,10 +2558,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-02",
-          "revision": 2,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "駅で沙耶は時計を見た。約束の時刻まで十分ある。それでも改札を何度も振り返った。友人から届いた「少し話したいことがある」という短い連絡が、朝から気になっていた。",
           "prompt": "本文だけでは断定できないものは。",
@@ -2343,10 +2608,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
           "prompt": "本文から確実に言えるのは。",
@@ -2392,10 +2658,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
           "prompt": "閉店の理由を断定してはいけないのはなぜか。",
@@ -2418,10 +2685,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
           ],
           "passage": "店を閉める知らせを見て、律は足を止めた。祖母とよく来た店だった。店主は片付けの手を止めて会釈した。律は何か言おうとして、結局いつもの菓子を一つ買った。",
           "prompt": "本文にある事実を二つ選ぼう。",
@@ -2465,10 +2734,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-06",
-          "revision": 2,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "港で風が強くなった。船員は空を見上げたが、船はまだ動かなかった。",
           "prompt": "断定できないのは。",
@@ -2514,10 +2784,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-07",
-          "revision": 2,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "理央は封筒を机にしまった。その日は誰にも中身を話さなかった。",
           "prompt": "本文にない断定は。",
@@ -2565,18 +2836,21 @@
     },
     {
       "id": "RUK-ORIGINAL-L05",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "抜き出す範囲を守る",
       "skills": [
-        "TEXT_EXTRACTION"
+        "TEXT_EXTRACTION",
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L05-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "TEXT_EXTRACTION"
@@ -2593,10 +2867,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L05-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "真帆は「悔しくない」と言った。けれども、膝の上の手は震えていた。兄はその手を見て、勝った理由を話しかけるのをやめた。",
           "prompt": "言葉と行動の関係として正しいものは。",
@@ -2642,35 +2917,17 @@
         },
         {
           "id": "RUK-ORIGINAL-L05-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
-          "prompt": "母がいた場所は。",
-          "responseType": "single",
-          "explanation": "本文の根拠に合うのは「窓辺」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "prompt": "母がいた場所を、本文から漢字二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「窓辺」が指定された内容を表す。2字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": "3",
-          "options": [
-            {
-              "id": "1",
-              "text": "玄関の外"
-            },
-            {
-              "id": "2",
-              "text": "台所"
-            },
-            {
-              "id": "3",
-              "text": "窓辺"
-            },
-            {
-              "id": "4",
-              "text": "駅"
-            }
-          ],
+          "answer": "窓辺",
           "misconceptions": {
             "1": {
               "skill": "TEXT_EXTRACTION",
@@ -2687,40 +2944,36 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 2
           }
         },
         {
           "id": "RUK-ORIGINAL-L05-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
-          "prompt": "振り返った後の澄の行動を二つ挙げよう。",
-          "responseType": "written",
-          "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
+          "prompt": "澄がうなずいた後にしたことを、本文から十一字で抜き出そう。句点は含めない。",
+          "responseType": "extraction",
+          "explanation": "本文の「握っていた地図を開いた」が指定された内容を表す。11字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "modelAnswer": "小さくうなずき、握っていた地図を開いた。",
-          "rubric": {
-            "requiredElements": [
-              "うなずく",
-              "地図を開く"
-            ],
-            "exactMatchRequired": false,
-            "acceptableVariants": [
-              "本文の根拠と因果関係を保つ別表現を許容する。"
-            ],
-            "gradingMode": "manual-element-comparison",
-            "maxCharacters": 120
+          "answer": "握っていた地図を開いた",
+          "constraints": {
+            "exactCharacters": 11
           }
         },
         {
           "id": "RUK-ORIGINAL-L05-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
           ],
           "passage": "玄関の灯りはまだついていた。澄は戸を閉める前に振り返った。母は窓辺で手を振っていた。澄は小さくうなずき、握っていた地図を開いた。",
           "prompt": "本文の表記と一致する語を二つ選ぼう。",
@@ -2764,35 +3017,17 @@
         },
         {
           "id": "RUK-ORIGINAL-L05-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "健は笑ったが、その声はかすれていた。友人は黙って水を渡した。",
-          "prompt": "声の様子として本文にあるものは。",
-          "responseType": "single",
-          "explanation": "本文の根拠に合うのは「かすれていた」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "prompt": "声の様子を表す部分を、本文から六字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「かすれていた」が指定された内容を表す。6字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": "2",
-          "options": [
-            {
-              "id": "1",
-              "text": "明るかった"
-            },
-            {
-              "id": "2",
-              "text": "かすれていた"
-            },
-            {
-              "id": "3",
-              "text": "大きかった"
-            },
-            {
-              "id": "4",
-              "text": "聞こえなかった"
-            }
-          ],
+          "answer": "かすれていた",
           "misconceptions": {
             "1": {
               "skill": "TEXT_EXTRACTION",
@@ -2809,39 +3044,24 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 6
           }
         },
         {
           "id": "RUK-ORIGINAL-L05-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "雨がやむと、絵里は窓を開けた。湿った土の匂いが入ってきた。",
-          "prompt": "本文にある匂いは。",
-          "responseType": "single",
-          "explanation": "本文の根拠に合うのは「湿った土の匂い」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "prompt": "絵里が感じた匂いを、本文から七字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「湿った土の匂い」が指定された内容を表す。7字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": "3",
-          "options": [
-            {
-              "id": "1",
-              "text": "花の匂い"
-            },
-            {
-              "id": "2",
-              "text": "海の匂い"
-            },
-            {
-              "id": "3",
-              "text": "湿った土の匂い"
-            },
-            {
-              "id": "4",
-              "text": "食事の匂い"
-            }
-          ],
+          "answer": "湿った土の匂い",
           "misconceptions": {
             "1": {
               "skill": "TEXT_EXTRACTION",
@@ -2858,27 +3078,34 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 7
           }
         }
       ]
     },
     {
       "id": "RUK-ORIGINAL-L06",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "理由を根拠と結び付ける",
       "skills": [
-        "WRITTEN_EXPLANATION"
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L06-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "班の発表が止まった。担当の結が言葉を忘れたのだ。隣の奏は自分が話し出さず、結の資料の一行を指さした。結はそこを見て説明を再開した。",
           "prompt": "発表が止まった理由は。",
@@ -2924,10 +3151,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "班の発表が止まった。担当の結が言葉を忘れたのだ。隣の奏は自分が話し出さず、結の資料の一行を指さした。結はそこを見て説明を再開した。",
           "prompt": "奏の行動の効果は。",
@@ -2973,10 +3201,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
           "prompt": "祖父が手を止めた理由として適切なのは。",
@@ -3022,10 +3251,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "WRITTEN_EXPLANATION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
           "prompt": "手を止めたことと拍手したことに共通する祖父の姿勢を説明しよう。",
@@ -3049,10 +3279,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT"
           ],
           "passage": "祖父は転びそうになった孫へ手を伸ばしたが、孫が踏ん張るのを見て手を止めた。孫が坂を上り切ると、少し離れた所から拍手した。",
           "prompt": "根拠となる行動を二つ選ぼう。",
@@ -3096,10 +3328,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "失敗した友人に、杏は答えを教えず「どこまでは分かった？」と聞いた。",
           "prompt": "発言の働きは。",
@@ -3145,10 +3378,11 @@
         },
         {
           "id": "RUK-ORIGINAL-L06-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "WRITTEN_EXPLANATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER"
           ],
           "passage": "弟が靴ひもを結び直す間、姉は急がせず玄関で待った。",
           "prompt": "本文に基づく説明は。",
@@ -3196,21 +3430,29 @@
     },
     {
       "id": "RUK-ORIGINAL-L07",
-      "revision": 1,
+      "revision": 3,
       "domain": "literary",
       "title": "比喩を具体的な状態に戻す",
       "skills": [
-        "PHRASE_INTERPRETATION"
+        "CONTENT_SELECTION",
+        "LITERARY_CHARACTER",
+        "PHRASE_INTERPRETATION",
+        "METAPHOR_INTERPRETATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-L07-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "転校初日、教室の声は遠い波のように聞こえた。名前を呼ばれても一瞬気付かなかった。隣の生徒が笑顔で椅子を引くと、ようやく周りの顔がはっきり見えた。",
           "prompt": "遠い波のようという表現が示す状態は。",
@@ -3256,10 +3498,13 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "転校初日、教室の声は遠い波のように聞こえた。名前を呼ばれても一瞬気付かなかった。隣の生徒が笑顔で椅子を引くと、ようやく周りの顔がはっきり見えた。",
           "prompt": "笑顔と椅子を引く行動の働きは。",
@@ -3305,10 +3550,13 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
           "prompt": "石が軽くなるとはどんなことか。",
@@ -3354,10 +3602,12 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "WRITTEN_EXPLANATION",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
           "prompt": "石の比喩を使わず、千夏の心情変化を説明しよう。",
@@ -3381,10 +3631,14 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "MULTI_SELECT",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "準備した展示を誰も見ずに通り過ぎた。千夏の胸には小さな石が沈んだ。閉館前、一人の子が足を止めて質問すると、その石は少し軽くなった。",
           "prompt": "本文に合うものを二つ選ぼう。",
@@ -3428,10 +3682,13 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "友人の一言で、行き詰まっていた考えに窓が開いた。別の方法を試せそうだった。",
           "prompt": "窓が開いたの意味は。",
@@ -3477,10 +3734,13 @@
         },
         {
           "id": "RUK-ORIGINAL-L07-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "PHRASE_INTERPRETATION"
+            "CONTENT_SELECTION",
+            "LITERARY_CHARACTER",
+            "PHRASE_INTERPRETATION",
+            "METAPHOR_INTERPRETATION"
           ],
           "passage": "長い沈黙の後、名前を呼ぶ声が二人の間に橋を架けた。",
           "prompt": "橋を架けたとは。",
@@ -3528,21 +3788,25 @@
     },
     {
       "id": "RUK-ORIGINAL-E01",
-      "revision": 1,
+      "revision": 3,
       "domain": "expository",
       "title": "要旨と例を区別する",
       "skills": [
-        "CONTENT_SELECTION"
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E01-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "図書館の本を増やせば、利用者も必ず増えるだろうか。冊数が多くても、探す仕組みが分かりにくければ本には出会いにくい。必要なのは量だけでなく、利用者と本を結ぶ案内である。",
           "prompt": "筆者の中心的な主張は。",
@@ -3588,10 +3852,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "図書館の本を増やせば、利用者も必ず増えるだろうか。冊数が多くても、探す仕組みが分かりにくければ本には出会いにくい。必要なのは量だけでなく、利用者と本を結ぶ案内である。",
           "prompt": "本を増やす例の役割は。",
@@ -3637,10 +3902,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
           "prompt": "この文章の要旨は。",
@@ -3686,10 +3952,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
           ],
           "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
           "prompt": "配布と伝達が同じでない理由を本文の例を使って説明しよう。",
@@ -3712,10 +3979,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
           ],
           "passage": "町は防災情報を毎月配っている。しかし、配布したことと住民に伝わったことは同じではない。文字が小さく読めない人や、日本語に不慣れな人もいる。情報の量だけでなく、受け取る人に届く形を考える必要がある。",
           "prompt": "本文の例に含まれる人を二つ選ぼう。",
@@ -3759,10 +4028,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "公園を造るだけでは誰もが使えるとは限らない。入口に段差があれば、入れない人もいる。設備の存在と使いやすさは別である。",
           "prompt": "中心的な主張は。",
@@ -3808,10 +4078,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E01-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "質問箱を設置しても、誰に読まれるか分からなければ意見を入れにくい。利用を促すには扱い方の説明が欠かせない。",
           "prompt": "筆者の提案は。",
@@ -3859,18 +4130,21 @@
     },
     {
       "id": "RUK-ORIGINAL-E02",
-      "revision": 1,
+      "revision": 3,
       "domain": "expository",
       "title": "条件に合う語句を探す",
       "skills": [
-        "TEXT_EXTRACTION"
+        "TEXT_EXTRACTION",
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
+        "WRITTEN_EXPLANATION"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E02-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
             "TEXT_EXTRACTION"
@@ -3887,10 +4161,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E02-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "同じ道を毎日歩くと、小さな変化を見落とすことがある。そこで、観察する場所を一つ決め、昨日との違いを記録する。記録は記憶だけに頼る判断を補ってくれる。",
           "prompt": "筆者が勧める方法は。",
@@ -3936,35 +4211,17 @@
         },
         {
           "id": "RUK-ORIGINAL-E02-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
-          "prompt": "測定を繰り返すと区別しやすくなる二つは。",
-          "responseType": "single",
-          "explanation": "本文の根拠に合うのは「偶然の変動と安定した傾向」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "prompt": "繰り返す測定で区別する二つを、間の「と」も含めて本文から十二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「偶然の変動と安定した傾向」が指定された内容を表す。12字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": "2",
-          "options": [
-            {
-              "id": "1",
-              "text": "速さと長さ"
-            },
-            {
-              "id": "2",
-              "text": "偶然の変動と安定した傾向"
-            },
-            {
-              "id": "3",
-              "text": "過去と未来"
-            },
-            {
-              "id": "4",
-              "text": "成功と人格"
-            }
-          ],
+          "answer": "偶然の変動と安定した傾向",
           "misconceptions": {
             "1": {
               "skill": "TEXT_EXTRACTION",
@@ -3981,14 +4238,18 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 12
           }
         },
         {
           "id": "RUK-ORIGINAL-E02-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "TEXT_EXTRACTION"
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
           ],
           "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
           "prompt": "繰り返すだけでは不十分な理由を説明しよう。",
@@ -4011,38 +4272,17 @@
         },
         {
           "id": "RUK-ORIGINAL-E02-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "測定値には小さなずれが生じる。一度の値だけで結論を出すのではなく、同じ条件で測定を繰り返すと、偶然の変動と安定した傾向を区別しやすくなる。ただし、同じ誤りを繰り返していないか、道具の点検も必要だ。",
-          "prompt": "本文中にある語句を二つ選ぼう。",
-          "responseType": "multi",
-          "explanation": "本文中で直接確認できるのは偶然の変動、安定した傾向。他の選択肢の断定には根拠がない。",
+          "prompt": "測定を繰り返す際に必要なことを、本文から五字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「道具の点検」が指定された内容を表す。5字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": [
-            "1",
-            "3"
-          ],
-          "options": [
-            {
-              "id": "1",
-              "text": "偶然の変動"
-            },
-            {
-              "id": "2",
-              "text": "完全な証明"
-            },
-            {
-              "id": "3",
-              "text": "安定した傾向"
-            },
-            {
-              "id": "4",
-              "text": "永久の真理"
-            }
-          ],
+          "answer": "道具の点検",
           "misconceptions": {
             "2": {
               "skill": "TEXT_EXTRACTION",
@@ -4054,11 +4294,14 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 5
           }
         },
         {
           "id": "RUK-ORIGINAL-E02-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
             "TEXT_EXTRACTION"
@@ -4075,35 +4318,17 @@
         },
         {
           "id": "RUK-ORIGINAL-E02-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
             "TEXT_EXTRACTION"
           ],
           "passage": "短い記録でも、日付がなければ変化の順序を確かめにくい。記録を比較するため、観察した日付を添える。",
-          "prompt": "記録に添えるものは。",
-          "responseType": "single",
-          "explanation": "本文の根拠に合うのは「日付」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "prompt": "記録を比べるために添えるものを、本文から二字で抜き出そう。",
+          "responseType": "extraction",
+          "explanation": "本文の「日付」が指定された内容を表す。2字で、前後の助詞や句点を勝手に付け足さない。",
           "origin": "APP_AUTHORED",
-          "answer": "2",
-          "options": [
-            {
-              "id": "1",
-              "text": "感想だけ"
-            },
-            {
-              "id": "2",
-              "text": "日付"
-            },
-            {
-              "id": "3",
-              "text": "友人の名前"
-            },
-            {
-              "id": "4",
-              "text": "価格"
-            }
-          ],
+          "answer": "日付",
           "misconceptions": {
             "1": {
               "skill": "TEXT_EXTRACTION",
@@ -4120,29 +4345,38 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "constraints": {
+            "exactCharacters": 2
           }
         }
       ]
     },
     {
       "id": "RUK-ORIGINAL-E03",
-      "revision": 1,
+      "revision": 3,
       "domain": "expository",
       "title": "接続語と空欄を考える",
       "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
         "BLANK_COMPLETION",
-        "LOGIC_RELATION"
+        "CONJUNCTION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E03-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "この道具は軽く、持ち運びやすい。（　）、強い力を加えると曲がりやすい。使う場面に合わせて選ぶ必要がある。",
           "prompt": "空欄に適切なのは。",
@@ -4188,11 +4422,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "この道具は軽く、持ち運びやすい。（　）、強い力を加えると曲がりやすい。使う場面に合わせて選ぶ必要がある。",
           "prompt": "最後の文が勧める判断は。",
@@ -4238,11 +4474,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
           "prompt": "AとBの組合せとして適切なのは。",
@@ -4288,11 +4526,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
           "prompt": "結論が導かれる理由を説明しよう。",
@@ -4315,11 +4555,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "遠くの人ともすぐ話せる通信手段がある。（A）、連絡できることと、相手がすぐ返事できることは別である。授業中や休息中かもしれない。（B）、返事が遅いという理由だけで相手を責めるべきではない。",
           "prompt": "本文に示された返信できない事情を二つ選ぼう。",
@@ -4363,11 +4606,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "校庭には日陰が少ない。（　）、休憩場所に屋根を設けた。",
           "prompt": "空欄に適切なのは。",
@@ -4413,11 +4658,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E03-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "BLANK_COMPLETION",
-            "LOGIC_RELATION"
+            "CONJUNCTION"
           ],
           "passage": "虫には多様な食べ物がある。（　）、花の蜜を吸うものも、葉を食べるものもいる。",
           "prompt": "空欄に適切なのは。",
@@ -4465,23 +4712,25 @@
     },
     {
       "id": "RUK-ORIGINAL-E04",
-      "revision": 1,
+      "revision": 3,
       "domain": "expository",
       "title": "条件と因果を区別する",
       "skills": [
+        "CONTENT_SELECTION",
         "LOGIC_RELATION",
-        "CONTENT_SELECTION"
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E04-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "雨の日に図書室の利用者が多かった。だが、これだけで雨が利用者を増やしたとは決められない。同じ日に新刊の展示も始まっていたからだ。",
           "prompt": "因果を断定できない理由は。",
@@ -4527,11 +4776,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "雨の日に図書室の利用者が多かった。だが、これだけで雨が利用者を増やしたとは決められない。同じ日に新刊の展示も始まっていたからだ。",
           "prompt": "本文が示す姿勢は。",
@@ -4577,11 +4826,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
           "prompt": "調査結果から直ちに言えるのは。",
@@ -4627,11 +4876,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
           ],
           "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
           "prompt": "関連があることと原因が分かることの違いを説明しよう。",
@@ -4654,11 +4903,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
             "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "MULTI_SELECT"
           ],
           "passage": "朝に運動する生徒の平均睡眠時間が長いという調査結果があった。しかし、運動したから睡眠が長くなったのか、十分眠れる生活だから運動もできたのかは、この結果だけでは分からない。家庭の生活時間など、両方に関わる条件も考えられる。",
           "prompt": "本文が検討する可能性を二つ選ぼう。",
@@ -4702,11 +4952,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "売上が増えた月に広告を変えた。しかし、その月は営業日も増えていた。",
           "prompt": "売上増の原因を考えるとき必要なのは。",
@@ -4752,11 +5002,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E04-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "LOGIC_RELATION",
-            "CONTENT_SELECTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "練習した生徒全員が上達したとは書かれていない。「平均が上がった」という結果だけが示されている。",
           "prompt": "正しい読みは。",
@@ -4804,23 +5054,25 @@
     },
     {
       "id": "RUK-ORIGINAL-E05",
-      "revision": 2,
+      "revision": 3,
       "domain": "expository",
       "title": "仕組みを自分の言葉で説明する",
       "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
         "WRITTEN_EXPLANATION",
-        "TRANSFER_APPLICATION"
+        "MULTI_SELECT"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E05-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。",
           "prompt": "表を置く目的は。",
@@ -4866,11 +5118,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。",
           "prompt": "共有の利点として本文にあるものは。",
@@ -4916,11 +5168,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
           "prompt": "この対応が重視することは。",
@@ -4966,11 +5218,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-04",
-          "revision": 2,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
             "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "LOGIC_RELATION"
           ],
           "passage": "【文章A】共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。\n\n【文章B】寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
           "prompt": "文章Aと文章Bに共通する、利用者の必要を両立させる考え方を説明しよう。",
@@ -4994,11 +5246,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT"
           ],
           "passage": "寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
           "prompt": "本文で決めたことを二つ選ぼう。",
@@ -5042,11 +5295,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-06",
-          "revision": 2,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "学校の畑に水をやる当番が重なった。担当日を見える場所に掲示して重複を防いだ。",
           "prompt": "この掲示の働きとして適切なのは。",
@@ -5092,11 +5345,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "WRITTEN_EXPLANATION",
-            "TRANSFER_APPLICATION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "多言語の案内に図を添えると、文字だけでは読み取りにくい人にも手順が伝わりやすい。",
           "prompt": "説明として適切なのは。",
@@ -5144,23 +5397,30 @@
     },
     {
       "id": "RUK-ORIGINAL-E06",
-      "revision": 2,
+      "revision": 3,
       "domain": "expository",
       "title": "表の数値から言える範囲",
       "skills": [
+        "CONTENT_SELECTION",
+        "LOGIC_RELATION",
         "DATA_INTERPRETATION",
-        "CONTENT_SELECTION"
+        "NUMERIC_INFORMATION",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT",
+        "TRUE_FALSE"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E06-01",
-          "revision": 2,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
           "prompt": "4月から5月に増えた学年は。",
@@ -5226,11 +5486,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-02",
-          "revision": 2,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
           "prompt": "この資料だけでは分からないことは。",
@@ -5296,11 +5558,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
           "prompt": "回答者に占める「毎日」の割合が高いのは。",
@@ -5346,11 +5610,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "WRITTEN_EXPLANATION",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
           "prompt": "人数と割合を区別して比較しよう。",
@@ -5374,11 +5639,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "MULTI_SELECT",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "校内調査で、A組は回答者20人中12人、B組は回答者30人中15人が朝食を毎日取ると答えた。調査日は同じで、回答しなかった生徒の習慣は不明である。",
           "prompt": "確実に言えることを二つ選ぼう。",
@@ -5422,11 +5690,13 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "同じ時間の来館者は、平日40人、休日60人だった。開館時間全体の合計は調べていない。",
           "prompt": "正しい説明は。",
@@ -5472,11 +5742,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-07",
-          "revision": 2,
+          "revision": 3,
           "phase": "retention",
           "skills": [
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION",
+            "TRUE_FALSE",
             "DATA_INTERPRETATION",
-            "CONTENT_SELECTION"
+            "NUMERIC_INFORMATION"
           ],
           "passage": "10人中6人と100人中60人が同じ案に賛成した。",
           "prompt": "「賛成人数は異なるが、賛成割合は同じだ」は本文の数値と一致するか。",
@@ -5499,25 +5772,30 @@
     },
     {
       "id": "RUK-ORIGINAL-E07",
-      "revision": 1,
+      "revision": 3,
       "domain": "expository",
       "title": "順序と文のつながり",
       "skills": [
+        "CONTENT_SELECTION",
         "LOGIC_RELATION",
-        "BLANK_COMPLETION",
-        "TEXT_EXTRACTION"
+        "ORDER",
+        "CHRONOLOGY",
+        "WRITTEN_EXPLANATION",
+        "MULTI_SELECT",
+        "SENTENCE_INSERTION"
       ],
       "origin": "NEW_APP_AUTHORED",
       "pastPaperSourceIds": [],
       "items": [
         {
           "id": "RUK-ORIGINAL-E07-01",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
+            "CONTENT_SELECTION",
             "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "ORDER",
+            "CHRONOLOGY"
           ],
           "passage": "実験は、材料を量り、次に容器で混ぜ、最後に変化を記録する。混ぜる前の量が分からなければ、結果を比べられない。",
           "prompt": "実験の順番に並べよう。",
@@ -5546,12 +5824,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-02",
-          "revision": 1,
+          "revision": 3,
           "phase": "basic",
           "skills": [
-            "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "実験は、材料を量り、次に容器で混ぜ、最後に変化を記録する。混ぜる前の量が分からなければ、結果を比べられない。",
           "prompt": "量を先に確かめる理由は。",
@@ -5597,12 +5874,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-03",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
           "prompt": "回数を決める根拠になったものは。",
@@ -5648,12 +5924,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-04",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
-            "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "WRITTEN_EXPLANATION",
+            "LOGIC_RELATION"
           ],
           "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
           "prompt": "実施後にも確認する理由を説明しよう。",
@@ -5676,12 +5951,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-05",
-          "revision": 1,
+          "revision": 3,
           "phase": "transfer",
           "skills": [
+            "CONTENT_SELECTION",
             "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "MULTI_SELECT"
           ],
           "passage": "まず畑の土の乾き方を調べた。次に、その結果をもとに水やりの回数を決めた。実施後に葉の状態を確かめ、必要なら回数を変えることにした。このように、観察と実施後の確認を組み合わせると、思い込みだけで管理せずにすむ。",
           "prompt": "本文の順序関係として正しいものを二つ選ぼう。",
@@ -5725,12 +6000,12 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-06",
-          "revision": 1,
+          "revision": 3,
           "phase": "mixed",
           "skills": [
+            "CONTENT_SELECTION",
             "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "SENTENCE_INSERTION"
           ],
           "passage": "［A］案を集めた。［B］似た案をまとめた。［C］その上で、実現できるかを検討した。［D］",
           "prompt": "「同じ内容の提案がいくつもあったからだ。」を入れる位置を選ぼう。",
@@ -5759,12 +6034,11 @@
         },
         {
           "id": "RUK-ORIGINAL-E07-07",
-          "revision": 1,
+          "revision": 3,
           "phase": "retention",
           "skills": [
-            "LOGIC_RELATION",
-            "BLANK_COMPLETION",
-            "TEXT_EXTRACTION"
+            "CONTENT_SELECTION",
+            "LOGIC_RELATION"
           ],
           "passage": "調べた事実を示した後で、その事実から考えられることを書くと、根拠と意見を区別しやすい。",
           "prompt": "適切な順序は。",

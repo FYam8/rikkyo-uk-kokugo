@@ -4,8 +4,11 @@ export const LEARNING_PATH_CONFIG=Object.freeze({
   scoringPolicy:{method:'normalized-parent-correctness'},
   holdoutPolicy:{strict:true,examKeys:['FY26-B']},
   examKeys:['FY24-A','FY24-B','FY25-A','FY25-B','FY26-A','FY26-B'],
+  courseExamKeys:['FY25-A','FY24-A','FY25-B','FY26-A','FY26-B'],
+  requireRemediation:true,
+  scoreAuthorityNote:'60%は学校FAQに基づく過去問正答率の目安。70%・75%はアプリ独自の安定・上積み目標です。小問別の公式配点は不明です。',
   examUnitNoun:'試験',
-  features:{kobunPractice:false},
+  features:{kobunPractice:false,resetLearning:true},
   reviewPresentation:{
     disclaimer:'正答・答案例・採点基準は立教英国学院の公式解答ではありません。問題本文を根拠にアプリ側で作成し、二回の独立検証を通過したものだけを採点に使用します。得点表示は公開配点ではなく、学習用に正規化した非公式スコアです。',
     modelAnswerLabel:'答案例（アプリ作成・非公式）'

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "HOLD_CONTENT_REVIEW",
   "unitCount": 24,
-  "itemCount": 168,
+  "itemCount": 175,
   "interpretation": "Declared unit tags are an inventory only. They do not certify that each item exercises each tagged skill, nor that drill progression can be completed without repetition.",
   "observedSourceDemands": {
     "AGRICULTURE_TERM": 1,
@@ -58,23 +58,49 @@
     "WRITTEN_EXPLANATION": 17
   },
   "declaredTagPhaseCounts": {
+    "ANTONYM": {
+      "transfer": 1
+    },
     "BLANK_COMPLETION": {
-      "basic": 4,
-      "transfer": 6,
-      "mixed": 2,
-      "retention": 2
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "CHRONOLOGY": {
+      "basic": 1
+    },
+    "CONCEPT_DEFINITION": {
+      "transfer": 1
+    },
+    "CONJUNCTION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
     },
     "CONTENT_SELECTION": {
-      "basic": 10,
-      "transfer": 15,
-      "mixed": 5,
-      "retention": 5
+      "basic": 26,
+      "transfer": 25,
+      "mixed": 12,
+      "retention": 12
     },
     "DATA_INTERPRETATION": {
       "basic": 2,
       "transfer": 3,
       "mixed": 1,
       "retention": 1
+    },
+    "DICTIONARY_USAGE": {
+      "transfer": 1
+    },
+    "GRAMMAR": {
+      "basic": 1,
+      "transfer": 1,
+      "retention": 1
+    },
+    "IDIOM": {
+      "basic": 1
     },
     "KANJI": {
       "basic": 20,
@@ -83,16 +109,40 @@
       "retention": 10
     },
     "LITERARY_CHARACTER": {
-      "basic": 6,
-      "transfer": 9,
-      "mixed": 3,
-      "retention": 3
+      "basic": 13,
+      "transfer": 18,
+      "mixed": 6,
+      "retention": 6
     },
     "LOGIC_RELATION": {
-      "basic": 6,
-      "transfer": 9,
-      "mixed": 3,
-      "retention": 3
+      "basic": 13,
+      "transfer": 18,
+      "mixed": 6,
+      "retention": 6
+    },
+    "METAPHOR_INTERPRETATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "MIMETIC_WORD": {
+      "mixed": 1
+    },
+    "MULTI_SELECT": {
+      "transfer": 13
+    },
+    "NUMERIC_INFORMATION": {
+      "basic": 2,
+      "transfer": 3,
+      "mixed": 1,
+      "retention": 1
+    },
+    "ORDER": {
+      "basic": 1
+    },
+    "PART_OF_SPEECH": {
+      "transfer": 1
     },
     "PHRASE_INTERPRETATION": {
       "basic": 2,
@@ -100,47 +150,46 @@
       "mixed": 1,
       "retention": 1
     },
-    "TEXT_EXTRACTION": {
-      "basic": 6,
-      "transfer": 9,
-      "mixed": 3,
-      "retention": 3
+    "SENTENCE_INSERTION": {
+      "mixed": 1
     },
-    "TRANSFER_APPLICATION": {
+    "TEXT_EXTRACTION": {
       "basic": 2,
-      "transfer": 3,
-      "mixed": 1,
+      "transfer": 4,
+      "mixed": 2,
+      "retention": 2
+    },
+    "TRUE_FALSE": {
       "retention": 1
     },
     "VOCAB_CONTEXT": {
-      "basic": 20,
-      "transfer": 30,
-      "mixed": 10,
+      "basic": 21,
+      "transfer": 31,
+      "mixed": 11,
       "retention": 10
     },
     "WRITTEN_EXPLANATION": {
-      "basic": 6,
-      "transfer": 9,
-      "mixed": 3,
-      "retention": 3
+      "transfer": 13
     }
   },
   "actualResponseFormatPhaseCounts": {
     "extraction": {
       "basic": 2,
-      "mixed": 1
+      "transfer": 4,
+      "mixed": 2,
+      "retention": 2
     },
     "multi": {
-      "transfer": 14
+      "transfer": 13
     },
     "order": {
       "basic": 1
     },
     "single": {
-      "basic": 25,
-      "transfer": 14,
+      "basic": 27,
+      "transfer": 15,
       "mixed": 13,
-      "retention": 13
+      "retention": 12
     },
     "text": {
       "basic": 20,
@@ -152,50 +201,36 @@
       "retention": 1
     },
     "written": {
-      "transfer": 14
+      "transfer": 13
     }
   },
   "demandsWithoutDirectTag": [
     "AGRICULTURE_TERM",
-    "ANTONYM",
     "ATTITUDE_CHANGE",
     "BIAS_CONCEPT",
     "BODY_PART",
     "CAUSAL_EXPLANATION",
-    "CHRONOLOGY",
     "COMPARISON",
     "CONCEPT_COMPARISON",
-    "CONCEPT_DEFINITION",
     "CONCEPT_EXPLANATION",
     "CONCEPT_RELATION",
-    "CONJUNCTION",
     "CULTURAL_KNOWLEDGE",
     "DIAGRAM_COMPLETION",
     "DIALOGUE_COMPLETION",
-    "DICTIONARY_USAGE",
     "EXAMPLE_IDENTIFICATION",
-    "GRAMMAR",
     "GRAMMAR_PATTERN",
     "HISTORICAL_CAUSATION",
     "HOMOPHONE",
-    "IDIOM",
-    "METAPHOR_INTERPRETATION",
-    "MIMETIC_WORD",
-    "MULTI_SELECT",
     "NOTE_COMPLETION",
-    "NUMERIC_INFORMATION",
-    "ORDER",
     "PARAGRAPH_ROLE",
     "PARAGRAPH_STRUCTURE",
     "PARAPHRASE",
-    "PART_OF_SPEECH",
     "REFERENCE_READING",
     "RELATIONSHIP_MAP",
-    "SENTENCE_INSERTION",
     "TABLE_COMPLETION",
     "THEME",
     "THEME_SUMMARY",
-    "TRUE_FALSE"
+    "TRANSFER_APPLICATION"
   ],
   "remainingGates": [
     "Review per-item skills and distractor evidence",
