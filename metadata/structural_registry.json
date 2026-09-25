@@ -16,7 +16,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -27,7 +27,7 @@
                 "IDIOM",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -38,7 +38,7 @@
                 "TEXT_EXTRACTION",
                 "COMPARISON"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -49,7 +49,7 @@
                 "LITERARY_CHARACTER",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -59,7 +59,7 @@
                 "PHRASE_INTERPRETATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -69,7 +69,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -79,7 +79,7 @@
                 "TEXT_EXTRACTION",
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7,
               "partCount": 3
             },
@@ -90,7 +90,7 @@
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -100,7 +100,7 @@
                 "CULTURAL_KNOWLEDGE",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8
             },
             {
@@ -110,7 +110,7 @@
                 "CHRONOLOGY",
                 "ORDER"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8,
               "partCount": 4
             }
@@ -130,7 +130,7 @@
                 "KANJI",
                 "HOMOPHONE"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -140,7 +140,7 @@
                 "GRAMMAR",
                 "PART_OF_SPEECH"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -150,7 +150,7 @@
                 "KANJI",
                 "BODY_PART"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -160,7 +160,7 @@
                 "TEXT_EXTRACTION",
                 "CONCEPT_DEFINITION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -170,7 +170,7 @@
                 "HISTORICAL_CAUSATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -180,7 +180,7 @@
                 "CONCEPT_EXPLANATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -190,7 +190,7 @@
                 "EXAMPLE_IDENTIFICATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -200,7 +200,7 @@
                 "PARAGRAPH_ROLE",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -210,7 +210,7 @@
                 "TEXT_EXTRACTION",
                 "CAUSAL_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -220,7 +220,7 @@
                 "TEXT_EXTRACTION",
                 "THEME"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12,
               "partCount": 2
             },
@@ -231,7 +231,7 @@
                 "TRANSFER_APPLICATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12
             }
           ],
@@ -249,7 +249,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 6,
               "sourcePage": 12
             },
@@ -259,7 +259,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 4,
               "sourcePage": 12
             }
@@ -297,7 +297,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 6,
               "sourcePage": 5
             },
@@ -307,7 +307,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 4,
               "sourcePage": 5
             }
@@ -328,7 +328,7 @@
                 "DATA_INTERPRETATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required"
+              "authorityStatus": "app-derived-verified"
             }
           ],
           "questionCount": 1
@@ -1040,7 +1040,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 3,
               "sourcePage": 3
             },
@@ -1050,7 +1050,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "partCount": 7,
               "sourcePage": 3
             }
@@ -1069,7 +1069,7 @@
               "skillDemand": [
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 4
             },
@@ -1079,7 +1079,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6
             },
             {
@@ -1088,7 +1088,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 3
             },
@@ -1099,7 +1099,7 @@
                 "LOGIC_RELATION",
                 "GRAMMAR"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -1110,7 +1110,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7,
               "partCount": 2
             },
@@ -1121,7 +1121,7 @@
                 "BLANK_COMPLETION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1131,7 +1131,7 @@
                 "CONTENT_SELECTION",
                 "PHRASE_INTERPRETATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1140,7 +1140,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1150,7 +1150,7 @@
                 "TEXT_EXTRACTION",
                 "IDIOM"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1159,7 +1159,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1169,7 +1169,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1179,7 +1179,7 @@
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1190,7 +1190,7 @@
                 "THEME_SUMMARY",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 8
             }
           ],
@@ -1209,7 +1209,7 @@
                 "LOGIC_RELATION",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -1219,7 +1219,7 @@
                 "VOCAB_CONTEXT",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11,
               "partCount": 4
             },
@@ -1230,7 +1230,7 @@
                 "NUMERIC_INFORMATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -1240,7 +1240,7 @@
                 "TEXT_EXTRACTION",
                 "PARAPHRASE"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             },
             {
@@ -1250,7 +1250,7 @@
                 "TEXT_EXTRACTION",
                 "NOTE_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11,
               "partCount": 3
             },
@@ -1261,7 +1261,7 @@
                 "VOCAB_CONTEXT",
                 "DICTIONARY_USAGE"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12,
               "partCount": 2
             },
@@ -1272,7 +1272,7 @@
                 "LOGIC_RELATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12
             },
             {
@@ -1282,7 +1282,7 @@
                 "CONTENT_SELECTION",
                 "MULTI_SELECT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 12,
               "partCount": 2
             }
@@ -1306,7 +1306,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1315,7 +1315,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1324,7 +1324,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1333,7 +1333,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1342,7 +1342,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1351,7 +1351,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1360,7 +1360,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1369,7 +1369,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1378,7 +1378,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             },
             {
@@ -1387,7 +1387,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 3
             }
           ],
@@ -1406,7 +1406,7 @@
                 "BLANK_COMPLETION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 6
             },
@@ -1417,7 +1417,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6
             },
             {
@@ -1426,7 +1426,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6,
               "partCount": 3
             },
@@ -1437,7 +1437,7 @@
                 "TEXT_EXTRACTION",
                 "METAPHOR_INTERPRETATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6
             },
             {
@@ -1447,7 +1447,7 @@
                 "TEXT_EXTRACTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6
             },
             {
@@ -1457,7 +1457,7 @@
                 "BLANK_COMPLETION",
                 "LOGIC_RELATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 6
             },
             {
@@ -1467,7 +1467,7 @@
                 "LITERARY_CHARACTER",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1477,7 +1477,7 @@
                 "VOCAB_CONTEXT",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1487,7 +1487,7 @@
                 "TEXT_EXTRACTION",
                 "GRAMMAR"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             },
             {
@@ -1497,7 +1497,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 7
             }
           ],
@@ -1526,7 +1526,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9,
               "partCount": 3
             },
@@ -1537,7 +1537,7 @@
                 "TEXT_EXTRACTION",
                 "BIAS_CONCEPT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9
             },
             {
@@ -1547,7 +1547,7 @@
                 "CONTENT_SELECTION",
                 "BIAS_CONCEPT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -1556,7 +1556,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -1566,7 +1566,7 @@
                 "LOGIC_RELATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -1576,7 +1576,7 @@
                 "TEXT_EXTRACTION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -1586,7 +1586,7 @@
                 "SENTENCE_INSERTION",
                 "LOGIC_RELATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 10
             },
             {
@@ -1596,7 +1596,7 @@
                 "CONTENT_SELECTION",
                 "TRUE_FALSE"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11,
               "partCount": 4
             },
@@ -1607,7 +1607,7 @@
                 "WRITTEN_EXPLANATION",
                 "TRANSFER_APPLICATION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 11
             }
           ],

@@ -72,8 +72,8 @@ assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.response
 assert.equal(progress.answerAuthorityResolved,verifiedRecords.length);
 assert.equal(progress.answerAuthorityPending,visibleQuestions.length-verifiedRecords.length);
 assert.equal(answerAuthority.records.length,142);
-assert.equal(reviewIds.size,79);
-assert.equal(verifiedIds.size,63);
+assert.equal(reviewIds.size,1);
+assert.equal(verifiedIds.size,141);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-A'&&r.state==='APP_DERIVED_VERIFIED').length,33);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='I'&&r.state==='APP_DERIVED_VERIFIED').length,10);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='II'&&r.state==='APP_DERIVED_VERIFIED').length,9);

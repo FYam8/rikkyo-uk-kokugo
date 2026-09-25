@@ -7,9 +7,9 @@
   "checks": {
     "originalVerified63Preserved": "PASS",
     "stableIds142Preserved": "PASS",
-    "remaining79IndependentReview": "INCOMPLETE",
-    "practiceBank24Units": "NOT_READY",
-    "sharedEngineIntegration": "NOT_IMPLEMENTED",
+    "remaining79IndependentReview": "78_VERIFIED_1_REVIEW_REQUIRED",
+    "practiceBank24Units": "24_UNITS_168_ITEMS_CONTENT_QA_AND_INTEGRATION_PENDING",
+    "sharedEngineIntegration": "UPSTREAM_PR_40_PARTIAL_IMPLEMENTATION",
     "holdoutIsolation": "NOT_TESTED",
     "desktopBrowser": "NOT_RUN",
     "mobileBrowser": "NOT_RUN",
@@ -21,5 +21,6 @@
   },
   "consecutiveCleanLoops": 0,
   "pagesEnabledByThisChange": false,
-  "releaseTagCreated": false
+  "releaseTagCreated": false,
+  "upstreamWorkPR": "https://github.com/FYam8/waseshibu-source/pull/40"
 }

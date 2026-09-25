@@ -24,12 +24,16 @@ assert mapping == baseline['sourceMapping'], 'A stable ID or source mapping chan
 assert set(records) == set(mapping)
 verified = [r for r in records.values() if r['state'] in authority['policy']['publishableStates']]
 review = [r for r in records.values() if r['state'] == 'REVIEW_REQUIRED']
-assert {r['questionId'] for r in verified} == set(baseline['records'])
-assert len(verified) == progress['answerAuthorityResolved'] == 63
-assert len(review) == progress['answerAuthorityPending'] == 79
+ledger = read('metadata/authority_review_20260925.json')
+assert {r['questionId'] for r in verified} == set(baseline['records']) | set(ledger['verifiedAdditions'])
+assert {r['questionId'] for r in review} == set(ledger['remainingReview'])
+assert len(verified) == progress['answerAuthorityResolved'] == 141
+assert len(review) == progress['answerAuthorityPending'] == 1
 assert all(r['reviewBlocker'] and not any(c['result'] == 'PASS' for c in r['checks']) for r in review)
 assert all(r['official'] is False for r in records.values())
-for r in review:
+for r in authority['records']:
+    if r['questionId'] in baseline['records']:
+        continue
     if 'modelAnswer' in r and 'constraints' in r:
         count = len(r['modelAnswer'])
         assert count >= r['constraints'].get('minCharacters', 0), r['questionId']
@@ -44,4 +48,17 @@ for e in registry['exams']:
         if s['availability'] == 'copyright-omitted':
             assert s['questions'] == []
 assert progress['gates']['publicDeploy'] == 'HOLD'
-print('Authority baseline / 142 IDs / 79 review exclusions / two omitted sections: PASS')
+print('Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS')
+
+for r in authority['records']:
+    if r['questionId'] in baseline['records']:
+        continue
+    c=r.get('constraints', {}); answer=r.get('answer')
+    if isinstance(answer,str):
+        assert len(answer) == c.get('exactCharacters',len(answer)), r['questionId']
+        assert len(answer) <= c.get('maxCharacters',len(answer)), r['questionId']
+    if isinstance(answer,list) and all(isinstance(x,str) for x in answer):
+        if 'exactPartLengths' in c: assert list(map(len,answer)) == c['exactPartLengths'], r['questionId']
+        if 'maxPartCharacters' in c: assert all(len(x)<=c['maxPartCharacters'] for x in answer), r['questionId']
+assert records['FY24-A-II-Q02']['answer']=='b'
+assert records['FY24-B-IV-Q01']['sourceEvidence']['tableRows']['日本'][12:14]==[20.7,20.7]

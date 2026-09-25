@@ -22,3 +22,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/test_authority_baseline.py
+      - run: python tools/test_practice_bank.py

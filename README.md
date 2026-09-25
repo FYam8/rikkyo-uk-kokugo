@@ -1,6 +1,6 @@
 # Rikkyo UK Kokugo
 
-立教英国学院 国語対策アプリの private source repository。
+立教英国学院 国語対策アプリの source repository。
 
 ## Architecture
 
@@ -29,28 +29,33 @@ Scaffold only. No public deployment is enabled. Content build remains fail-close
 
 See `docs/content-inventory.md`.
 
-## 2026-09-25 review checkpoint — HOLD
+## 2026-09-25 continuation — HOLD
 
-The unofficial `Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf` was recovered and read.
-All 79 previously unresolved questions now have explicit `REVIEW_REQUIRED`
-candidate records, source references and provisional reasoning/rubrics. These
-records are not eligible for scoring. The original FY25 A/B 63 verified records
-are unchanged and protected by content hashes. All 142 stable IDs and source-page
-mappings are preserved. FY24-B I/II remain unavailable; their missing question
-count is unknown, not zero.
+Fresh source re-reading and re-solution promoted 78 of the 79 candidates.
+Answer Authority is now **141 verified / 1 REVIEW_REQUIRED**. The remaining
+`FY26-B-III-Q01` is excluded from scoring. Existing FY25 A/B 63 answers and all
+142 stable source mappings remain unchanged. FY24-B I/II remain unavailable.
 
-This checkpoint does **not** complete the requested application. The old practice
-bank was not recovered, a replacement bank has not been authored, engine
-integration is incomplete, and browser/CLEAN loops have not run. Production and
-Pages remain on HOLD. No release tag is created.
+A **new**, app-authored bank contains 24 units (10 kanji, 7 literary, 7
+expository) and 168 items: 48 basic, 72 transfer, 24 mixed, 24 next-day retention.
+The historical bank was not recovered. Content review and engine integration
+remain incomplete; these are authored items, not a claim of production readiness.
 
-See [review report](docs/review-20260925.md),
+Reusable answer-token, visible-section and school-disclaimer changes are in
+[upstream draft PR #40](https://github.com/FYam8/waseshibu-source/pull/40).
+Rikkyo does not contain a forked UI. The approved upstream pin is unchanged.
+
+This is not yet a runnable production app. Holdout isolation, shared integration,
+content QA and desktop/mobile CLEAN loops remain release blockers. Pages and
+release tagging remain disabled.
+
+See [continuation report](docs/continuation-20260925.md),
+[initial review report](docs/review-20260925.md),
 [shared engine gaps](docs/shared-engine-integration-gaps.md) and
 [release gate](metadata/release_gate.json).
-
-Local validation:
 
 ```sh
 node tools/validate_scaffold.mjs
 python tools/test_authority_baseline.py
+python tools/test_practice_bank.py
 ```

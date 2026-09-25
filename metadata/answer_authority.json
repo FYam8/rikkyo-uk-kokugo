@@ -2342,7 +2342,7 @@
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -2351,35 +2351,40 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "頓着しない／口をへの字の文脈。"
+        "contextBrief": "頓着しない／口をへの字の文脈。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "頓着しない／口をへの字の文脈。"
         },
         {
           "checkId": "FY24-A-I-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "aは無関心。落ち着き・視覚・察知・嫌がらせではない。bは不機嫌。要求・落胆・反省は文脈不一致。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q02",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": [
@@ -2388,35 +2393,40 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "雁首を揃える／狐につままれた。"
+        "contextBrief": "雁首を揃える／狐につままれた。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "雁首を揃える／狐につままれた。"
         },
         {
           "checkId": "FY24-A-I-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "人が揃う慣用句と、不可解で呆然とする慣用句を別々に再構成。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q03",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": [
@@ -2425,127 +2435,148 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "川原が運んだ浮世絵と西洋画法の西画を対照。"
+        "contextBrief": "川原が運んだ浮世絵と西洋画法の西画を対照。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "川原が運んだ浮世絵と西洋画法の西画を対照。"
         },
         {
           "checkId": "FY24-A-I-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "設問の「と」の両側に本文の名称が入り、遠近・陰影は名称ではなく相違点。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q04",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "人の顔・服を一様な色と線で描いていることを見直す。"
+        "contextBrief": "歩行しながら肌や布の現実の光影と自分の描き方を比較し、隔たりに気づく。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "人の顔・服を一様な色と線で描いていることを見直す。"
+          "result": "PASS",
+          "detail": "歩行しながら肌や布の現実の光影と自分の描き方を比較し、隔たりに気づく。"
         },
         {
           "checkId": "FY24-A-I-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "アは描き方を既に理解したことになり不適。イは喜びの根拠なし。ウの捨てがたさも記述なし。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "エが一致。アの花の角度と色を楽しむ説明、イの技法を発見した喜び、ウの旧技法を捨てがたい感情は、この気付きとは異なる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q05",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "西画を御禁制と述べる親父にお栄が同意する場面。"
+        "contextBrief": "西画を御禁制と述べる親父にお栄が同意する場面。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "西画を御禁制と述べる親父にお栄が同意する場面。"
         },
         {
           "checkId": "FY24-A-I-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "アの奢侈、イの仏教、ウの裸の天使の風紀という説明は本文の焦点と異なる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q06",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "手先は動かせるはずなのに西画では手も足も出ない。"
+        "contextBrief": "手先は動かせるはずなのに西画では手も足も出ない。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "手先は動かせるはずなのに西画では手も足も出ない。"
         },
         {
           "checkId": "FY24-A-I-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "帰途に歩幅が縮む原因を描けない焦燥として再構成。納期だけの心配では不十分。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "西画の描き方が分からず、思うように描けない自分へのもどかしさ。",
       "constraints": {
@@ -2562,15 +2593,14 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY24-A-I-Q07",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": [
@@ -2580,103 +2610,125 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          7
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "本文の遠近、影、眼前の光景と囲み内の描写を照合。"
+        "contextBrief": "本文の遠近、影、眼前の光景と囲み内の描写を照合。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "本文の遠近、影、眼前の光景と囲み内の描写を照合。"
         },
         {
           "checkId": "FY24-A-I-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "a二字・b一字・c二字。aは画面の深さ、bは光の遮られた形、cは見た場面全体。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactPartLengths": [
+          2,
+          1,
+          2
+        ]
+      }
     },
     {
       "questionId": "FY24-A-I-Q08",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "イ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "親父の仕事への誇り・納期厳守・世間の目に晒す覚悟を読む。"
+        "contextBrief": "親父の仕事への誇り・納期厳守・世間の目に晒す覚悟を読む。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "親父の仕事への誇り・納期厳守・世間の目に晒す覚悟を読む。"
         },
         {
           "checkId": "FY24-A-I-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "適当でない肢。アは誇り、ウは期限、エは批判を受ける覚悟として明記。イの画法の違いへの悔しさは当該場面の理由でない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q09",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 8,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "オ",
       "sourceEvidence": {
         "sourcePages": [
+          3,
+          4,
+          5,
+          6,
+          7,
           8
         ],
-        "contextBrief": "北斎工房・親父どのから人物を特定。"
+        "contextBrief": "北斎工房・親父どのから人物を特定。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "北斎工房・親父どのから人物を特定。"
         },
         {
           "checkId": "FY24-A-I-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "北斎は葛飾北斎。鶴屋・近松・井原・歌川は別の名。British MuseumのKatsushika Hokusai表記も照合。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-I-Q10",
       "examId": "FY24-A",
       "sectionId": "I",
       "sourcePage": 8,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "order",
       "answer": [
@@ -2687,234 +2739,270 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
+          3,
+          4,
+          5,
+          6,
+          7,
           8
         ],
-        "contextBrief": "2の注文→4の納期相談→5の外出→1の藤棚→3の客→6の完成画。"
+        "contextBrief": "2の注文→4の納期相談→5の外出→1の藤棚→3の客→6の完成画。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-I-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "2の注文→4の納期相談→5の外出→1の藤棚→3の客→6の完成画。"
         },
         {
           "checkId": "FY24-A-I-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "2と6は印刷済み。入力すべき四空欄のみを抽出し、三日前・翌朝・帰途の時間接続を確認。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-II-Q01",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "サル類との比較なので対照。原本の対照の記号はウ。"
+        "contextBrief": "サル類との比較なので対照。原本の対照の記号はウ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "サル類との比較なので対照。原本の対照の記号はウ。"
         },
         {
           "checkId": "FY24-A-II-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "ア対象は目標、イ対称はつりあう配置、エ対症は症状への対応。対照は比較で違いを際立たせること。参考PDFのイは記号誤り。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "candidateCorrection": {
         "from": "イ",
         "to": "ウ",
         "reason": "対照の選択肢記号はウ。イは対称。"
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY24-A-II-Q02",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
-      "answer": "c",
+      "answer": "b",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "aのないは存在しない、bは弱みがない、cはできない。"
+        "contextBrief": "aは生息していない、bは強かったからではなく、cはできなかった。原本PDF p9の傍線位置を高解像度で再確認。",
+        "grammarReference": "https://benesse.jp/kyouiku/teikitest/chu/japanese/japanese/c00484.html",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "aのないは存在しない、bは弱みがない、cはできない。"
+          "result": "PASS",
+          "detail": "aは生息していない、bは強かったからではなく、cはできなかった。原本PDF p9の傍線位置を高解像度で再確認。"
         },
         {
           "checkId": "FY24-A-II-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "a/bは形容詞、cのみ動詞できるに付く打消の助動詞。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "動詞いる・できるの未然形に続くa/cは打消の助動詞。bは「で＋は＋なく」で、補助形容詞ないの連用形。異なる品詞はb。存在一般の意味だけでaを形容詞としてはいけない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "candidateCorrection": {
+        "from": "c",
+        "to": "b",
+        "reason": "原本の接続を再分析。a/cは動詞未然形に接続、bはではなく。"
+      }
     },
     {
       "questionId": "FY24-A-II-Q03",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "手",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "二足歩行は、自由になった手で食物を運ぶ。"
+        "contextBrief": "二足歩行は、自由になった手で食物を運ぶ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "二足歩行は、自由になった手で食物を運ぶ。"
         },
         {
           "checkId": "FY24-A-II-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "足は移動を担い、自由になる運搬器官ではない。漢字一字。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 1
+      }
     },
     {
       "questionId": "FY24-A-II-Q04",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "仲間意識",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "共感の後に仲間意識を集団内で強化したと記される。"
+        "contextBrief": "共感の後に仲間意識を集団内で強化したと記される。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "共感の後に仲間意識を集団内で強化したと記される。"
         },
         {
           "checkId": "FY24-A-II-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "これより後の本文という範囲を満たす四字。「社会関係」は説明対象で共感の言換えでない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "maxCharacters": 5
+      }
     },
     {
       "questionId": "FY24-A-II-Q05",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "物語・定住・余剰食料から集団間争い・支配層・世界宗教へ。"
+        "contextBrief": "物語・定住・余剰食料から集団間争い・支配層・世界宗教へ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "物語・定住・余剰食料から集団間争い・支配層・世界宗教へ。"
         },
         {
           "checkId": "FY24-A-II-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "不適当肢。言葉による世界の切分けは農耕以前に述べられる。ア/イ/エは農耕後の記述。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-II-Q06",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "社会外の敵と団結する仕組みを説明する段落。"
+        "contextBrief": "外に共通の敵を作って団結する仕組みが、今でも戦争の基本的な考え方として機能する。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "社会外の敵と団結する仕組みを説明する段落。"
+          "result": "PASS",
+          "detail": "外に共通の敵を作って団結する仕組みが、今でも戦争の基本的な考え方として機能する。"
         },
         {
           "checkId": "FY24-A-II-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "外敵の設定→内部の団結の因果を再構成。戦争一般や宗教一般の説明に広げない。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "五十字以内で、外敵の設定と内部団結の因果を含む。外敵と団結するという逆の読みにしない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "社会の外に共通の敵を作り、敵意によって人々を団結させること。",
       "constraints": {
@@ -2931,117 +3019,128 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY24-A-II-Q07",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "イ",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "自然の時間を人工の時間へ変えるという対比。"
+        "contextBrief": "自然の時間を人工の時間へ変えるという対比。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "自然の時間を人工の時間へ変えるという対比。"
         },
         {
           "checkId": "FY24-A-II-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "夜に自然な睡眠を抑えて昼の試験に合わせる。アは約束、ウは日照に沿う活動、エは無理のない旅程で焦点が違う。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-II-Q08",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "前段の発展史を裏道としてまとめ、共感と科学技術の使用へ転換。"
+        "contextBrief": "前段の発展史を裏道としてまとめ、共感と科学技術の使用へ転換。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "前段の発展史を裏道としてまとめ、共感と科学技術の使用へ転換。"
         },
         {
           "checkId": "FY24-A-II-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "悲観だけではなく提案が続くのでア不可。事実との対比や新問題の詳細説明でないのでイ/ウ不可。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-II-Q09",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "弱みを強みに変える",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "人類進化の前半を導いた共感に満ちた社会。"
+        "contextBrief": "人類進化の前半を導いた共感に満ちた社会。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "人類進化の前半を導いた共感に満ちた社会。"
         },
         {
           "checkId": "FY24-A-II-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "九字。設問の「ことができたから」に接続できる述語を抜き出す。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "maxCharacters": 10
+      }
     },
     {
       "questionId": "FY24-A-II-Q10",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": [
@@ -3050,59 +3149,69 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
+          9,
+          10,
+          11,
           12
         ],
-        "contextBrief": "最終段落の管理された時間からの解放とシェア、コモンズ。"
+        "contextBrief": "最終段落の管理された時間からの解放とシェア、コモンズ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "最終段落の管理された時間からの解放とシェア、コモンズ。"
         },
         {
           "checkId": "FY24-A-II-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "各十五字以内。文明の批判ではなく提案される二つの社会のあり方を抽出。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "maxPartCharacters": 15
+      }
     },
     {
       "questionId": "FY24-A-II-Q11",
       "examId": "FY24-A",
       "sectionId": "II",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
+          9,
+          10,
+          11,
           12
         ],
-        "contextBrief": "所有の削減・共助・科学技術の活用という本文の提案。"
+        "contextBrief": "所有の削減・共助・科学技術の活用という本文の提案。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-II-Q11:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "所有の削減・共助・科学技術の活用という本文の提案。"
         },
         {
           "checkId": "FY24-A-II-Q11:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "二百字以内の意見記述。技術の具体例と共助への因果が必要で、この例だけを唯一解としない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "例えば、物品の貸し借りを仲介する情報技術は、各自が物を所有する量を減らし、必要な物を共同で利用する仕組みを支えられる。また、遠くの人とも映像で交流できる技術は、離れて暮らす人同士が助け合う機会を広げる。技術を競争や武力の強化ではなく、人々のつながりと共助を支えるために使うことが大切だ。",
       "constraints": {
@@ -3120,15 +3229,14 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY24-A-III-Q01",
       "examId": "FY24-A",
       "sectionId": "III",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3143,33 +3251,33 @@
         "sourcePages": [
           12
         ],
-        "contextBrief": "ロウドク・ハツガ・ユダねる・フンソウ・オオムね・ユウシ。"
+        "contextBrief": "ロウドク・ハツガ・ユダねる・フンソウ・オオムね・ユウシ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-III-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ロウドク・ハツガ・ユダねる・フンソウ・オオムね・ユウシ。"
         },
         {
           "checkId": "FY24-A-III-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "読みへの逆変換と各文脈を再確認。送り仮名「ねる」「ね」は印刷済みで答えに重複させない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-A-III-Q02",
       "examId": "FY24-A",
       "sectionId": "III",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3182,33 +3290,33 @@
         "sourcePages": [
           12
         ],
-        "contextBrief": "留学/留守番/書留、熱帯/帯出/一衣帯水、改善/善後策/善行/善は急げ、臨機応変/臨時/君臨/海に臨む。"
+        "contextBrief": "留学/留守番/書留/目に留まる、熱帯/帯出/一衣帯水/丸みを帯びる、改善/善後策/善行/善は急げ、臨機応変/臨時/君臨/海に臨む。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-A-III-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "留学/留守番/書留、熱帯/帯出/一衣帯水、改善/善後策/善行/善は急げ、臨機応変/臨時/君臨/海に臨む。"
+          "result": "PASS",
+          "detail": "留学/留守番/書留/目に留まる、熱帯/帯出/一衣帯水/丸みを帯びる、改善/善後策/善行/善は急げ、臨機応変/臨時/君臨/海に臨む。"
         },
         {
           "checkId": "FY24-A-III-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "各空欄を全語に代入。読みの異なる語でも同じ漢字一字で成立。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "各行の四用例すべてを再代入し共通する漢字一字を照合した。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-B-III-Q01",
       "examId": "FY24-B",
       "sectionId": "III",
       "sourcePage": 5,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3223,33 +3331,33 @@
         "sourcePages": [
           5
         ],
-        "contextBrief": "ウナガす・カンゴ・イゲン・ヨクアツ・ヒガン・ケイヤク。"
+        "contextBrief": "ウナガす・カンゴ・イゲン・ヨクアツ・ヒガン・ケイヤク。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-B-III-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ウナガす・カンゴ・イゲン・ヨクアツ・ヒガン・ケイヤク。"
         },
         {
           "checkId": "FY24-B-III-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "各漢字から読みへ逆変換。促すの送り仮名は印刷済み。春分秋分側の彼岸であり悲願ではない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY24-B-III-Q02",
       "examId": "FY24-B",
       "sectionId": "III",
       "sourcePage": 5,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3262,33 +3370,33 @@
         "sourcePages": [
           5
         ],
-        "contextBrief": "標高/乱高下/高速道路、高座ではなく座禅/居座る/銀行口座/座右の銘、先端/井戸端/中途半端/端を発する、紅葉/葉書/合言葉/根も葉もない。"
+        "contextBrief": "標高/乱高下/高速道路/高をくくる、座禅/居座る/銀行口座/座右の銘、先端/井戸端/中途半端/端を発する、紅葉/葉書/合言葉/根も葉もない。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-B-III-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "標高/乱高下/高速道路、高座ではなく座禅/居座る/銀行口座/座右の銘、先端/井戸端/中途半端/端を発する、紅葉/葉書/合言葉/根も葉もない。"
+          "result": "PASS",
+          "detail": "標高/乱高下/高速道路/高をくくる、座禅/居座る/銀行口座/座右の銘、先端/井戸端/中途半端/端を発する、紅葉/葉書/合言葉/根も葉もない。"
         },
         {
           "checkId": "FY24-B-III-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "各行の四用例へ代入して共通一字を照合。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "各行四用例を原本PDF p5で照合し、すべてに共通する高・座・端・葉を再代入。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-I-Q01",
       "examId": "FY26-A",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3300,33 +3408,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "菜箸・繁茂・血眼の下線を読む。"
+        "contextBrief": "菜箸・繁茂・血眼の下線を読む。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-I-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "菜箸・繁茂・血眼の下線を読む。"
         },
         {
           "checkId": "FY26-A-I-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "料理器具、植物の茂り、必死に捜す慣用表現から読みを再確認。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-I-Q02",
       "examId": "FY26-A",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": [
@@ -3342,33 +3450,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "カクニン/エイゾウ/チョシャ/シュッテン/ダイダンエン/ハカイ/コウタク。"
+        "contextBrief": "カクニン/エイゾウ/チョシャ/シュッテン/ダイダンエン/ハカイ/コウタク。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-I-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "カクニン/エイゾウ/チョシャ/シュッテン/ダイダンエン/ハカイ/コウタク。"
         },
         {
           "checkId": "FY26-A-I-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "照合すること・映像会社・論文著者・参考文献の出典・芝居の結末・環境破壊・磨いた光沢という別々の意味で再検証。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q01",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -3379,69 +3487,80 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "夏木書店は存知、自己満足、時代遅れ、宣戦布告。"
+        "contextBrief": "夏木書店は存知、自己満足、時代遅れ、宣戦布告の四つを原本選択肢へ対応。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "夏木書店は存知、自己満足、時代遅れ、宣戦布告。"
+          "result": "PASS",
+          "detail": "夏木書店は存知、自己満足、時代遅れ、宣戦布告の四つを原本選択肢へ対応。"
         },
         {
           "checkId": "FY26-A-II-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "戦線でなく宣戦、自己自慢でなく自己満足、流行遅れより時代遅れが成句に適合。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "ウ・キ・オ・イ。Iは知っている意、IIは自分に満足する意、IIIは時代に遅れる評価、IVは戦いを宣言する成句。ア戦線、エ自慢、カ流行、ク犠牲は当該成句/文脈に合わない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q02",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "想",
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "予想もつかない。"
+        "contextBrief": "予想もつかない。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "予想もつかない。"
         },
         {
           "checkId": "FY26-A-II-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "予測の意味をもつ予想を漢字一字で補完。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 1
+      }
     },
     {
       "questionId": "FY26-A-II-Q03",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -3451,26 +3570,31 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "不穏＝おだやかでない、気概＝強い意志、鷹揚＝ゆったり威厳。"
+        "contextBrief": "不穏＝おだやかでない、気概＝強い意志、鷹揚＝ゆったり威厳。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "不穏＝おだやかでない、気概＝強い意志、鷹揚＝ゆったり威厳。"
         },
         {
           "checkId": "FY26-A-II-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "不穏のイは「いそがないこと」で誤り。アかくさない/エはっきりしないも不適。気概は不快/覚悟/急ぐ態度でない。鷹揚は悪賢さ/傷つきやすさ/落着かなさでない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "candidateCorrection": {
         "from": [
@@ -3484,15 +3608,14 @@
           "エ"
         ],
         "reason": "不穏の意味はウ「おだやかでないこと」。"
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-A-II-Q04",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "parts-rubric",
       "answer": {
@@ -3513,26 +3636,31 @@
       },
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "機械音が―響き、カーテンが―開き始めた。やがては開き始めたを修飾。"
+        "contextBrief": "機械音が―響き、カーテンが―開き始めた。やがては開き始めたを修飾。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "機械音が―響き、カーテンが―開き始めた。やがては開き始めたを修飾。"
         },
         {
           "checkId": "FY26-A-II-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "何か低いは機械音への修飾。真っ赤なはカーテンへの修飾。壁を閉ざしていたはカーテンの連体修飾で主節の主述組合せではない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "parts": [
         {
@@ -3570,15 +3698,14 @@
         ],
         "exactMatchRequired": false,
         "gradingMode": "manual-element-comparison"
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-A-II-Q05",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "parts-rubric",
       "answer": {
@@ -3587,26 +3714,31 @@
       },
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "窓の外の雪のようなものが本であり、本が捨てられていた。"
+        "contextBrief": "窓の外の雪のようなものが本であり、本が捨てられていた。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "窓の外の雪のようなものが本であり、本が捨てられていた。"
         },
         {
           "checkId": "FY26-A-II-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "1は比喩を使わず三十字以内。2はウのおそれと驚き。アの緊張と怒り、イの嘆きとあきらめ、エの納得となぐさめは異なる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "parts": [
         {
@@ -3633,277 +3765,315 @@
           "answer": "ウ",
           "parentCredit": 0.5
         }
-      ],
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      ]
     },
     {
       "questionId": "FY26-A-II-Q06",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "イ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "雪のような本、ビルが吹雪に見えるという文脈。"
+        "contextBrief": "雪のような本、ビルが吹雪に見えるという文脈。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "雪のような本、ビルが吹雪に見えるという文脈。"
         },
         {
           "checkId": "FY26-A-II-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "野原・花園・山脈は雪が舞う景観の喩えに合わない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q07",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "売れた利益で本を増産し、売れ残りは捨てると社長が説明。"
+        "contextBrief": "社長は売りさばいた利益で本を増産し、売れなければ捨てると話す。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "売れた利益で本を増産し、売れ残りは捨てると社長が説明。"
+          "result": "PASS",
+          "detail": "社長は売りさばいた利益で本を増産し、売れなければ捨てると話す。"
         },
         {
           "checkId": "FY26-A-II-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "アは読む目的を誤る。イは紙束や自然へ戻す説明を事実にしている。エは林太郎の心情で社長の説明でない。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "ウが循環を正しく要約。アは捨てる主体を読者へ変更。イは林太郎の疑問を社長の肯定として扱う。エの心を痛めることが無意味・微笑ましいという説明は発言にない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q08",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "山",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "毎日山の数ほど本を出版。"
+        "contextBrief": "毎日山の数ほど本を出版。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "毎日山の数ほど本を出版。"
         },
         {
           "checkId": "FY26-A-II-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "数の多さを表す「山ほど」を漢字一字で再構成。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 1
+      }
     },
     {
       "questionId": "FY26-A-II-Q09",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "利益",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "多くの利益を積み上げ、社長の手が本を弄ぶ。"
+        "contextBrief": "多くの利益を積み上げ、社長の手が本を弄ぶ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "多くの利益を積み上げ、社長の手が本を弄ぶ。"
         },
         {
           "checkId": "FY26-A-II-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "経済用語二字で本文から抜き出す。金銭一般や欲望でなく利益。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q10",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "傍線部は「理解にツトめようとした」。努力して理解する意味で努。"
+        "contextBrief": "傍線部は「理解にツトめようとした」。努力して理解する意味で努。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "傍線部は「理解にツトめようとした」。努力して理解する意味で努。"
         },
         {
           "checkId": "FY26-A-II-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "努力が実を結ぶの努と一致。市役所に勤めるは勤、義務を務めるは務、勉学の勉は別字。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q11",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "惑",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "困惑と戸惑いの同一漢字。"
+        "contextBrief": "困惑と戸惑いの同一漢字。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q11:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "困惑と戸惑いの同一漢字。"
         },
         {
           "checkId": "FY26-A-II-Q11:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "両方へ代入して語を成立させる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 1
+      }
     },
     {
       "questionId": "FY26-A-II-Q12",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
-          7
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "contextBrief": "社長の声と本が落ちる光景で思考が働かなくなる自分に、受付女性の言葉を重ねる。"
+        "contextBrief": "社長の声と本が落ちる光景で思考が働かなくなる自分に、受付女性の言葉を重ねる。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q12:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "社長の声と本が落ちる光景で思考が働かなくなる自分に、受付女性の言葉を重ねる。"
         },
         {
           "checkId": "FY26-A-II-Q12:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "原本のウは思考が働かなくなった林太郎に受付の言葉がいらだたしく感じられること。アはけがの危険を現実として認める説明、イは抵抗心の支え、エは社長の悪行を女性が告発する説明で、当該場面との照合が必要。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-II-Q13",
       "examId": "FY26-A",
       "sectionId": "II",
       "sourcePage": 8,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
+          4,
+          5,
+          6,
+          7,
           8
         ],
-        "contextBrief": "社長の消費財説と、林太郎の「本は読むもの」を対照。"
+        "contextBrief": "社長の消費財説と、林太郎の「本は読むもの」を対照。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-II-Q13:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "社長の消費財説と、林太郎の「本は読むもの」を対照。"
         },
         {
           "checkId": "FY26-A-II-Q13:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "六十字以内。社長の考えと二人の守るものを双方含める。利益だけの否定では不十分。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "本を消耗品とし利益を追求する社長に対し、二人は本を読むものとして大切にする心と、本そのものの価値を守ろうとしている。",
       "constraints": {
@@ -3920,49 +4090,51 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-A-III-Q01",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "氷期は寒冷化→低地へ、間氷期は温暖化→高地へ。"
+        "contextBrief": "氷期は寒冷化→低地へ、間氷期は温暖化→高地へ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "氷期は寒冷化→低地へ、間氷期は温暖化→高地へ。"
         },
         {
           "checkId": "FY26-A-III-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "ア/イは氷期温暖、ウは氷期高地となり逆。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-III-Q02",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -3973,103 +4145,115 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "Iは氷床形成の帰結、IIは浅い海峡の具体例、IIIは温暖化の具体例、IVは帰還の付加。"
+        "contextBrief": "Iは氷床形成の帰結、IIは浅い海峡の具体例、IIIは温暖化の具体例、IVは帰還の付加。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "Iは氷床形成の帰結、IIは浅い海峡の具体例、IIIは温暖化の具体例、IVは帰還の付加。"
         },
         {
           "checkId": "FY26-A-III-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "Iはそのため。II/IIIはたとえば。IVはもちろん。反対を表すしかしでは因果が切れる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-III-Q03",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "イ",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "海面低下によって浅い海峡が陸橋となる。"
+        "contextBrief": "海面低下によって浅い海峡が陸橋となる。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "海面低下によって浅い海峡が陸橋となる。"
         },
         {
           "checkId": "FY26-A-III-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "USGSの最終氷期最大期約120～125m低下と選択肢20/100/200/300を照合し最も近い100を選択。正確に100mと断定はしない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-A-III-Q04",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "地理的隔離",
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "海峡形成で集団が移動できず分かれる現象。"
+        "contextBrief": "海峡形成で集団が移動できず分かれる現象。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "海峡形成で集団が移動できず分かれる現象。"
         },
         {
           "checkId": "FY26-A-III-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "本文の同じ説明語を漢字五字で照合。運命共同体とは別概念。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 5
+      }
     },
     {
       "questionId": "FY26-A-III-Q05",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": [
@@ -4079,35 +4263,45 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          11
+          9,
+          10,
+          11,
+          12
         ],
-        "contextBrief": "生き物の運命共同体ができる、数十万年前アジア中央部から、陸橋ベーリンジア。"
+        "contextBrief": "生き物の運命共同体ができる、数十万年前アジア中央部から、陸橋ベーリンジア。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "生き物の運命共同体ができる、数十万年前アジア中央部から、陸橋ベーリンジア。"
         },
         {
           "checkId": "FY26-A-III-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "a五字/b三字/c六字。ヒグマの移動経路を北米と北海道への二分岐で検証。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactPartLengths": [
+          5,
+          3,
+          6
+        ]
+      }
     },
     {
       "questionId": "FY26-A-III-Q06",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "parts-rubric",
       "answer": {
@@ -4116,26 +4310,30 @@
       },
       "sourceEvidence": {
         "sourcePages": [
+          9,
+          10,
+          11,
           12
         ],
-        "contextBrief": "原本に掲載された辞書の2の意味で移動・分散を促進。"
+        "contextBrief": "原本に掲載された辞書の2の意味で移動・分散を促進。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "原本に掲載された辞書の2の意味で移動・分散を促進。"
         },
         {
           "checkId": "FY26-A-III-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "温暖化には相手へ意志的に働きかける主体性がなく、意味1ではない。二つの用法の区別も必要。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "parts": [
         {
@@ -4155,39 +4353,42 @@
             ]
           }
         }
-      ],
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      ]
     },
     {
       "questionId": "FY26-A-III-Q07",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
+          9,
+          10,
+          11,
           12
         ],
-        "contextBrief": "大陸/海峡/島/陸橋という場所の違いで同じ変動の効果が逆転。"
+        "contextBrief": "温暖化は大陸内で移動分散を進める一方、海峡の形成によって島間等の移動を妨げる。寒冷化にも陸橋形成と避難地への集合という対照がある。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "大陸/海峡/島/陸橋という場所の違いで同じ変動の効果が逆転。"
+          "result": "PASS",
+          "detail": "温暖化は大陸内で移動分散を進める一方、海峡の形成によって島間等の移動を妨げる。寒冷化にも陸橋形成と避難地への集合という対照がある。"
         },
         {
           "checkId": "FY26-A-III-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "温暖化と寒冷化の両方について、分散と隔離の対照を説明。字数上限は原本にないため創作しない。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "同じ変動でも地域と陸海の地理条件によって移動と隔離が逆に生じることを説明する。温暖化又は寒冷化の適切な一組でも説明可能。双方の列挙を絶対条件にしない。原本に字数指定なし。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "大陸内では温暖化によって北上や山地への移動・分散が進む一方、海面上昇で海峡ができると集団は隔離される。また、寒冷化は南下や避難地での隔離をもたらす一方、陸橋を形成して島と大陸などの間の移動・分散を可能にすること。",
       "constraints": {
@@ -4195,24 +4396,24 @@
       },
       "rubric": {
         "requiredElements": [
-          "同じ気候変動でも場所によって作用が異なる",
-          "大陸内の移動・分散",
-          "海峡による隔離と陸橋による移動の対照"
+          "同一の気候変動を取り上げる",
+          "地理条件が異なる地域を対比する",
+          "一方で移動・分散、他方で移動阻害・隔離が生じる関係を説明する"
         ],
         "acceptableVariants": [
-          "同じ本文根拠と意味を保つ別表現を許容。意見問題では異なる具体例・立場も根拠と条件を満たせば許容。"
+          "温暖化のみ、または寒冷化のみの一組の対照でも本文と合えば許容。両方の説明は必須ではない。",
+          "同じ因果関係を表す別表現を許容する。"
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-A-III-Q08",
       "examId": "FY26-A",
       "sectionId": "III",
       "sourcePage": 12,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "multi",
       "answer": [
@@ -4221,35 +4422,38 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
+          9,
+          10,
+          11,
           12
         ],
-        "contextBrief": "日本列島はフュージア。現生人類はベーリンジアを経てアメリカへ移動。"
+        "contextBrief": "日本列島はフュージア。現生人類はベーリンジアを経てアメリカへ移動。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-A-III-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "日本列島はフュージア。現生人類はベーリンジアを経てアメリカへ移動。"
         },
         {
           "checkId": "FY26-A-III-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "イは日本列島に氷床がないとの本文に反する。エは寒冷化と北上を逆転。オは全解明という過大な断定。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q01",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "けいりゅう",
@@ -4257,33 +4461,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "渓流を下る。"
+        "contextBrief": "渓流を下る。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "渓流を下る。"
         },
         {
           "checkId": "FY26-B-I-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "谷川の流れという語義と読みを逆照合。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q02",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "へいそく",
@@ -4291,33 +4495,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "閉塞感。"
+        "contextBrief": "閉塞感。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "閉塞感。"
         },
         {
           "checkId": "FY26-B-I-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "閉ざされ塞がる状態。閉鎖へいさとは異なる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q03",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "さく",
@@ -4325,33 +4529,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "牧場を柵で囲う。"
+        "contextBrief": "牧場を柵で囲う。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "牧場を柵で囲う。"
         },
         {
           "checkId": "FY26-B-I-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "囲う設備の柵。読みを文脈で再確認。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q04",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "幼",
@@ -4359,33 +4563,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "オサナい子。"
+        "contextBrief": "オサナい子。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "オサナい子。"
         },
         {
           "checkId": "FY26-B-I-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "幼いの送り仮名「い」は印刷済み。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q05",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "職務",
@@ -4393,33 +4597,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "ショクムに携わる。"
+        "contextBrief": "ショクムに携わる。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ショクムに携わる。"
         },
         {
           "checkId": "FY26-B-I-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "職業上の務めで職務。職無ではない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q06",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "香辛料",
@@ -4427,33 +4631,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "コウシンリョウを輸入。"
+        "contextBrief": "コウシンリョウを輸入。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "コウシンリョウを輸入。"
         },
         {
           "checkId": "FY26-B-I-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "香りと辛味を加える材料として三字を確認。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q07",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "頑固",
@@ -4461,33 +4665,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "ガンコな性格。"
+        "contextBrief": "ガンコな性格。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ガンコな性格。"
         },
         {
           "checkId": "FY26-B-I-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "かたくなで意見を変えない意味。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q08",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "需要",
@@ -4495,33 +4699,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "ジュヨウと供給。"
+        "contextBrief": "ジュヨウと供給。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ジュヨウと供給。"
         },
         {
           "checkId": "FY26-B-I-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "求められる量という対概念。受容ではない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q09",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "輩出",
@@ -4529,33 +4733,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "有名な選手をハイシュツ。"
+        "contextBrief": "有名な選手をハイシュツ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "有名な選手をハイシュツ。"
         },
         {
           "checkId": "FY26-B-I-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "優れた人を次々に出す意味。排出は不要物等を出す語。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-I-Q10",
       "examId": "FY26-B",
       "sectionId": "I",
       "sourcePage": 3,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "kanji",
       "answer": "円熟",
@@ -4563,33 +4767,33 @@
         "sourcePages": [
           3
         ],
-        "contextBrief": "エンジュクの境地。"
+        "contextBrief": "エンジュクの境地。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-I-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "エンジュクの境地。"
         },
         {
           "checkId": "FY26-B-I-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "技術や人格が十分に熟達する語として確認。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q01",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -4602,69 +4806,78 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "沈黙をしつける、奇蹟の源泉、眼下の海、動転、口調、社会の縮図。"
+        "contextBrief": "沈黙をしつける、奇蹟の源泉、眼下の海、動転、口調、社会の縮図。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q01:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "沈黙をしつける、奇蹟の源泉、眼下の海、動転、口調、社会の縮図。"
         },
         {
           "checkId": "FY26-B-II-Q01:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "六語を重複なしで代入。空欄4は手紙の意外さに動転、5は発話の言い方に口調。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q02",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "西",
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "ヨーロッパの最西端、西の果てる海。"
+        "contextBrief": "ヨーロッパの最西端、西の果てる海。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ヨーロッパの最西端、西の果てる海。"
         },
         {
           "checkId": "FY26-B-II-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "ポルトガルのロカ岬という本文内地理と二箇所の同一漢字を照合。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 1
+      }
     },
     {
       "questionId": "FY26-B-II-Q03",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -4674,263 +4887,297 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "買いかぶり＝過大評価、理不尽＝道理に合わない、丹精＝偽りのない真心。"
+        "contextBrief": "買いかぶり＝過大評価、理不尽＝道理に合わない、丹精＝偽りのない真心。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "買いかぶり＝過大評価、理不尽＝道理に合わない、丹精＝偽りのない真心。"
         },
         {
           "checkId": "FY26-B-II-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "買いかぶりは伝達や過小評価でない。理不尽は理想/夢/希望でない。丹精は知識/体力/周囲配慮だけでない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q04",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "病気",
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "梶井の手紙に北軽井沢の病院という記載。"
+        "contextBrief": "梶井の手紙に北軽井沢の病院という記載。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "梶井の手紙に北軽井沢の病院という記載。"
         },
         {
           "checkId": "FY26-B-II-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "しつこい悪魔は志穂子を長く苦しめる病気。手紙部分の漢字二字という指定を満たす。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 2
+      }
     },
     {
       "questionId": "FY26-B-II-Q05",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "ひと言も言葉を交わさなかった",
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "同じ病院にいたが会話もなかったという先行記述。"
+        "contextBrief": "同じ病院にいたが会話もなかったという先行記述。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "同じ病院にいたが会話もなかったという先行記述。"
         },
         {
           "checkId": "FY26-B-II-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "二十字以内で空欄後の「程度の関係」に文法的につながる。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "maxCharacters": 20
+      }
     },
     {
       "questionId": "FY26-B-II-Q06",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "十八",
       "sourceEvidence": {
         "sourcePages": [
-          6
+          4,
+          5,
+          6,
+          7
         ],
-        "contextBrief": "実年齢二十四歳、内面のカレンダー六歳。"
+        "contextBrief": "実年齢二十四歳、内面のカレンダー六歳。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "実年齢二十四歳、内面のカレンダー六歳。"
         },
         {
           "checkId": "FY26-B-II-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "24−6=18。要求は漢数字二字なので十八。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 2
+      }
     },
     {
       "questionId": "FY26-B-II-Q07",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
+          4,
+          5,
+          6,
           7
         ],
-        "contextBrief": "妹は姉の諦めを聞いて社会帰属ではなく生還という語を選ぶ。"
+        "contextBrief": "妹は姉の諦めを聞いて社会帰属ではなく生還という語を選ぶ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "妹は姉の諦めを聞いて社会帰属ではなく生還という語を選ぶ。"
         },
         {
           "checkId": "FY26-B-II-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "アの嫌気や衝動、イの相談、エの自己嫌悪は根拠なし。励ましが当該語の目的。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q08",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
+          4,
+          5,
+          6,
           7
         ],
-        "contextBrief": "野菜に虚無・理不尽・怒り・悔しさを栽培する比喩。"
+        "contextBrief": "野菜に虚無・理不尽・怒り・悔しさを栽培する比喩。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "野菜に虚無・理不尽・怒り・悔しさを栽培する比喩。"
         },
         {
           "checkId": "FY26-B-II-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "美味/楽しい/哀しいだけでは否定的感情全体を捉えない。汚いものが適合。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q09",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "誤魔化したりは",
       "sourceEvidence": {
         "sourcePages": [
+          4,
+          5,
+          6,
           7
         ],
-        "contextBrief": "義務にも慣れてあきらめを誤魔化したりはしてしまい。"
+        "contextBrief": "義務にも慣れてあきらめを誤魔化したりはしてしまい。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "義務にも慣れてあきらめを誤魔化したりはしてしまい。"
         },
         {
           "checkId": "FY26-B-II-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "あきらめを直接受ける文節を過不足なく抽出。してしまいは後続。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-II-Q10",
       "examId": "FY26-B",
       "sectionId": "II",
       "sourcePage": 7,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
+          4,
+          5,
+          6,
           7
         ],
-        "contextBrief": "患者が野菜へ込めた感情と志穂子の言葉を対照する。"
+        "contextBrief": "患者が野菜へ込めた感情と志穂子の言葉を対照する。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-II-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "患者が野菜へ込めた感情と志穂子の言葉を対照する。"
         },
         {
           "checkId": "FY26-B-II-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "六十～九十字。病への諦めと負の感情の流出の対応を説明し、単なる野菜嫌いにしない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "病気は治らないと諦め、病気と闘う気力も失った自分も、栽培に執着して生きる患者と同じく、恨みや怒りなどの負の感情を、語る言葉に込めていると感じたから。",
       "constraints": {
@@ -4949,8 +5196,7 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-B-III-Q01",
@@ -4963,7 +5209,10 @@
       "answer": "ウ",
       "sourceEvidence": {
         "sourcePages": [
-          9
+          8,
+          9,
+          10,
+          11
         ],
         "contextBrief": "赤い服の三人が数学好きだからと全員へ一般化する例。"
       },
@@ -4982,16 +5231,16 @@
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewBlocker": "ウ is the leading candidate, but its causal generalization must be distinguished from the group generalization in イ and converse in エ; insufficient certainty for automatic scoring."
     },
     {
       "questionId": "FY26-B-III-Q02",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 9,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": [
@@ -5001,161 +5250,180 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
-          9
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "直感、客観、不変。"
+        "contextBrief": "直感、客観、不変。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q02:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "直感、客観、不変。"
         },
         {
           "checkId": "FY26-B-III-Q02:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "感/観/変の前に各漢字を代入して三熟語を再構成。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-III-Q03",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 9,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "限られたリソースや時間の中でよりよく判断をすること",
       "sourceEvidence": {
         "sourcePages": [
-          9
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "丁寧な科学的検討より限られた条件内の判断が求められる。"
+        "contextBrief": "丁寧な科学的検討より限られた条件内の判断が求められる。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q03:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "丁寧な科学的検討より限られた条件内の判断が求められる。"
         },
         {
           "checkId": "FY26-B-III-Q03:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "二十五字を再計数し、設問の「を求められている」に接続。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 25
+      }
     },
     {
       "questionId": "FY26-B-III-Q04",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "イ",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "他人からの情報で評価が変わることに当たらない例を選ぶ。"
+        "contextBrief": "他人からの情報で評価が変わることに当たらない例を選ぶ。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q04:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "他人からの情報で評価が変わることに当たらない例を選ぶ。"
         },
         {
           "checkId": "FY26-B-III-Q04:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "アは人気、ウは価格、エは支持という外部情報がある。イは時間経過で馴染む例。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-III-Q05",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "エ",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "ネットやSNSで中傷されるという用例。"
+        "contextBrief": "ネットやSNSで中傷されるという用例。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q05:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "ネットやSNSで中傷されるという用例。"
         },
         {
           "checkId": "FY26-B-III-Q05:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "アは冤罪、イは飽き、ウは遠慮のない発言一般。エの根拠なき名誉毀損が対応。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-III-Q06",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "一八九〇年代のリリアン・ラッセルと現代の基準を比較。"
+        "contextBrief": "一八九〇年代のリリアン・ラッセルと現代の基準を比較。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q06:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "一八九〇年代のリリアン・ラッセルと現代の基準を比較。"
         },
         {
           "checkId": "FY26-B-III-Q06:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "現在の人が誤っているという断定ではなく時代ごとの美の評価の変化を説明。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "当時はふくよかな体型が美しいとされ、現代の痩せた体型とは美の基準が異なっていたから。",
       "constraints": {
@@ -5171,88 +5439,100 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY26-B-III-Q07",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "基準",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "本文の「美の基準さえ他からの情報で書き換え」に対応。"
+        "contextBrief": "本文の「美の基準さえ他からの情報で書き換え」に対応。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q07:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "本文の「美の基準さえ他からの情報で書き換え」に対応。"
         },
         {
           "checkId": "FY26-B-III-Q07:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "原本は漢字二字。参考PDFの価値観は三字で不適合。スタンダードの意味と本文内の二字を再照合して基準へ修正。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "candidateCorrection": {
         "from": "価値観",
         "to": "基準",
         "reason": "原本は漢字二字指定。本文の美の基準と対応。"
       },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 2
+      }
     },
     {
       "questionId": "FY26-B-III-Q08",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 10,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "text",
       "answer": "だけです。",
       "sourceEvidence": {
         "sourcePages": [
-          10
+          8,
+          9,
+          10,
+          11
         ],
-        "contextBrief": "自然に痩せるのは病気のときだけという文の後に長命データを置く。"
+        "contextBrief": "自然に痩せるのは病気のときだけという文の後に長命データを置く。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q08:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "自然に痩せるのは病気のときだけという文の後に長命データを置く。"
         },
         {
           "checkId": "FY26-B-III-Q08:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "健康と痩身の同一視を問い直す文脈を保つ。直前五字には句点を含み、だけです。で五字。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "constraints": {
+        "exactCharacters": 5,
+        "punctuationCounts": true
+      }
     },
     {
       "questionId": "FY26-B-III-Q09",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "true-false",
       "answer": [
@@ -5263,59 +5543,66 @@
       ],
       "sourceEvidence": {
         "sourcePages": [
+          8,
+          9,
+          10,
           11
         ],
-        "contextBrief": "1は周囲の少数から全体への一般化、2は外集団バイアス、3は過去の美人と現代の可能性、4は柔軟さの効用。"
+        "contextBrief": "(1)は鳥の局所的判断と人間の三人からの一般化。(2)は外集団バイアスへの価値判断。(3)は過去の美人の現在の扱いの事実化。(4)は柔軟性と流行の関係。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q09:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "1は周囲の少数から全体への一般化、2は外集団バイアス、3は過去の美人と現代の可能性、4は柔軟さの効用。"
+          "result": "PASS",
+          "detail": "(1)は鳥の局所的判断と人間の三人からの一般化。(2)は外集団バイアスへの価値判断。(3)は過去の美人の現在の扱いの事実化。(4)は柔軟性と流行の関係。"
         },
         {
           "checkId": "FY26-B-III-Q09:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "2の「少ない」は頻出性に逆行。3は本文が将来について述べる仮定を現状の事実に変えている。4は流行を追えなくなるとの逆の説明。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "(1)○：本文冒頭と一致。(2)×：名称は正しいが、本文は生存のための認知の歪みをむやみに悪いものとはしない。(3)×：本文は二〇〇四年の人物への現代人の印象と過去の人々の仮定を述べ、リリアンへの現在の中傷という事実を述べていない。(4)×：柔軟性を養わなければ流行を追えなくなるとは断定していない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-III-Q10",
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 11,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
       "sourceEvidence": {
         "sourcePages": [
+          8,
+          9,
+          10,
           11
         ],
-        "contextBrief": "価値基準の変化と思考の柔軟性を英国の全寮制日本人学校に適用。"
+        "contextBrief": "価値基準の変化と思考の柔軟性を英国の全寮制日本人学校に適用。",
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY26-B-III-Q10:check1",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
+          "result": "PASS",
           "detail": "価値基準の変化と思考の柔軟性を英国の全寮制日本人学校に適用。"
         },
         {
           "checkId": "FY26-B-III-Q10:check2",
-          "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
           "detail": "百～百八十字。英国/日本人学校/全寮制の条件と具体行動を含める。特定の意見への同調を正答条件にしない。"
         }
       ],
       "reviewedAt": "2026-09-25",
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
       "modelAnswer": "日本人学校でも、生徒の育った国や家庭、考え方は一様ではない。全寮制では生活習慣の違いが衝突につながることもあるため、自分の常識だけで相手を判断せず、まず理由を聞きたい。また、英国の人々との交流でも少数の経験を全体に当てはめず、話し合いながら互いに過ごしやすい方法を探すことが大切だ。",
       "constraints": {
@@ -5334,18 +5621,17 @@
         ],
         "gradingMode": "manual-element-comparison",
         "exactMatchRequired": false
-      },
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      }
     },
     {
       "questionId": "FY24-B-IV-Q01",
       "examId": "FY24-B",
       "sectionId": "IV",
       "sourcePage": 6,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "written",
-      "modelAnswer": "三か国とも署名、デモ、座り込みの順に許容度が低くなる。代表性・有効性を高く評価し、秩序不安が少ない人ほど許容度が高い。日本はどの運動でも代表性・有効性の高低による差が三か国で最も小さい。署名では代表性・有効性の各区分で日本が最も高いが、秩序不安の少ない層では最も低い。デモは各区分でドイツより低く韓国より高い。座り込みは代表性・有効性の高い層では最も低く、低い層では韓国より高い。",
+      "modelAnswer": "三か国とも署名、デモ、座り込みの順に許容度が低くなる。概ね代表性・有効性を高く評価し、秩序不安が少ない人ほど許容度が高い。ただし、日本の座り込みでは代表性の高低による差がない。日本はどの運動でも代表性・有効性の高低による差が三か国で最も小さい。署名では代表性・有効性の各区分で日本が最も高いが、秩序不安の少ない層では最も低い。デモは各区分でドイツより低く韓国より高い。座り込みは代表性・有効性の高い層では最も低く、低い層では韓国より高い。",
       "constraints": {
         "wordLimitSpecified": false
       },
@@ -5380,7 +5666,7 @@
             29.3,
             53.0,
             40.4,
-            22.0,
+            20.7,
             20.7,
             30.2,
             12.1,
@@ -5427,25 +5713,51 @@
             52.3,
             38.5
           ]
-        }
+        },
+        "tableColumns": [
+          "署名/代表性/高い",
+          "署名/代表性/低い",
+          "署名/有効性/高い",
+          "署名/有効性/低い",
+          "署名/秩序不安/少ない",
+          "署名/秩序不安/大きい",
+          "デモ/代表性/高い",
+          "デモ/代表性/低い",
+          "デモ/有効性/高い",
+          "デモ/有効性/低い",
+          "デモ/秩序不安/少ない",
+          "デモ/秩序不安/大きい",
+          "座り込み/代表性/高い",
+          "座り込み/代表性/低い",
+          "座り込み/有効性/高い",
+          "座り込み/有効性/低い",
+          "座り込み/秩序不安/少ない",
+          "座り込み/秩序不安/大きい"
+        ],
+        "reviewBatch": "20260925-fresh-source-recheck"
       },
       "checks": [
         {
           "checkId": "FY24-B-IV-Q01:check1",
           "kind": "source-table-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "原本6ページの表の54値と見出しを目視で照合。割合は許容度。"
+          "result": "PASS",
+          "detail": "原本PDF p6を高解像度で再読し54値を再転記。日本の座り込み・代表性高は20.7で、前回転記22.0を修正。"
         },
         {
           "checkId": "FY24-B-IV-Q01:check2",
-          "kind": "independent-numeric-comparison",
-          "result": "REVIEW_REQUIRED",
-          "detail": "各列の国順位と高低差を算出。日本の代表性/有効性の差は三運動とも最小。秩序不安の差は署名のみ最小。"
+          "kind": "fresh-source-resolution-and-constraint-check",
+          "result": "PASS",
+          "detail": "運動別の順位、国別順位、高低差を独立に数値計算。日本の座り込みの代表性は20.7対20.7で等しい例外がある。日本の代表性/有効性の高低差は三運動とも三か国で最小。"
         }
       ],
-      "reviewMethod": "two-method-same-reviewer",
+      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
       "reviewedAt": "2026-09-25",
-      "reviewBlocker": "Recheck the complete source, distractors, extraction constraints and rubric in a fresh pass before promotion."
+      "transcriptionCorrection": {
+        "field": "日本/座り込み/代表性/高い",
+        "from": 22.0,
+        "to": 20.7,
+        "origin": "previous app candidate, not attributed to reference PDF"
+      }
     }
   ],
   "unavailableSections": [
@@ -5460,5 +5772,5 @@
       "questionCount": null
     }
   ],
-  "reviewMethodNote": "2026-09-25 additions are provisional review notes from a single model reviewer. Neither note constitutes a completed independent PASS. All 79 additions remain REVIEW_REQUIRED and must be excluded from scoring."
+  "reviewMethodNote": "Original FY25 63 preserved. 78 additions verified by fresh source reading/re-solution and candidate comparison using two methods by the same model reviewer, not independent humans. FY26-B-III-Q01 remains REVIEW_REQUIRED and excluded from grading."
 }

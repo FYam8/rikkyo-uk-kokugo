@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "labels": {
+    "KANJI": "漢字の読み書き",
+    "VOCAB_CONTEXT": "文脈に合う言葉",
+    "IDIOM": "慣用句の意味",
+    "DICTIONARY_USAGE": "辞書の意味を使い分ける",
+    "GRAMMAR": "文の組み立てと品詞",
+    "LOGIC_RELATION": "理由・対比・具体例を読む",
+    "BLANK_COMPLETION": "前後から空欄を補う",
+    "SENTENCE_INSERTION": "文を入れる位置を考える",
+    "CONTENT_SELECTION": "本文と一致する内容を選ぶ",
+    "PHRASE_INTERPRETATION": "表現の意味を具体的に考える",
+    "NUMERIC_INFORMATION": "数値の条件を読み取る",
+    "MULTI_SELECT": "複数の選択肢を確かめる",
+    "TRUE_FALSE": "本文との一致・不一致を判断する",
+    "LITERARY_CHARACTER": "人物の気持ち・関係・変化",
+    "METAPHOR_INTERPRETATION": "比喩を具体的な意味に戻す",
+    "TEXT_EXTRACTION": "本文から必要な言葉を探す",
+    "PARAPHRASE": "同じ意味を別の言葉で表す",
+    "NOTE_COMPLETION": "要点を整理して空欄を補う",
+    "THEME_SUMMARY": "文章の中心をまとめる",
+    "WRITTEN_EXPLANATION": "理由を本文の根拠から説明する",
+    "TRANSFER_APPLICATION": "別の場面で考え方を使う",
+    "DATA_INTERPRETATION": "図表を正確に読み取る",
+    "BIAS_CONCEPT": "思い込みと根拠を区別する",
+    "ORDER": "時間や説明の順序を考える"
+  }
+}
