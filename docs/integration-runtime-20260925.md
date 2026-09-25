@@ -1,3 +1,7 @@
+# Historical integration checkpoint
+
+This file describes an earlier checkpoint. Current integration and release evidence: `../metadata/release_gate.json`, `../metadata/clean_loops.json`, and `release-readiness-20260925.md`.
+
 # Integration runtime checkpoint
 
 Production remains HOLD. No Pages deployment, release tag, or CLEAN loop is claimed.

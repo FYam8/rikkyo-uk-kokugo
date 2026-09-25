@@ -234,7 +234,7 @@
   ],
   "coverageReview": "docs/practice-coverage-review.md",
   "remainingGates": [
-    "Two consecutive release CLEAN loops"
+    "Controlled by metadata/release_gate.json and fingerprint-bound CLEAN evidence"
   ],
   "limitations": [
     "No distinct practice for every fine-grained source tag",

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "status": "TWO_CONSECUTIVE_CLEAN",
+  "functionalFingerprint": "c445beb6c74cdf102e1c7e0ba73df220ce247f810623798316416d4e08849970",
+  "sourceFingerprint": "3e24025c868831dd0da5776cc4ac8ae090eae6fd9655eab2b61711f190bddefd",
+  "browser": "Chromium 140 / Playwright 1.55; desktop 1280px and mobile 390px with touch emulation",
+  "retentionClock": "Playwright fixed clock advanced by 24 hours + 2 seconds; not a real-day wait",
+  "loops": [
+    {
+      "number": 1,
+      "startedAt": "2026-09-25T21:24:52.169174+00:00",
+      "checks": [
+        {
+          "command": [
+            "node",
+            "tools/validate_scaffold.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Rikkyo Kokugo scaffold contract: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_authority_baseline.py"
+          ],
+          "exitCode": 0,
+          "output": "Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_practice_bank.py"
+          ],
+          "exitCode": 0,
+          "output": "Practice content contract: 24 new units / 175 IDs / phase coverage / extraction / rubrics / retention PASS\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_runtime_bank.mjs"
+          ],
+          "exitCode": 0,
+          "output": "175 runtime items / 7 repair strands / exact text / explicit variants / hidden retention: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/verify_shared_snapshot.py"
+          ],
+          "exitCode": 0,
+          "output": "Generated shared-engine snapshot: PASS 3b244d7abd2f53acfa335ef55a40229d6a7ae263\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_question_pages.py"
+          ],
+          "exitCode": 0,
+          "output": "142 source mappings and FY24-B omitted-section isolation: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/validate_grading.py"
+          ],
+          "exitCode": 0,
+          "output": "141 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/check_public_artifact.py",
+            "dist"
+          ],
+          "exitCode": 0,
+          "output": "PUBLIC ARTIFACT CHECK OK (6.3 MB)\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_diagnostic.mjs"
+          ],
+          "exitCode": 0,
+          "output": "PASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_exams.mjs"
+          ],
+          "exitCode": 0,
+          "output": "PASS 1280 FY25-A 33 input/scoring/source pages\nPASS 1280 FY24-A 23 input/scoring/source pages\nPASS 1280 FY25-B 30 input/scoring/source pages\nPASS 1280 FY26-A 23 input/scoring/source pages\nPASS 1280 FY26-B 30 input/scoring/source pages\nPASS 1280 FY24-B 3 input/scoring/source pages\nPASS 390 FY25-A 33 input/scoring/source pages\nPASS 390 FY24-A 23 input/scoring/source pages\nPASS 390 FY25-B 30 input/scoring/source pages\nPASS 390 FY26-A 23 input/scoring/source pages\nPASS 390 FY26-B 30 input/scoring/source pages\nPASS 390 FY24-B 3 input/scoring/source pages\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_training.mjs"
+          ],
+          "exitCode": 0,
+          "output": "STEP COMPLETE 1280\nSTEP COMPLETE 1280\nSTEP COMPLETE 1280\nRETENTION COMPLETE 1280 7 strands; 24h gate simulated with browser clock\nPASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nRETENTION COMPLETE 390 7 strands; 24h gate simulated with browser clock\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        }
+      ],
+      "fixes": 0,
+      "status": "CLEAN",
+      "completedAt": "2026-09-25T21:25:58.904948+00:00"
+    },
+    {
+      "number": 2,
+      "startedAt": "2026-09-25T21:25:58.905293+00:00",
+      "checks": [
+        {
+          "command": [
+            "node",
+            "tools/validate_scaffold.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Rikkyo Kokugo scaffold contract: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_authority_baseline.py"
+          ],
+          "exitCode": 0,
+          "output": "Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_practice_bank.py"
+          ],
+          "exitCode": 0,
+          "output": "Practice content contract: 24 new units / 175 IDs / phase coverage / extraction / rubrics / retention PASS\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_runtime_bank.mjs"
+          ],
+          "exitCode": 0,
+          "output": "175 runtime items / 7 repair strands / exact text / explicit variants / hidden retention: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/verify_shared_snapshot.py"
+          ],
+          "exitCode": 0,
+          "output": "Generated shared-engine snapshot: PASS 3b244d7abd2f53acfa335ef55a40229d6a7ae263\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/test_question_pages.py"
+          ],
+          "exitCode": 0,
+          "output": "142 source mappings and FY24-B omitted-section isolation: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/validate_grading.py"
+          ],
+          "exitCode": 0,
+          "output": "141 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
+        },
+        {
+          "command": [
+            "python",
+            "tools/check_public_artifact.py",
+            "dist"
+          ],
+          "exitCode": 0,
+          "output": "PUBLIC ARTIFACT CHECK OK (6.3 MB)\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_diagnostic.mjs"
+          ],
+          "exitCode": 0,
+          "output": "PASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_exams.mjs"
+          ],
+          "exitCode": 0,
+          "output": "PASS 1280 FY25-A 33 input/scoring/source pages\nPASS 1280 FY24-A 23 input/scoring/source pages\nPASS 1280 FY25-B 30 input/scoring/source pages\nPASS 1280 FY26-A 23 input/scoring/source pages\nPASS 1280 FY26-B 30 input/scoring/source pages\nPASS 1280 FY24-B 3 input/scoring/source pages\nPASS 390 FY25-A 33 input/scoring/source pages\nPASS 390 FY24-A 23 input/scoring/source pages\nPASS 390 FY25-B 30 input/scoring/source pages\nPASS 390 FY26-A 23 input/scoring/source pages\nPASS 390 FY26-B 30 input/scoring/source pages\nPASS 390 FY24-B 3 input/scoring/source pages\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/audit_browser_training.mjs"
+          ],
+          "exitCode": 0,
+          "output": "STEP COMPLETE 1280\nSTEP COMPLETE 1280\nSTEP COMPLETE 1280\nRETENTION COMPLETE 1280 7 strands; 24h gate simulated with browser clock\nPASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nRETENTION COMPLETE 390 7 strands; 24h gate simulated with browser clock\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        }
+      ],
+      "fixes": 0,
+      "status": "CLEAN",
+      "completedAt": "2026-09-25T21:27:06.229541+00:00"
+    }
+  ],
+  "completedAt": "2026-09-25T21:27:06.229880+00:00"
+}

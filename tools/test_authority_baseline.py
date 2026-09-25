@@ -47,7 +47,9 @@ for e in registry['exams']:
     for s in e['sections']:
         if s['availability'] == 'copyright-omitted':
             assert s['questions'] == []
-assert progress['gates']['publicDeploy'] == 'HOLD'
+# Authority coverage alone cannot authorize deployment; the separate gate verifies both CLEAN loops.
+assert progress['gates']['publicDeploy'] == 'CONTROLLED_BY_METADATA_RELEASE_GATE'
+assert (ROOT / 'tools/verify_release_gate.py').is_file()
 print('Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS')
 
 for r in authority['records']:
