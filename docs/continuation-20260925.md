@@ -65,9 +65,17 @@ explanation, sentence insertion, true/false and data interpretation.
 
 This is a content bank, not a live learning route. Its schema/ID/options/extraction
 length/rubric/phase checks pass. Difficulty calibration, detailed misconception
-mapping and full content review remain incomplete; generic explanatory text
+mapping and full content review remain incomplete; the readiness audit finds
+40 detailed source-demand tags without direct bank tags (this needs semantic
+coverage review, not automatically 40 new units); generic explanatory text
 must be improved where it does not identify the actual distractor error.
 No FY26-B passage or question is used as a practice source.
+
+A subsequent content pass corrected four negative-question explanations, made
+the E05 comparison question self-contained, removed another missing-reference
+prompt, clarified an ambiguous kanji context, and added the E06 numerical table.
+Changed draft items retain IDs and advance to revision 2. This is a partial
+content review, not certification of the complete bank.
 
 ## Shared implementation
 
@@ -80,20 +88,23 @@ The changes live in the Waseda master, not a Rikkyo screen fork:
 - sections derived from visible questions, including III/IV-only booklets;
 - initial page and Resume section handling based on the manifest;
 - school-configured review disclaimer and explicit examId lookup;
-- corresponding exporter and regression checks.
+- corresponding exporter and regression checks;
+- parent-normalized scoring and exclusion of unverified questions;
+- per-exam answer loading and a configurable strict final-access gate;
+- separate kanji/extraction text fields and explicit accepted-variant grading.
 
 Legacy answer-UI and training-answer-state tests, new token/section tests and
 JSX transformation pass locally. Initial upstream CI exposed that the existing
 workflow-coverage check also requires new tests in production validation; both
 validation workflows were updated without changing publish triggers or secrets.
-Full upstream CI must pass before merge/pin promotion. The approved downstream
+Latest upstream CI passed, including the text-field extension and desktop/mobile browser checks. Exact evidence is in `docs/shared-engine-checkpoint-20260925.md`. Full upstream CI must pass before merge/pin promotion. The approved downstream
 pin remains `006983492786be86ad3f80c94e0cf3d34a0f33ac`.
 
 ## Remaining release work
 
 - Complete the bank's content/difficulty/misconception review and school adapters.
-- Complete shared normalized-parent scoring, per-exam answer loading and strict
-  final holdout gating, with remediation/retention progression.
+- Integrate and verify the new shared scoring/answer-loading policies against
+  Rikkyo data; complete remediation/retention progression and built-bundle holdout isolation.
 - Build the Rikkyo app using the approved shared exporter and source assets.
 - Verify all required desktop/mobile interactions, Resume, Today, retention,
   Export/Import and Reset, then complete two real, consecutive CLEAN loops.

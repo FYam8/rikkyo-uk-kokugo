@@ -204,6 +204,32 @@ replace('E07',5,passage='［A］案を集めた。［B］似た案をまとめ�
 replace('E06',6,prompt='「賛成人数は異なるが、賛成割合は同じだ」は表の数値と一致するか。',responseType='true-false',options=[{'id':'○','text':'一致する'},{'id':'×','text':'一致しない'}],answer='○',explanation='6/10も60/100も60％。人数6人と60人は異なる。')
 # Repair an unnatural draft sentence before publishing the bank.
 by['K02']['items'][2]['passage']='授業料を期限までにオサめる。'
-result={'schemaVersion':1,'contentSet':'rikkyo-original-practice-20260925-v1','status':'CONTENT_REVIEW_PENDING_ENGINE_INTEGRATION','origin':'NEW_APP_AUTHORED_NOT_RECOVERED','referenceBankRecovered':False,'holdoutSourceUsed':False,'unitCount':len(BANK),'itemCount':sum(len(u['items']) for u in BANK),'retentionPolicy':{'minimumDelayHours':24,'reuseInInitialTraining':False},'units':BANK}
+# Content review corrections. IDs stay stable; changed published drafts advance revision.
+corrections={
+ 'L04-02':'本文には時計を見たこと、連絡が短いこと、その連絡を気にしていることがある。一方、話したい内容自体は示されていない。したがって「断定できないもの」は選択肢3。',
+ 'L04-06':'風が強まったこと、船員が空を見たこと、船がまだ動かないことは本文にある。しかし動かない原因は書かれていないので、「故障した」とは断定できない。選択肢3を選ぶ。',
+ 'L04-07':'しまった場所は机で、その日は中身を話さなかった。封筒の中身は示されていない。「不合格通知だ」は読み手が付け加えた事情なので、本文にない断定は選択肢3。',
+ 'E06-02':'示されているのは学年別・月別の参加人数。4月と5月の人数やその増減は分かるが、読んだ冊数の数値はない。資料だけでは分からないのは選択肢3。'
+}
+changed=[]
+for key,explanation in corrections.items():
+ uid,n=key.split('-');v=by[uid]['items'][int(n)-1];v.update(explanation=explanation,revision=2);changed.append(v['id'])
+v=by['E05']['items'][3]
+v['passage']='【文章A】'+by['E05']['items'][0]['passage']+'\n\n【文章B】'+v['passage']
+v['prompt']='文章Aと文章Bに共通する、利用者の必要を両立させる考え方を説明しよう。'
+v['revision']=2;changed.append(v['id'])
+v=by['E05']['items'][5];v['prompt']='この掲示の働きとして適切なのは。';v['revision']=2;changed.append(v['id'])
+v=by['K02']['items'][3]
+v.update(passage='注文された品物を取引先にオサめる。',explanation='注文された品物を相手へ引き渡す意味なので「納める」。カタカナ部分だけを答えるため、解答は「納」。',revision=2)
+v['references']=['https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_12.pdf'];changed.append(v['id'])
+for n in [0,1]:
+ v=by['E06']['items'][n]
+ v['passage']=v['passage'].replace('この表は','この資料は');v['prompt']=v['prompt'].replace('この表だけ','この資料だけ');v['revision']=2
+ v['dataTable']={'caption':'読書会の参加人数（人）','columns':['月','一年生','二年生'],'rows':[['4月',12,8],['5月',15,7]]}
+ if v['id'] not in changed:changed.append(v['id'])
+v=by['E06']['items'][6];v['prompt']=v['prompt'].replace('表の数値','本文の数値');v['revision']=2;changed.append(v['id'])
+for u in BANK:
+ if any(i['revision']>1 for i in u['items']):u['revision']=2
+result={'schemaVersion':1,'contentSet':'rikkyo-original-practice-20260925-v1','status':'CONTENT_REVIEW_PENDING_ENGINE_INTEGRATION','origin':'NEW_APP_AUTHORED_NOT_RECOVERED','referenceBankRecovered':False,'holdoutSourceUsed':False,'unitCount':len(BANK),'itemCount':sum(len(u['items']) for u in BANK),'retentionPolicy':{'minimumDelayHours':24,'reuseInInitialTraining':False},'contentReview':{'status':'PARTIAL_REVIEW','correctedItemIds':changed,'remaining':'Full 168-item review, per-option rationale, engine and learner QA remain pending.'},'units':BANK}
 (ROOT/'metadata/practice_bank.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(result['unitCount'],result['itemCount'])

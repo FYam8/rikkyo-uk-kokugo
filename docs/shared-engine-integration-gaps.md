@@ -32,3 +32,19 @@ these gates without immediate repetition, plus next-day retention material.
 
 This report is a work list. None of these capabilities is marked implemented
 or browser-verified by this checkpoint.
+
+## Follow-up implementation (2026-09-25)
+
+Draft upstream PR #40 now implements token/section/disclaimer support,
+parent-normalized scoring with unverified-question exclusion, per-exam answer
+loading with a strict final-start/submission gate, and separate text answer
+fields with conservative extraction grading. These are shared-source changes;
+no Rikkyo UI fork or pin promotion has been made.
+
+The downstream integration and full release gates are still open. In particular,
+strict answer loading is not a completed holdout audit: Rikkyo must supply
+separate manifests, remove final answers from static review/practice modules,
+and verify the built bundle and network behavior. Remediation/retention gates
+and detailed diagnostic mapping remain to be implemented and tested.
+
+See `docs/shared-engine-checkpoint-20260925.md` for exact CI evidence and limits.

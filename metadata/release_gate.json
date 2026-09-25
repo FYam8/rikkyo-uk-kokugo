@@ -8,8 +8,8 @@
     "originalVerified63Preserved": "PASS",
     "stableIds142Preserved": "PASS",
     "remaining79IndependentReview": "78_VERIFIED_1_REVIEW_REQUIRED",
-    "practiceBank24Units": "24_UNITS_168_ITEMS_CONTENT_QA_AND_INTEGRATION_PENDING",
-    "sharedEngineIntegration": "UPSTREAM_PR_40_PARTIAL_IMPLEMENTATION",
+    "practiceBank24Units": "24_UNITS_168_ITEMS_PARTIAL_CONTENT_REVIEW_40_DEMAND_TAGS_REQUIRE_COVERAGE_REVIEW",
+    "sharedEngineIntegration": "SHARED_PR_40_CI_PASS_RIKKYO_INTEGRATION_PENDING",
     "holdoutIsolation": "NOT_TESTED",
     "desktopBrowser": "NOT_RUN",
     "mobileBrowser": "NOT_RUN",
@@ -22,5 +22,14 @@
   "consecutiveCleanLoops": 0,
   "pagesEnabledByThisChange": false,
   "releaseTagCreated": false,
-  "upstreamWorkPR": "https://github.com/FYam8/waseshibu-source/pull/40"
+  "upstreamWorkPR": "https://github.com/FYam8/waseshibu-source/pull/40",
+  "sharedEngineEvidence": {
+    "repository": "FYam8/waseshibu-source",
+    "pr": 40,
+    "verifiedCommit": "d8b3925e4c2a6ae4bd8266f50e4a3177d90ea706",
+    "workflowRun": 36183548766,
+    "conclusion": "success",
+    "scope": "Waseda regression/build/browser checks plus shared school editor fixtures at 390px and 1280px; not full Rikkyo application QA",
+    "downstreamPinPromoted": false
+  }
 }

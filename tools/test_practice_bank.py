@@ -45,3 +45,7 @@ print('Practice content contract: 24 new units / 168 IDs / phase coverage / extr
 labels=json.loads((r/'metadata/skill_labels.json').read_text())['labels']
 assert all(skill in labels for u in b['units'] for skill in u['skills'])
 assert all(skill in labels for group in json.loads((r/'metadata/observed_skill_taxonomy.json').read_text())['groups'] for skill in group['demands'])
+
+# All observed source demands need learner-facing labels, including detailed tags.
+registry=json.loads((r/'metadata/structural_registry.json').read_text())
+assert all(skill in labels for exam in registry['exams'] for section in exam['sections'] for q in section.get('questions',[]) for skill in q['skillDemand'])

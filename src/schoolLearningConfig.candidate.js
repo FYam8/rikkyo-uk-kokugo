@@ -1,5 +1,8 @@
 export const LEARNING_PATH_CONFIG=Object.freeze({
   schemaVersion:1,
+  // Candidate only: requires tested upstream promotion and the Rikkyo content build.
+  scoringPolicy:{method:'normalized-parent-correctness'},
+  holdoutPolicy:{strict:true,examKeys:['FY26-B']},
   examKeys:['FY24-A','FY24-B','FY25-A','FY25-B','FY26-A','FY26-B'],
   examUnitNoun:'試験',
   features:{kobunPractice:false},

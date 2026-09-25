@@ -11,6 +11,21 @@
     "minimumDelayHours": 24,
     "reuseInInitialTraining": false
   },
+  "contentReview": {
+    "status": "PARTIAL_REVIEW",
+    "correctedItemIds": [
+      "RUK-ORIGINAL-L04-02",
+      "RUK-ORIGINAL-L04-06",
+      "RUK-ORIGINAL-L04-07",
+      "RUK-ORIGINAL-E06-02",
+      "RUK-ORIGINAL-E05-04",
+      "RUK-ORIGINAL-E05-06",
+      "RUK-ORIGINAL-K02-04",
+      "RUK-ORIGINAL-E06-01",
+      "RUK-ORIGINAL-E06-07"
+    ],
+    "remaining": "Full 168-item review, per-option rationale, engine and learner QA remain pending."
+  },
   "units": [
     {
       "id": "RUK-ORIGINAL-K01",
@@ -133,7 +148,7 @@
     },
     {
       "id": "RUK-ORIGINAL-K02",
-      "revision": 1,
+      "revision": 2,
       "domain": "kanji",
       "title": "動作に合う漢字を書く",
       "skills": [
@@ -190,18 +205,21 @@
         },
         {
           "id": "RUK-ORIGINAL-K02-04",
-          "revision": 1,
+          "revision": 2,
           "phase": "transfer",
           "skills": [
             "KANJI",
             "VOCAB_CONTEXT"
           ],
-          "passage": "荷物を倉庫にオサめる。",
+          "passage": "注文された品物を取引先にオサめる。",
           "prompt": "カタカナの部分だけを漢字に直そう。印刷済みの送り仮名は含めない。",
           "responseType": "text",
-          "explanation": "文の中の意味に合う表記・読みは「納」。文全体へ戻して意味が通ることと、送り仮名の範囲を確かめる。",
+          "explanation": "注文された品物を相手へ引き渡す意味なので「納める」。カタカナ部分だけを答えるため、解答は「納」。",
           "origin": "APP_AUTHORED",
-          "answer": "納"
+          "answer": "納",
+          "references": [
+            "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_12.pdf"
+          ]
         },
         {
           "id": "RUK-ORIGINAL-K02-05",
@@ -2216,7 +2234,7 @@
     },
     {
       "id": "RUK-ORIGINAL-L04",
-      "revision": 1,
+      "revision": 2,
       "domain": "literary",
       "title": "本文にない断定を避ける",
       "skills": [
@@ -2276,7 +2294,7 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-02",
-          "revision": 1,
+          "revision": 2,
           "phase": "basic",
           "skills": [
             "CONTENT_SELECTION"
@@ -2284,7 +2302,7 @@
           "passage": "駅で沙耶は時計を見た。約束の時刻まで十分ある。それでも改札を何度も振り返った。友人から届いた「少し話したいことがある」という短い連絡が、朝から気になっていた。",
           "prompt": "本文だけでは断定できないものは。",
           "responseType": "single",
-          "explanation": "本文の根拠に合うのは「友人が話したい内容」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "explanation": "本文には時計を見たこと、連絡が短いこと、その連絡を気にしていることがある。一方、話したい内容自体は示されていない。したがって「断定できないもの」は選択肢3。",
           "origin": "APP_AUTHORED",
           "answer": "3",
           "options": [
@@ -2447,7 +2465,7 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-06",
-          "revision": 1,
+          "revision": 2,
           "phase": "mixed",
           "skills": [
             "CONTENT_SELECTION"
@@ -2455,7 +2473,7 @@
           "passage": "港で風が強くなった。船員は空を見上げたが、船はまだ動かなかった。",
           "prompt": "断定できないのは。",
           "responseType": "single",
-          "explanation": "本文の根拠に合うのは「船が故障した」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "explanation": "風が強まったこと、船員が空を見たこと、船がまだ動かないことは本文にある。しかし動かない原因は書かれていないので、「故障した」とは断定できない。選択肢3を選ぶ。",
           "origin": "APP_AUTHORED",
           "answer": "3",
           "options": [
@@ -2496,7 +2514,7 @@
         },
         {
           "id": "RUK-ORIGINAL-L04-07",
-          "revision": 1,
+          "revision": 2,
           "phase": "retention",
           "skills": [
             "CONTENT_SELECTION"
@@ -2504,7 +2522,7 @@
           "passage": "理央は封筒を机にしまった。その日は誰にも中身を話さなかった。",
           "prompt": "本文にない断定は。",
           "responseType": "single",
-          "explanation": "本文の根拠に合うのは「中身は不合格通知だ」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "explanation": "しまった場所は机で、その日は中身を話さなかった。封筒の中身は示されていない。「不合格通知だ」は読み手が付け加えた事情なので、本文にない断定は選択肢3。",
           "origin": "APP_AUTHORED",
           "answer": "3",
           "options": [
@@ -4786,7 +4804,7 @@
     },
     {
       "id": "RUK-ORIGINAL-E05",
-      "revision": 1,
+      "revision": 2,
       "domain": "expository",
       "title": "仕組みを自分の言葉で説明する",
       "skills": [
@@ -4948,14 +4966,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-04",
-          "revision": 1,
+          "revision": 2,
           "phase": "transfer",
           "skills": [
             "WRITTEN_EXPLANATION",
             "TRANSFER_APPLICATION"
           ],
-          "passage": "寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
-          "prompt": "道具の共有の文章と共通する解決の考え方を説明しよう。",
+          "passage": "【文章A】共有の道具は、買う費用を分けられる。一方で、使いたい時刻が重なることがある。そこで使用時刻を記録する表を置けば、互いの予定を見て調整できる。\n\n【文章B】寮の自習室で会話の音が問題になった。全員を無言にする案もあったが、相談しながら学びたい生徒もいる。静かな区域と話せる区域を分け、利用者の意見を聞きながら配置を見直すことにした。",
+          "prompt": "文章Aと文章Bに共通する、利用者の必要を両立させる考え方を説明しよう。",
           "responseType": "written",
           "explanation": "要素を一つずつ本文へ戻して確かめる。模範例と同じ文字列でなくても、因果・主語・条件が合えばよい。",
           "origin": "APP_AUTHORED",
@@ -5024,14 +5042,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E05-06",
-          "revision": 1,
+          "revision": 2,
           "phase": "mixed",
           "skills": [
             "WRITTEN_EXPLANATION",
             "TRANSFER_APPLICATION"
           ],
           "passage": "学校の畑に水をやる当番が重なった。担当日を見える場所に掲示して重複を防いだ。",
-          "prompt": "働きが共通するのは。",
+          "prompt": "この掲示の働きとして適切なのは。",
           "responseType": "single",
           "explanation": "本文の根拠に合うのは「情報共有で調整する」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
           "origin": "APP_AUTHORED",
@@ -5126,7 +5144,7 @@
     },
     {
       "id": "RUK-ORIGINAL-E06",
-      "revision": 1,
+      "revision": 2,
       "domain": "expository",
       "title": "表の数値から言える範囲",
       "skills": [
@@ -5138,13 +5156,13 @@
       "items": [
         {
           "id": "RUK-ORIGINAL-E06-01",
-          "revision": 1,
+          "revision": 2,
           "phase": "basic",
           "skills": [
             "DATA_INTERPRETATION",
             "CONTENT_SELECTION"
           ],
-          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この表は参加人数を示し、読んだ冊数は示していない。",
+          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
           "prompt": "4月から5月に増えた学年は。",
           "responseType": "single",
           "explanation": "本文の根拠に合うのは「一年生」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
@@ -5184,20 +5202,40 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "dataTable": {
+            "caption": "読書会の参加人数（人）",
+            "columns": [
+              "月",
+              "一年生",
+              "二年生"
+            ],
+            "rows": [
+              [
+                "4月",
+                12,
+                8
+              ],
+              [
+                "5月",
+                15,
+                7
+              ]
+            ]
           }
         },
         {
           "id": "RUK-ORIGINAL-E06-02",
-          "revision": 1,
+          "revision": 2,
           "phase": "basic",
           "skills": [
             "DATA_INTERPRETATION",
             "CONTENT_SELECTION"
           ],
-          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この表は参加人数を示し、読んだ冊数は示していない。",
-          "prompt": "この表だけでは分からないことは。",
+          "passage": "読書会の参加人数は、4月が一年生12人・二年生8人、5月が一年生15人・二年生7人だった。この資料は参加人数を示し、読んだ冊数は示していない。",
+          "prompt": "この資料だけでは分からないことは。",
           "responseType": "single",
-          "explanation": "本文の根拠に合うのは「読んだ冊数」。書かれていない事情や、範囲を広げた断定を加えずに確認する。",
+          "explanation": "示されているのは学年別・月別の参加人数。4月と5月の人数やその増減は分かるが、読んだ冊数の数値はない。資料だけでは分からないのは選択肢3。",
           "origin": "APP_AUTHORED",
           "answer": "3",
           "options": [
@@ -5234,6 +5272,26 @@
               "confidence": "possible",
               "reason": "本文の条件・主語・変化・根拠と照合して確認する"
             }
+          },
+          "dataTable": {
+            "caption": "読書会の参加人数（人）",
+            "columns": [
+              "月",
+              "一年生",
+              "二年生"
+            ],
+            "rows": [
+              [
+                "4月",
+                12,
+                8
+              ],
+              [
+                "5月",
+                15,
+                7
+              ]
+            ]
           }
         },
         {
@@ -5414,14 +5472,14 @@
         },
         {
           "id": "RUK-ORIGINAL-E06-07",
-          "revision": 1,
+          "revision": 2,
           "phase": "retention",
           "skills": [
             "DATA_INTERPRETATION",
             "CONTENT_SELECTION"
           ],
           "passage": "10人中6人と100人中60人が同じ案に賛成した。",
-          "prompt": "「賛成人数は異なるが、賛成割合は同じだ」は表の数値と一致するか。",
+          "prompt": "「賛成人数は異なるが、賛成割合は同じだ」は本文の数値と一致するか。",
           "responseType": "true-false",
           "explanation": "6/10も60/100も60％。人数6人と60人は異なる。",
           "origin": "APP_AUTHORED",
