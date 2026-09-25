@@ -35,3 +35,10 @@ Create a structural registry from the visible problem booklets without inventing
 `Exam -> Section -> Question -> Asset/Page -> Response type -> Skill demand -> Authority status`
 
 FY24-B sections I and II remain unavailable from the supplied booklet because those sections are omitted for copyright reasons. They must stay explicitly unavailable rather than being reconstructed from guesswork.
+# 2026-09-25 checkpoint
+
+The unofficial reference answer PDF was recovered and read; the old 24-unit
+Practice Bank was not recovered from the accessible searches. No replacement
+bank was authored in this checkpoint. See `review-20260925.md` for search scope,
+the three confirmed reference discrepancies and the 79 provisional review
+records. Neither those records nor the reference PDF are verified scoring data.

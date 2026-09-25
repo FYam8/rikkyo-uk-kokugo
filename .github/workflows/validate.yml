@@ -18,3 +18,7 @@ jobs:
         with:
           node-version: "20"
       - run: node tools/validate_scaffold.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/test_authority_baseline.py

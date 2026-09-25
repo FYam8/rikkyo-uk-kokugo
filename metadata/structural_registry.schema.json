@@ -73,7 +73,8 @@
                           "written",
                           "kanji",
                           "data-reading",
-                          "unknown"
+                          "unknown",
+                          "true-false"
                         ]
                       },
                       "skillDemand": {

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "HOLD",
+  "production": false,
+  "evaluatedAt": "2026-09-25",
+  "baselineMain": "e24824be11b2e7e2cb6f16adb073e7df54d8333e",
+  "checks": {
+    "originalVerified63Preserved": "PASS",
+    "stableIds142Preserved": "PASS",
+    "remaining79IndependentReview": "INCOMPLETE",
+    "practiceBank24Units": "NOT_READY",
+    "sharedEngineIntegration": "NOT_IMPLEMENTED",
+    "holdoutIsolation": "NOT_TESTED",
+    "desktopBrowser": "NOT_RUN",
+    "mobileBrowser": "NOT_RUN",
+    "resume": "NOT_RUN",
+    "today": "NOT_RUN",
+    "exportImport": "NOT_RUN",
+    "cleanLoop1": "NOT_RUN",
+    "cleanLoop2": "NOT_RUN"
+  },
+  "consecutiveCleanLoops": 0,
+  "pagesEnabledByThisChange": false,
+  "releaseTagCreated": false
+}

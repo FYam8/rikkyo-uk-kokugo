@@ -16,7 +16,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -27,7 +27,7 @@
                 "IDIOM",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -38,7 +38,7 @@
                 "TEXT_EXTRACTION",
                 "COMPARISON"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -49,7 +49,7 @@
                 "LITERARY_CHARACTER",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -59,7 +59,7 @@
                 "PHRASE_INTERPRETATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -69,7 +69,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -79,7 +79,7 @@
                 "TEXT_EXTRACTION",
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7,
               "partCount": 3
             },
@@ -90,7 +90,7 @@
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -100,7 +100,7 @@
                 "CULTURAL_KNOWLEDGE",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 8
             },
             {
@@ -110,8 +110,9 @@
                 "CHRONOLOGY",
                 "ORDER"
               ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 8
+              "authorityStatus": "review-required",
+              "sourcePage": 8,
+              "partCount": 4
             }
           ],
           "questionCount": 10
@@ -129,7 +130,7 @@
                 "KANJI",
                 "HOMOPHONE"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -139,7 +140,7 @@
                 "GRAMMAR",
                 "PART_OF_SPEECH"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -149,7 +150,7 @@
                 "KANJI",
                 "BODY_PART"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -159,7 +160,7 @@
                 "TEXT_EXTRACTION",
                 "CONCEPT_DEFINITION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -169,7 +170,7 @@
                 "HISTORICAL_CAUSATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -179,7 +180,7 @@
                 "CONCEPT_EXPLANATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -189,7 +190,7 @@
                 "EXAMPLE_IDENTIFICATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -199,7 +200,7 @@
                 "PARAGRAPH_ROLE",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -209,7 +210,7 @@
                 "TEXT_EXTRACTION",
                 "CAUSAL_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -219,7 +220,7 @@
                 "TEXT_EXTRACTION",
                 "THEME"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 12,
               "partCount": 2
             },
@@ -230,7 +231,7 @@
                 "TRANSFER_APPLICATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 12
             }
           ],
@@ -248,7 +249,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 6,
               "sourcePage": 12
             },
@@ -258,7 +259,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 4,
               "sourcePage": 12
             }
@@ -296,7 +297,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 6,
               "sourcePage": 5
             },
@@ -306,7 +307,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 4,
               "sourcePage": 5
             }
@@ -327,7 +328,7 @@
                 "DATA_INTERPRETATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved"
+              "authorityStatus": "review-required"
             }
           ],
           "questionCount": 1
@@ -1039,7 +1040,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 3,
               "sourcePage": 3
             },
@@ -1049,7 +1050,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "partCount": 7,
               "sourcePage": 3
             }
@@ -1068,8 +1069,9 @@
               "skillDemand": [
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 6
+              "authorityStatus": "review-required",
+              "sourcePage": 6,
+              "partCount": 4
             },
             {
               "questionId": "FY26-A-II-Q02",
@@ -1077,7 +1079,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6
             },
             {
@@ -1086,7 +1088,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 3
             },
@@ -1097,7 +1099,7 @@
                 "LOGIC_RELATION",
                 "GRAMMAR"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 2
             },
@@ -1108,7 +1110,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7,
               "partCount": 2
             },
@@ -1119,7 +1121,7 @@
                 "BLANK_COMPLETION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1129,7 +1131,7 @@
                 "CONTENT_SELECTION",
                 "PHRASE_INTERPRETATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1138,7 +1140,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1148,7 +1150,7 @@
                 "TEXT_EXTRACTION",
                 "IDIOM"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1157,7 +1159,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1167,7 +1169,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1177,7 +1179,7 @@
                 "CONTENT_SELECTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1188,7 +1190,7 @@
                 "THEME_SUMMARY",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 8
             }
           ],
@@ -1207,7 +1209,7 @@
                 "LOGIC_RELATION",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -1217,8 +1219,9 @@
                 "VOCAB_CONTEXT",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 11
+              "authorityStatus": "review-required",
+              "sourcePage": 11,
+              "partCount": 4
             },
             {
               "questionId": "FY26-A-III-Q03",
@@ -1227,7 +1230,7 @@
                 "NUMERIC_INFORMATION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -1237,7 +1240,7 @@
                 "TEXT_EXTRACTION",
                 "PARAPHRASE"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             },
             {
@@ -1247,18 +1250,18 @@
                 "TEXT_EXTRACTION",
                 "NOTE_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11,
               "partCount": 3
             },
             {
               "questionId": "FY26-A-III-Q06",
-              "responseType": "text",
+              "responseType": "written",
               "skillDemand": [
                 "VOCAB_CONTEXT",
                 "DICTIONARY_USAGE"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 12,
               "partCount": 2
             },
@@ -1269,7 +1272,7 @@
                 "LOGIC_RELATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 12
             },
             {
@@ -1279,8 +1282,9 @@
                 "CONTENT_SELECTION",
                 "MULTI_SELECT"
               ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 12
+              "authorityStatus": "review-required",
+              "sourcePage": 12,
+              "partCount": 2
             }
           ],
           "questionCount": 8
@@ -1302,7 +1306,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1311,7 +1315,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1320,7 +1324,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1329,7 +1333,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1338,7 +1342,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1347,7 +1351,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1356,7 +1360,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1365,7 +1369,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1374,7 +1378,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             },
             {
@@ -1383,7 +1387,7 @@
               "skillDemand": [
                 "KANJI"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 3
             }
           ],
@@ -1402,8 +1406,9 @@
                 "BLANK_COMPLETION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
-              "sourcePage": 6
+              "authorityStatus": "review-required",
+              "sourcePage": 6,
+              "partCount": 6
             },
             {
               "questionId": "FY26-B-II-Q02",
@@ -1412,7 +1417,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6
             },
             {
@@ -1421,7 +1426,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6,
               "partCount": 3
             },
@@ -1432,7 +1437,7 @@
                 "TEXT_EXTRACTION",
                 "METAPHOR_INTERPRETATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6
             },
             {
@@ -1442,7 +1447,7 @@
                 "TEXT_EXTRACTION",
                 "LITERARY_CHARACTER"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6
             },
             {
@@ -1452,7 +1457,7 @@
                 "BLANK_COMPLETION",
                 "LOGIC_RELATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 6
             },
             {
@@ -1462,7 +1467,7 @@
                 "LITERARY_CHARACTER",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1472,7 +1477,7 @@
                 "VOCAB_CONTEXT",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1482,7 +1487,7 @@
                 "TEXT_EXTRACTION",
                 "GRAMMAR"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             },
             {
@@ -1492,7 +1497,7 @@
                 "LITERARY_CHARACTER",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 7
             }
           ],
@@ -1511,7 +1516,7 @@
                 "BLANK_COMPLETION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 9
             },
             {
@@ -1521,7 +1526,7 @@
                 "KANJI",
                 "BLANK_COMPLETION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 9,
               "partCount": 3
             },
@@ -1532,7 +1537,7 @@
                 "TEXT_EXTRACTION",
                 "BIAS_CONCEPT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 9
             },
             {
@@ -1542,7 +1547,7 @@
                 "CONTENT_SELECTION",
                 "BIAS_CONCEPT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -1551,7 +1556,7 @@
               "skillDemand": [
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -1561,7 +1566,7 @@
                 "LOGIC_RELATION",
                 "WRITTEN_EXPLANATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -1571,7 +1576,7 @@
                 "TEXT_EXTRACTION",
                 "VOCAB_CONTEXT"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
@@ -1581,17 +1586,17 @@
                 "SENTENCE_INSERTION",
                 "LOGIC_RELATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 10
             },
             {
               "questionId": "FY26-B-III-Q09",
-              "responseType": "multi",
+              "responseType": "true-false",
               "skillDemand": [
                 "CONTENT_SELECTION",
                 "TRUE_FALSE"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11,
               "partCount": 4
             },
@@ -1602,7 +1607,7 @@
                 "WRITTEN_EXPLANATION",
                 "TRANSFER_APPLICATION"
               ],
-              "authorityStatus": "answer-unresolved",
+              "authorityStatus": "review-required",
               "sourcePage": 11
             }
           ],

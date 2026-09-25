@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-25",
   "visibleParentQuestions": 142,
   "sourcePageMapped": 142,
   "responseTypeResolved": 142,
@@ -15,12 +15,13 @@
     "stableIds": "PASS",
     "sourcePageMapping": "PASS",
     "responseTypeMapping": "PASS",
-    "answerScoringAuthority": "FY25_A_AND_FY25_B_FULLY_VERIFIED",
+    "answerScoringAuthority": "PARTIAL_WITH_EXPLICIT_REVIEW_REQUIRED",
     "schoolLearningConfig": "PASS_FY25_A_B",
     "sharedEngineBuild": "READY_FOR_FY25_A_B_SCHOOL_MODULES",
     "publicDeploy": "HOLD",
     "questionDemandMapping": "PASS"
   },
   "detailedDemandMapped": 142,
-  "detailedDemandPending": 0
+  "detailedDemandPending": 0,
+  "unavailableSectionCount": 2
 }

@@ -37,6 +37,7 @@ assert.equal(answerAuthority.officialAnswerSourcePresent,false);
 assert.deepEqual(answerAuthority.policy.publishableStates,['APP_DERIVED_VERIFIED']);
 const verifiedRecords=answerAuthority.records.filter(r=>r.state==='APP_DERIVED_VERIFIED');
 const verifiedIds=new Set(verifiedRecords.map(r=>r.questionId));
+const reviewIds=new Set(answerAuthority.records.filter(r=>r.state==='REVIEW_REQUIRED').map(r=>r.questionId));
 assert.equal(verifiedIds.size,verifiedRecords.length,'verified answer question ids must be unique');
 
 const registry=JSON.parse(fs.readFileSync('metadata/structural_registry.json','utf8'));
@@ -51,7 +52,7 @@ for(const exam of registry.exams){
     if(Number.isInteger(section.questionCount)) assert.equal(section.questions.length,section.questionCount,`${exam.examId} ${section.sectionId}: question count mismatch`);
     for(const q of section.questions){
       ids.push(q.questionId);
-      const expectedAuthority=verifiedIds.has(q.questionId)?'app-derived-verified':'answer-unresolved';
+      const expectedAuthority=verifiedIds.has(q.questionId)?'app-derived-verified':reviewIds.has(q.questionId)?'review-required':'answer-unresolved';
       assert.equal(q.authorityStatus,expectedAuthority,`${q.questionId}: unexpected authority state`);
     }
   }
@@ -70,20 +71,23 @@ assert.equal(progress.sourcePageMapped,visibleQuestions.filter(q=>Number.isInteg
 assert.equal(progress.responseTypeResolved,visibleQuestions.filter(q=>q.responseType!=='unknown').length);
 assert.equal(progress.answerAuthorityResolved,verifiedRecords.length);
 assert.equal(progress.answerAuthorityPending,visibleQuestions.length-verifiedRecords.length);
-assert.equal(answerAuthority.records.length,63);
+assert.equal(answerAuthority.records.length,142);
+assert.equal(reviewIds.size,79);
+assert.equal(verifiedIds.size,63);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-A'&&r.state==='APP_DERIVED_VERIFIED').length,33);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='I'&&r.state==='APP_DERIVED_VERIFIED').length,10);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='II'&&r.state==='APP_DERIVED_VERIFIED').length,9);
 assert.equal(answerAuthority.records.filter(r=>r.examId==='FY25-B'&&r.sectionId==='III'&&r.state==='APP_DERIVED_VERIFIED').length,11);
 for(const r of answerAuthority.records){
   assert.equal(r.official,false,`${r.questionId}: app-derived answer must never be labelled official`);
-  assert.equal((r.checks||[]).filter(c=>c.result==='PASS').length,2,`${r.questionId}: two independent PASS checks required`);
+  if(r.state==='APP_DERIVED_VERIFIED') assert.equal((r.checks||[]).filter(c=>c.result==='PASS').length,2,`${r.questionId}: two PASS checks required`);
+  else {assert.equal(r.state,'REVIEW_REQUIRED');assert.ok(r.reviewBlocker);assert.equal((r.checks||[]).filter(c=>c.result==='PASS').length,0);}
   if(['written','diagram-rubric','parts-rubric'].includes(r.answerKind)){
     assert.ok(r.rubric||r.parts,`${r.questionId}: rubric/parts required`);
   }
 }
 for(const q of visibleQuestions){
-  assert.equal(q.authorityStatus,verifiedIds.has(q.questionId)?'app-derived-verified':'answer-unresolved',`${q.questionId}: registry/answer-authority mismatch`);
+  assert.equal(q.authorityStatus,verifiedIds.has(q.questionId)?'app-derived-verified':reviewIds.has(q.questionId)?'review-required':'answer-unresolved',`${q.questionId}: registry/answer-authority mismatch`);
 }
 assert.equal(progress.detailedDemandMapped,142);
 const coverage=JSON.parse(fs.readFileSync('metadata/practice_coverage_plan.json','utf8'));
