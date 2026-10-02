@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "status": "APPROVED_FOR_DEPLOY",
   "production": false,
-  "evaluatedAt": "2026-09-25",
+  "evaluatedAt": "2026-10-02T22:26:20.432Z",
   "baselineMain": "e24824be11b2e7e2cb6f16adb073e7df54d8333e",
   "consecutiveCleanLoops": 2,
   "pagesEnabledByThisChange": false,
   "releaseTagCreated": false,
-  "sourceFingerprint": "3e24025c868831dd0da5776cc4ac8ae090eae6fd9655eab2b61711f190bddefd",
+  "sourceFingerprint": "f0d235fddebd6544c6fcdfa1af45919c3ba55a54b0a139cf9173bed4808d0901",
   "checks": {
     "originalVerified63Preserved": "PASS",
     "stableIds142Preserved": "PASS",
@@ -39,9 +39,8 @@
     "mergedTreeEqualsVerifiedTree": true,
     "downstreamPinPromoted": true
   },
-  "deploymentBlockers": [
-    "GitHub Pages is not yet enabled; connected GitHub tools do not expose Pages configuration."
-  ],
+  "deploymentBlockers": [],
   "evidence": "metadata/clean_loops.json",
-  "note": "Approval of content/build is not a claim of a successful production deployment. The Pages workflow repeats both CLEAN loops before publishing."
+  "note": "Two complete local CLEAN loops passed. Exact main Pages workflow repeats both loops before publication. Cross-subject Cloud verification is recorded separately.",
+  "sharedProgressCommit": "25c111ed4fc4dcd76b9af5053d6039698271e340"
 }

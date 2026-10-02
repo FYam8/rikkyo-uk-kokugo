@@ -1,6 +1,6 @@
 import * as v3 from './progressSyncV3.js';
 
-const SYNC_DB='rikkyo-uk-kokugo-progress-sync';
+const SYNC_DB='rikkyo-uk-progress-sync';
 const SYNC_DB_VERSION=7;
 const APP_ID='rikkyo-uk-kokugo';
 const UNKNOWN_OCCURRED_AT='1970-01-01T00:00:00.000Z';
@@ -47,9 +47,12 @@ async function prepareKokugoBaseline(loadExistingEvents){
 }
 
 export async function initKokugoProgressSync(options={}){
+  if(!(await v3.ensureKokugoScope()))return v3.initKokugoProgressSync(options);
   try{await prepareKokugoBaseline(options.loadExistingEvents);}catch{}
   return v3.initKokugoProgressSync(options);
 }
 export const notifyKokugoEventSaved=v3.notifyKokugoEventSaved;
 export const flushProgressSync=v3.flushProgressSync;
 
+export const getKokugoSyncStatus=v3.getKokugoSyncStatus;
+export const reconcileKokugoProgress=v3.reconcileKokugoProgress;

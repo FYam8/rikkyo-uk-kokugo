@@ -1,0 +1,18 @@
+{
+  "productionCloudCommit": "25c111ed4fc4dcd76b9af5053d6039698271e340",
+  "scope": "School Cloud bootstrap and history compatibility adapters only; all learning engine files retain the original generated snapshot hashes.",
+  "files": {
+    "src/progressBootstrap.js": {
+      "originalSha256": "2cd352932a8d8aff19f7e33573e1f20c5019f30c6009b4266481c8757b77f1cf",
+      "schoolAdapterSha256": "e614b14bb47fb81431c0331e5f693aca1efe2d7c2fdba2260ee2fac07c500685"
+    },
+    "src/lib/progressSyncV3.js": {
+      "originalSha256": "df8c5cfa8d63c324cda83f87c01727053b56902905022d468aef4f32193da340",
+      "schoolAdapterSha256": "80c65d2d042e5b2180d07bfbea69340ad31a33aac9130d88154a3060783ef243"
+    },
+    "src/lib/progressSyncV4.js": {
+      "originalSha256": "d94de557447531f7e439175bfa7d9a1323f63aae35920ba4fe5a8402f9a2e764",
+      "schoolAdapterSha256": "a290a57345272ea54cc53e7333b35ad960c33f745ac8368010b4600c25be32b6"
+    }
+  }
+}
