@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {buildStateRecords,referenceResult,summarizeOutgoingEvent,outgoingBaseline} from '../src/lib/progressProjection.js';
+const at='2026-09-30T03:00:00.000Z',event={id:'test-exam',type:'exam_completed',year:'FY24-A',attempt:'first',createdAt:at,totalScore:75,maxScore:100,answerText:'PRIVATE-RAW',questionResults:[{id:'FY24-A-I-Q01',points:2,score:2,answer:'PRIVATE-RAW'},{id:'FY24-A-I-Q02',points:2,score:1}]};
+const original=JSON.stringify(event),rows=buildStateRecords({events:[event],drafts:[{year:'FY24-B',savedAt:at,answer:'PRIVATE-RAW'}]});
+assert.equal(JSON.stringify(event),original);assert.ok(!JSON.stringify(rows).includes('PRIVATE-RAW'));
+const get=id=>rows.find(x=>x.sourceRecordId===id).payload;
+assert.equal(get('state:summary').lastLearningAt,at);assert.equal(get('state:exam:FY24A').examStatus,'done');assert.equal(get('state:exam:FY24B').examStatus,'started');assert.equal(get('state:exam:FY25B').examStatus,'notstarted');assert.equal(get('state:exam:FY26B').examStatus,'holdout');
+assert.deepEqual(referenceResult(event),{correct:1,total:2,referenceAccuracy:50});assert.equal(get('state:latest-exam').score,undefined);assert.equal(get('state:latest-exam').referenceAccuracy,50);
+const unknown=buildStateRecords({events:[{...event,createdAt:undefined}]});assert.equal(unknown[0].payload.lastLearningAt,undefined);assert.equal(unknown.at(-1).occurredAt,'1970-01-01T00:00:00.000Z');assert.equal(unknown.at(-1).payload.clockUnknown,true);
+assert.deepEqual(referenceResult({questionResults:[{points:0,score:0}]}),{});
+const outgoing=summarizeOutgoingEvent(event,{year:'FY24-A',score:75,maxScore:100});assert.equal(outgoing.year,'2024');assert.equal(outgoing.score,undefined);assert.equal(outgoing.referenceAccuracy,50);
+const baseline={baseline:true,eventCount:2,eventsByYear:{'FY24-A':1,'FY24-B':1},scoreTotal:150,scoredEventCount:2};assert.deepEqual(outgoingBaseline(baseline).eventsByYear,{'2024':2});assert.equal(baseline.scoreTotal,150);
+console.log('Kokugo projection PASS: A/B, policy holdout, unknown time, item accuracy, raw exclusion, source immutability');

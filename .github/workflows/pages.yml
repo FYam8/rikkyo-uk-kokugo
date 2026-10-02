@@ -23,7 +23,11 @@ jobs:
           python-version: '3.12'
       - name: Require approved release evidence
         run: python tools/verify_release_gate.py
+      - name: Verify production Cloud pin
+        run: node tools/verify-shared-progress.mjs --upstream
       - name: Build exact release
+        env:
+          VITE_PROGRESS_API_BASE: https://rikkyo-uk-progress-api.fyam8.workers.dev
         run: |
           npm ci --no-audit --no-fund
           python tools/build_content.py

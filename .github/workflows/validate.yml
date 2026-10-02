@@ -27,6 +27,8 @@ jobs:
           python tools/test_practice_bank.py
           node tools/test_runtime_bank.mjs
           python tools/verify_shared_snapshot.py
+          node tools/verify-shared-progress.mjs --upstream
+          node tools/test_progress_projection.mjs
           python tools/build_content.py
           python tools/test_question_pages.py
           python tools/validate_grading.py

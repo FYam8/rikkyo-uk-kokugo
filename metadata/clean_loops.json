@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "TWO_CONSECUTIVE_CLEAN",
-  "functionalFingerprint": "c445beb6c74cdf102e1c7e0ba73df220ce247f810623798316416d4e08849970",
-  "sourceFingerprint": "3e24025c868831dd0da5776cc4ac8ae090eae6fd9655eab2b61711f190bddefd",
-  "browser": "Chromium 140 / Playwright 1.55; desktop 1280px and mobile 390px with touch emulation",
+  "functionalFingerprint": "7664051df98054a7227f43d1283b9da9debeb3d2a6c3f1dbb54b672457482938",
+  "sourceFingerprint": "f0d235fddebd6544c6fcdfa1af45919c3ba55a54b0a139cf9173bed4808d0901",
+  "browser": "Microsoft Edge Chromium via Playwright; 1280px desktop and 390px touch",
   "retentionClock": "Playwright fixed clock advanced by 24 hours + 2 seconds; not a real-day wait",
   "loops": [
     {
       "number": 1,
-      "startedAt": "2026-09-25T21:24:52.169174+00:00",
+      "startedAt": "2026-10-02T22:16:42.619428+00:00",
       "checks": [
         {
           "command": [
@@ -98,15 +98,31 @@
           ],
           "exitCode": 0,
           "output": "STEP COMPLETE 1280\nSTEP COMPLETE 1280\nSTEP COMPLETE 1280\nRETENTION COMPLETE 1280 7 strands; 24h gate simulated with browser clock\nPASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nRETENTION COMPLETE 390 7 strands; 24h gate simulated with browser clock\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/verify-shared-progress.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Production common transport pin verified\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_progress_projection.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Kokugo projection PASS: A/B, policy holdout, unknown time, item accuracy, raw exclusion, source immutability\n"
         }
       ],
       "fixes": 0,
       "status": "CLEAN",
-      "completedAt": "2026-09-25T21:25:58.904948+00:00"
+      "completedAt": "2026-10-02T22:18:55.535125+00:00"
     },
     {
       "number": 2,
-      "startedAt": "2026-09-25T21:25:58.905293+00:00",
+      "startedAt": "2026-10-02T22:18:55.536125+00:00",
       "checks": [
         {
           "command": [
@@ -196,12 +212,28 @@
           ],
           "exitCode": 0,
           "output": "STEP COMPLETE 1280\nSTEP COMPLETE 1280\nSTEP COMPLETE 1280\nRETENTION COMPLETE 1280 7 strands; 24h gate simulated with browser clock\nPASS 1280 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nSTEP COMPLETE 390\nRETENTION COMPLETE 390 7 strands; 24h gate simulated with browser clock\nPASS 390 diagnostic33, textResume, scoring, weaknesses, sourceReplay3, trainingResume, export/reset/import, noHoldoutFetch\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/verify-shared-progress.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Production common transport pin verified\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_progress_projection.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Kokugo projection PASS: A/B, policy holdout, unknown time, item accuracy, raw exclusion, source immutability\n"
         }
       ],
       "fixes": 0,
       "status": "CLEAN",
-      "completedAt": "2026-09-25T21:27:06.229541+00:00"
+      "completedAt": "2026-10-02T22:21:05.615708+00:00"
     }
   ],
-  "completedAt": "2026-09-25T21:27:06.229880+00:00"
+  "completedAt": "2026-10-02T22:21:05.617668+00:00"
 }
