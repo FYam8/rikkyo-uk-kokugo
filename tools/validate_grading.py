@@ -11,6 +11,6 @@ for key,filename in m['answerManifests'].items():
    assert abs(sum(rule['points'])-q['points'])<1e-9
    assert len(rule['points'])==len(rule['answers'])
    if rule['kind'] in ['single','parts','set','order']:assert set(rule['answers'])<=set(rule['tokens'])
-assert count==141
+assert count==142
 assert not any(k in (c/m['problemManifest']).read_text() for k in ['modelAnswer','sourceEvidence','checks','candidateSource'])
-print('141 verified references; unverified excluded; answers separated from problem manifest: PASS')
+print('142 verified references; unverified excluded; answers separated from problem manifest: PASS')

@@ -2,17 +2,16 @@
   "schemaVersion": 1,
   "status": "APPROVED_FOR_DEPLOY",
   "production": false,
-  "evaluatedAt": "2026-10-02T22:26:20.432Z",
-  "baselineMain": "e24824be11b2e7e2cb6f16adb073e7df54d8333e",
+  "evaluatedAt": "2026-10-03T07:53:47.477Z",
+  "baselineMain": "c19cac2775e534adb3d3c011049f7db1b9b5b492",
   "consecutiveCleanLoops": 2,
   "pagesEnabledByThisChange": false,
   "releaseTagCreated": false,
-  "sourceFingerprint": "f0d235fddebd6544c6fcdfa1af45919c3ba55a54b0a139cf9173bed4808d0901",
+  "sourceFingerprint": "62fd85ef404d6668d76150848716b6777464d4e630f8aadf575e9d46f77318b5",
   "checks": {
     "originalVerified63Preserved": "PASS",
     "stableIds142Preserved": "PASS",
     "sourceMapping142": "PASS",
-    "reviewRequiredExcluded": "PASS",
     "unavailableSectionsNotGenerated": "PASS",
     "practiceBank24Units175Items": "PASS",
     "sharedEngineIntegration": "PASS",
@@ -27,7 +26,9 @@
     "step1Step2Step3": "PASS",
     "retention24Hours": "PASS",
     "cleanLoop1": "PASS",
-    "cleanLoop2": "PASS"
+    "cleanLoop2": "PASS",
+    "sourceReviewedAuthority142": "PASS",
+    "documentCloudOrigin": "PASS"
   },
   "sharedEngineEvidence": {
     "repository": "FYam8/waseshibu-source",

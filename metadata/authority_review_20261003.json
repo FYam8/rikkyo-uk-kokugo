@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-03",
+  "reviewer": "same model, direct source reading plus alternative elimination; not independent humans",
+  "sourceAssets": [
+    "FY26-B-08.webp",
+    "FY26-B-09.webp"
+  ],
+  "verifiedAdditions": [
+    "FY26-B-III-Q01"
+  ],
+  "previousRecord": {
+    "questionId": "FY26-B-III-Q01",
+    "examId": "FY26-B",
+    "sectionId": "III",
+    "sourcePage": 9,
+    "state": "REVIEW_REQUIRED",
+    "official": false,
+    "answerKind": "single",
+    "answer": "ウ",
+    "sourceEvidence": {
+      "sourcePages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "contextBrief": "赤い服の三人が数学好きだからと全員へ一般化する例。"
+    },
+    "checks": [
+      {
+        "checkId": "FY26-B-III-Q01:check1",
+        "kind": "source-context-pass",
+        "result": "REVIEW_REQUIRED",
+        "detail": "赤い服の三人が数学好きだからと全員へ一般化する例。"
+      },
+      {
+        "checkId": "FY26-B-III-Q01:check2",
+        "kind": "alternative-solution-and-constraints",
+        "result": "REVIEW_REQUIRED",
+        "detail": "アは数学との結び付きがなく、イは服の条件を失い、エは因果の向きが逆。"
+      }
+    ],
+    "reviewedAt": "2026-09-25",
+    "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
+    "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
+    "reviewBlocker": "ウ is the leading candidate, but its causal generalization must be distinguished from the group generalization in イ and converse in エ; insufficient certainty for automatic scoring."
+  },
+  "officialAnswer": false,
+  "historicalScoresUnchanged": true
+}
