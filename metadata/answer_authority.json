@@ -5203,7 +5203,7 @@
       "examId": "FY26-B",
       "sectionId": "III",
       "sourcePage": 9,
-      "state": "REVIEW_REQUIRED",
+      "state": "APP_DERIVED_VERIFIED",
       "official": false,
       "answerKind": "single",
       "answer": "ウ",
@@ -5214,26 +5214,25 @@
           10,
           11
         ],
-        "contextBrief": "赤い服の三人が数学好きだからと全員へ一般化する例。"
+        "contextBrief": "The observed three classmates share red clothing and good mathematics performance. The following sentence explicitly describes the inferred link between red clothing and mathematics. The blank generalizes that conditional relationship."
       },
       "checks": [
         {
-          "checkId": "FY26-B-III-Q01:check1",
+          "checkId": "FY26-B-III-Q01:source-20261003",
           "kind": "source-context-pass",
-          "result": "REVIEW_REQUIRED",
-          "detail": "赤い服の三人が数学好きだからと全員へ一般化する例。"
+          "result": "PASS",
+          "detail": "Page 8 places the blank after three red-clothed classmates happen to do well in mathematics; the following explanation explicitly names the red-clothing/mathematics association. ウ preserves both properties."
         },
         {
-          "checkId": "FY26-B-III-Q01:check2",
+          "checkId": "FY26-B-III-Q01:alternatives-20261003",
           "kind": "alternative-solution-and-constraints",
-          "result": "REVIEW_REQUIRED",
-          "detail": "アは数学との結び付きがなく、イは服の条件を失い、エは因果の向きが逆。"
+          "result": "PASS",
+          "detail": "ア drops mathematics; イ drops the red-clothing condition and generalizes the whole class; エ reverses the direction to mathematics -> red clothing. ウ is the only option expressing red clothing -> mathematics, matching the sentence after the blank."
         }
       ],
-      "reviewedAt": "2026-09-25",
-      "reviewMethod": "fresh-source-solution-then-candidate-comparison; same-model reviewer",
-      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)",
-      "reviewBlocker": "ウ is the leading candidate, but its causal generalization must be distinguished from the group generalization in イ and converse in エ; insufficient certainty for automatic scoring."
+      "reviewedAt": "2026-10-03",
+      "reviewMethod": "Direct reading of supplied pages 8 and 9, then independent-form logical comparison by the same model; not human adjudication",
+      "candidateSource": "Rikkyo_Japanese_Answers_FY24-FY26_AB.pdf (unofficial)"
     },
     {
       "questionId": "FY26-B-III-Q02",
@@ -5664,7 +5663,7 @@
             42.9,
             60.1,
             29.3,
-            53.0,
+            53,
             40.4,
             20.7,
             20.7,
@@ -5674,7 +5673,7 @@
             17.2
           ],
           "韓国": [
-            93.0,
+            93,
             66.8,
             92.3,
             66.9,
@@ -5689,16 +5688,16 @@
             30.5,
             7.9,
             31.5,
-            5.0,
+            5,
             27.8,
-            17.0
+            17
           ],
           "ドイツ": [
             90.3,
             59.1,
             91.3,
             61.1,
-            91.0,
+            91,
             74.3,
             80.1,
             45.5,
@@ -5709,7 +5708,7 @@
             51.4,
             27.3,
             53.2,
-            25.0,
+            25,
             52.3,
             38.5
           ]
@@ -5754,7 +5753,7 @@
       "reviewedAt": "2026-09-25",
       "transcriptionCorrection": {
         "field": "日本/座り込み/代表性/高い",
-        "from": 22.0,
+        "from": 22,
         "to": 20.7,
         "origin": "previous app candidate, not attributed to reference PDF"
       }

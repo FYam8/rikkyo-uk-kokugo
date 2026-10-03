@@ -7,7 +7,13 @@ assert p['inheritedUpstreamSchoolContent'] is False
 cloud=json.loads((r/'shared-engine/cloud-adapter-overrides.json').read_text())
 pin=json.loads((r/'shared-progress-production.json').read_text())
 assert cloud['productionCloudCommit']==pin['commit'] and pin['productionVerified'] is True
-assert set(cloud['files'])=={'src/progressBootstrap.js','src/lib/progressSyncV3.js','src/lib/progressSyncV4.js'}
+assert set(cloud['files'])=={'src/progressBootstrap.js','src/lib/progressSyncV3.js','src/lib/progressSyncV4.js','index.html'}
+# The deployment adapter may add only its exact Cloud origin to the source CSP.
+adapted=(r/'index.html').read_bytes()
+origin=b'https://rikkyo-uk-progress-api.fyam8.workers.dev'
+assert adapted.count(origin)==1
+original=adapted.replace(origin,b'')
+assert hashlib.sha256(original).hexdigest()==m['files']['index.html']
 for path,digest in m['files'].items():
  if path in cloud['files']:
   assert cloud['files'][path]['originalSha256']==digest,path

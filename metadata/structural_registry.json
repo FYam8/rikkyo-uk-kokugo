@@ -1516,7 +1516,7 @@
                 "BLANK_COMPLETION",
                 "CONTENT_SELECTION"
               ],
-              "authorityStatus": "review-required",
+              "authorityStatus": "app-derived-verified",
               "sourcePage": 9
             },
             {

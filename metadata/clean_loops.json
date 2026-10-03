@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "TWO_CONSECUTIVE_CLEAN",
-  "functionalFingerprint": "7664051df98054a7227f43d1283b9da9debeb3d2a6c3f1dbb54b672457482938",
-  "sourceFingerprint": "f0d235fddebd6544c6fcdfa1af45919c3ba55a54b0a139cf9173bed4808d0901",
-  "browser": "Microsoft Edge Chromium via Playwright; 1280px desktop and 390px touch",
+  "functionalFingerprint": "aa495d4a98c7394ed3ce319e8bd2183fcdc7e1bd572eef3d9dd936b9b7a58fa8",
+  "sourceFingerprint": "62fd85ef404d6668d76150848716b6777464d4e630f8aadf575e9d46f77318b5",
+  "browser": "Playwright Chromium; desktop 1280px and mobile 390px with touch emulation",
   "retentionClock": "Playwright fixed clock advanced by 24 hours + 2 seconds; not a real-day wait",
   "loops": [
     {
       "number": 1,
-      "startedAt": "2026-10-02T22:16:42.619428+00:00",
+      "startedAt": "2026-10-03T07:43:16.417681+00:00",
       "checks": [
         {
           "command": [
@@ -24,7 +24,7 @@
             "tools/test_authority_baseline.py"
           ],
           "exitCode": 0,
-          "output": "Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS\n"
+          "output": "Authority baseline / 142 IDs / 20261003 source-reviewed resolution / two omitted sections: PASS\n"
         },
         {
           "command": [
@@ -64,7 +64,7 @@
             "tools/validate_grading.py"
           ],
           "exitCode": 0,
-          "output": "141 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
+          "output": "142 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
         },
         {
           "command": [
@@ -73,7 +73,7 @@
             "dist"
           ],
           "exitCode": 0,
-          "output": "PUBLIC ARTIFACT CHECK OK (6.3 MB)\n"
+          "output": "PUBLIC ARTIFACT CHECK OK (12.0 MB)\n"
         },
         {
           "command": [
@@ -114,15 +114,23 @@
           ],
           "exitCode": 0,
           "output": "Kokugo projection PASS: A/B, policy holdout, unknown time, item accuracy, raw exclusion, source immutability\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_cloud_document.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Source and built document allow isolated Rikkyo Cloud origin PASS\n"
         }
       ],
       "fixes": 0,
       "status": "CLEAN",
-      "completedAt": "2026-10-02T22:18:55.535125+00:00"
+      "completedAt": "2026-10-03T07:45:45.770858+00:00"
     },
     {
       "number": 2,
-      "startedAt": "2026-10-02T22:18:55.536125+00:00",
+      "startedAt": "2026-10-03T07:45:45.774846+00:00",
       "checks": [
         {
           "command": [
@@ -138,7 +146,7 @@
             "tools/test_authority_baseline.py"
           ],
           "exitCode": 0,
-          "output": "Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS\n"
+          "output": "Authority baseline / 142 IDs / 20261003 source-reviewed resolution / two omitted sections: PASS\n"
         },
         {
           "command": [
@@ -178,7 +186,7 @@
             "tools/validate_grading.py"
           ],
           "exitCode": 0,
-          "output": "141 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
+          "output": "142 verified references; unverified excluded; answers separated from problem manifest: PASS\n"
         },
         {
           "command": [
@@ -187,7 +195,7 @@
             "dist"
           ],
           "exitCode": 0,
-          "output": "PUBLIC ARTIFACT CHECK OK (6.3 MB)\n"
+          "output": "PUBLIC ARTIFACT CHECK OK (12.0 MB)\n"
         },
         {
           "command": [
@@ -228,12 +236,20 @@
           ],
           "exitCode": 0,
           "output": "Kokugo projection PASS: A/B, policy holdout, unknown time, item accuracy, raw exclusion, source immutability\n"
+        },
+        {
+          "command": [
+            "node",
+            "tools/test_cloud_document.mjs"
+          ],
+          "exitCode": 0,
+          "output": "Source and built document allow isolated Rikkyo Cloud origin PASS\n"
         }
       ],
       "fixes": 0,
       "status": "CLEAN",
-      "completedAt": "2026-10-02T22:21:05.615708+00:00"
+      "completedAt": "2026-10-03T07:47:56.029493+00:00"
     }
   ],
-  "completedAt": "2026-10-02T22:21:05.617668+00:00"
+  "completedAt": "2026-10-03T07:47:56.030491+00:00"
 }

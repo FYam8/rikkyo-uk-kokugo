@@ -25,10 +25,11 @@ assert set(records) == set(mapping)
 verified = [r for r in records.values() if r['state'] in authority['policy']['publishableStates']]
 review = [r for r in records.values() if r['state'] == 'REVIEW_REQUIRED']
 ledger = read('metadata/authority_review_20260925.json')
-assert {r['questionId'] for r in verified} == set(baseline['records']) | set(ledger['verifiedAdditions'])
-assert {r['questionId'] for r in review} == set(ledger['remainingReview'])
-assert len(verified) == progress['answerAuthorityResolved'] == 141
-assert len(review) == progress['answerAuthorityPending'] == 1
+new_ledger = read('metadata/authority_review_20261003.json')
+assert {r['questionId'] for r in verified} == set(baseline['records']) | set(ledger['verifiedAdditions']) | set(new_ledger['verifiedAdditions'])
+assert {r['questionId'] for r in review} == set(ledger['remainingReview']) - set(new_ledger['verifiedAdditions'])
+assert len(verified) == progress['answerAuthorityResolved'] == 142
+assert len(review) == progress['answerAuthorityPending'] == 0
 assert all(r['reviewBlocker'] and not any(c['result'] == 'PASS' for c in r['checks']) for r in review)
 assert all(r['official'] is False for r in records.values())
 for r in authority['records']:
@@ -50,7 +51,7 @@ for e in registry['exams']:
 # Authority coverage alone cannot authorize deployment; the separate gate verifies both CLEAN loops.
 assert progress['gates']['publicDeploy'] == 'CONTROLLED_BY_METADATA_RELEASE_GATE'
 assert (ROOT / 'tools/verify_release_gate.py').is_file()
-print('Authority baseline / 142 IDs / one review exclusion / two omitted sections: PASS')
+print('Authority baseline / 142 IDs / 20261003 source-reviewed resolution / two omitted sections: PASS')
 
 for r in authority['records']:
     if r['questionId'] in baseline['records']:

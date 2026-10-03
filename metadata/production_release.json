@@ -7,8 +7,8 @@
   "officialAnswers": false,
   "scoreMethod": "normalized-parent-correctness",
   "answerAuthority": {
-    "verified": 141,
-    "reviewRequired": 1,
+    "verified": 142,
+    "reviewRequired": 0,
     "unavailableSections": 2,
     "unavailableQuestionCount": null
   },
